@@ -4,6 +4,8 @@ User groups are entities created by participants to represent a structure, a clu
 User groups can be managed by different administrators, and have several members. 
 If an administrator verifies a user group, then all the user group administrators can participate in the name of the group. 
 
+image::participants/user_group_frontend_show.png[Frontend: show a user group]
+
 == Enable / Disable user groups
 
 Administrators can enable or disable user groups in the xref:admin:configuration.adoc[Configuration] panel. 
@@ -57,13 +59,13 @@ Administrator can call the group administrator on the phone number provided, or 
 
 After a group is verified, this is publicly visible in their nickname in the platform and there's a message in its profile: "This group is publicly verified, its name has been verified to correspond with its real name".
 
-image:participants/user_group_verified.png[User group: verified icon]
+image::participants/user_group_verified.png[User group: verified icon]
 
 === Verify by CSV
 
 If you want to verify multiple user groups at once, you can do so with the "Verify via CSV" button.
 
-image:participants/admin_user_group_verification_csv.png[Admin panel: user group verifications CSV]
+image::participants/admin_user_group_verification_csv.png[Admin panel: user group verifications CSV]
 
 There, you can upload a CSV file, formated with a unique column without headers, containing the user groups emails you want to verify. 
 Only the groups that have confirmed their email and that have an email appearing in the CSV file will be verified.
