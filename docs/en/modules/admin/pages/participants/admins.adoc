@@ -1,9 +1,10 @@
 = Administrators
 
-Here, you can manage two types of global administrators:
+Administrators are the persons managing the organization, creating the processes, managing the platform as a whole
+They can be of two types:
 
-* Administrators have access to all the platform configuration. 
-* Participant managers can only manage participants xref:admin:participants/impersonations.adoc[impersonations]. 
+* Administrators: have access to all the platform configuration. 
+* Participant managers: can only manage participants xref:admin:participants/impersonations.adoc[impersonations]. 
 
 image:participants/admins.png[Admins list]
 
