@@ -16,3 +16,90 @@ The sections available under the public profile are:
 * xref:admin:features/my_public_profile/follows.adoc[Follows]
 * xref:admin:features/my_public_profile/followers.adoc[Followers]
 * xref:admin:features/my_public_profile/groups.adoc[Groups]
+
+== Group creation
+
+This action is done by **a participant**. They need to go to their profile and in the sidebar there's a button that says "Create group":
+
+image:user_sidebar.png[User sidebar]
+
+When clicked it'll open the "New group form":
+
+image:user_group_new_form.png[New user group form]
+
+.New group form
+|===
+|Field |Type |Description
+
+|Name
+|Required
+|Name of your organization, association, collective, group, etc.
+
+|Nickname
+|Required
+|Nickname of your organization, association, collective, group, etc. Do not use spaces nor accents. 20 characters maximum.
+
+|Email
+|Required
+|Email of your organization, association, collective, group, etc.
+
+|Avatar
+|Optional
+|Guidance for image: Preferably a landscape image that does not have any text. The service crops the image. Maximum file size: 5MB. Allowed file extensions: jpg jpeg gif png bmp ico
+
+|About
+|Optional
+|Description of what's this group.
+
+|Document number
+|Optional
+|Used for verifications. Do not use dashes nor spaces.
+
+|Phone
+|Optional
+|Used for verifications. Do not use dashes nor spaces.
+
+|===
+
+
+== Membership
+
+After a group has been created, it's possible to invite participants to become members of the group. After a participant has accepted to be part of this group then they can become an admin.
+
+The actions that can be done by a participant in the user group are:
+
+* Edit group profile
+* Manage members
+* Manage admins
+* Invite participant
+* Leave group
+
+image:user_group_invite_participant.png[User groups: invite a participant]
+
+== Actions
+
+As a verified user group, there's some options that your participant account can do in behalf of the group, such as:
+
+=== Create a Debate, Proposal or Meeting
+
+There's a dropdown in the form during the creation process:
+
+image:user_group_create_debate.png[User group: create a debate]
+
+=== Make a comment
+
+There's a dropdown in the form when making a comment:
+
+image:user_group_make_comment.png[User group: make a comment]
+
+=== Endorse
+
+When making an Endorse there's a modal window asking who do you want to make the endorse with:
+
+image:user_group_endorse.png[User group: endorse]
+
+=== Conversations
+
+You can also have Conversations as a group. This is in the group profile page:
+
+image:user_group_conversation.png[User group: conversations]
