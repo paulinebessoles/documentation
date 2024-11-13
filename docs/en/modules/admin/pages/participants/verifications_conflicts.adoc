@@ -34,6 +34,8 @@ You can search for conflicts by participant email, name or nickname in the searc
 |Transfer user
 |To solve the verification conflict.  
 
+|===
+
 === Transfer user
 
 The transfer user button allows to solve the conflict between both account. 
