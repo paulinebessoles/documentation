@@ -31,7 +31,7 @@ more about xref:customize:authorizations.adoc[Authorizations in the Customize Gu
 
 A default Decidim installation will not have verified participants.
 
-image:authorizations_admin_default.png[Authorizations in a default installation]
+image::participants/authorizations_admin_default.png[Authorizations in a default installation]
 
 From the moment some participants get verified with an authorization, administrators can revoke all the authorizations at once. 
 Indeed, after some time, some of the verifications can be deprecated.  
