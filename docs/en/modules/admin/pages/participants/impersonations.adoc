@@ -1,10 +1,9 @@
 = Participants impersonations
 
-Sometimes, people don't have the time to create an account, or don't have the knwoledga and ability to use technological tools. 
+Sometimes, people don't have the time to create an account, or don't have the knwoledge or ability to use technological tools. 
 Impersonations allow administrators and participant managers to enable those persons to participate anyway. 
 
-NOTE: In the code and the User Interface, *Impersonation* and *Managed
-Participants* are the same thing.
+NOTE: In the code and the User Interface, *Impersonation* and *Managed Participants* are the same thing.
 
 == Enable / Disable impersonations
 
