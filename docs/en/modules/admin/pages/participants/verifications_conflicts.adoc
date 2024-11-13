@@ -4,8 +4,8 @@ A verification conflict can happen when authorizations are enabled, and some par
 
 For instance:
 
-* A participant get xref:admin:participants/impersonations.adoc[impersonated] with their data, but don't enter an email
-* Then they create an account, and try to verify themselves with the same verification
+. A participant get xref:admin:participants/impersonations.adoc[impersonated] with their data, but don't enter an email
+. Then they create an account, and try to verify themselves with the same verification
 
 For security, we try to be extra cautious in these cases, and we want an administrator to review these potential conflicts.
 It depends a lot on which kind of verifications you've enabled in your organization, so most of the time an organization 
