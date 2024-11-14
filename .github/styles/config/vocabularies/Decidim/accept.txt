@@ -1,1 +1,9 @@
 Decidim 
+CSV
+Config
+[Nn]ickame
+[Ee]mail
+Officialize
+officialization
+officializing
+Reoffficialize
