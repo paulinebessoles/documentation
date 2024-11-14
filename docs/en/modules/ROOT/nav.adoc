@@ -32,6 +32,7 @@
 *** xref:services:social_providers.adoc[Social Providers]
 
 * Admin
+** xref:admin:first_steps.adoc[First steps in Decidim]
 ** xref:admin:index.adoc[Introduction]
 *** xref:admin:system.adoc[System panel]
 *** xref:admin:dashboard.adoc[Dashboard]
