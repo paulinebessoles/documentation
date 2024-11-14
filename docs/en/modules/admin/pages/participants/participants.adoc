@@ -1,10 +1,10 @@
 = Participants
 
-Participants are all people with an account on the platform, whether they have confirmed their e-mail address or not. 
+Participants are all people with an account on the platform, whether they have confirmed their email address or not. 
 In this page an administrator can:
 
 * Block a participant, for instance because they are spamming or acting against the Terms of Service
-* Contact a participant with Decidim private messages (Conversations)
+* Contact a participant with Decidim private messages
 * Officialize a participant
 * Show a participant email
 
@@ -21,7 +21,7 @@ You can find all the participants here, with:
 * *Reports*: number of reports by different users.
 
 You can filter and sort this list by clicking the "Filter" button and the columns headers. 
-You can also search for participants by email, name or nickname in the search bar. 
+You can also search for participants by email, name, or nickname in the search bar. 
 
 === Actions
 
@@ -67,23 +67,23 @@ A modal appears, with the name of the participant, and an hidden field.
 
 image:participants/participants_show_email.png[Modal in show email]
 
-To show the email address, you need to click on the "Show" button. 
+To show the email address, you need to click the "Show" button. 
 
 image:participants/participants_showed_email.png[Modal after the email is shown]
 
-For administration transparency, this action is logged in the actvity logs.
+For administration transparency, this action is logged in the activity logs.
 
 image:participants/participants_showed_email_admin_log.png[Admin activity log for show email]
 
 === Contact
 
-To contact participants directly through the private messaging of the platform, click on the "Contact" icon. 
+To contact participants directly through the private messaging of the platform, click the "Contact" icon. 
 
 image:participants/participants_conversation.png[Conversation with a participant].
 
 === Officialize
 
-This option is useful to recognize that a participant has a special status in the
+This option is useful to recognize that a participant has a specific status in the
 platform. For instance, if someone is the city mayor, a city councillor, the
 president of an association, etc.
 

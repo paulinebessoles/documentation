@@ -1,20 +1,20 @@
 = Authorizations
 
 Authorizations allow to give specific participation rights to participants who have completed a verification process. 
-This verification process can be direct, have multiple steps, be online or presential. 
+This verification process can be direct, have multiple steps, be online or in-person. 
 
 For instance you can configure that only participants who have verified themselves by their identity documents can vote on
 proposals in a specific participatory process.
 
 NOTE: Several authorizations are available by default, but you can also develop your own authorizations. 
 
-== Enable / Disable authorizations
+== Enable / disable authorizations
 
 To enable an authorization, you need to have access to the xref:configure:system.adoc[System panel] or ask your administrator. 
 To understand more what are authorizations and how to configure them, please refer to the
 xref:customize:authorizations.adoc[Authorizations section in the Customize Guide].
 
-Participants can access, update or delete their authorizations in their xref:admin:features/my_account/authorizations.adoc[account]. 
+Participants can access, update, or delete their authorizations in their xref:admin:features/my_account/authorizations.adoc[account]. 
 
 == Verification methods
 
@@ -29,7 +29,7 @@ more about xref:customize:authorizations.adoc[Authorizations in the Customize Gu
 
 == Authorizations revocation
 
-A default Decidim installation will not have verified participants.
+A default Decidim installation don't have verified participants.
 
 image::participants/authorizations_admin_default.png[Authorizations in a default installation]
 
@@ -40,5 +40,5 @@ Then, an administrator can want to force participants to renew their verificatio
 
 image:participants/authorizations_admin_revocation.png[Authorizations revocation]
 
-It's possible to revoke all the authorizations with "Revoke all", or to only revoke authorizations created before a given date.
-Another possiblity is to revoke only the verifications for xref:admin:participants/impersonations.adoc[impersonated participants].
+It's possible to revoke all the authorizations with "Revoke all," or to only revoke authorizations created before a given date.
+Another possibility is to revoke only the verifications for xref:admin:participants/impersonations.adoc[impersonated participants].

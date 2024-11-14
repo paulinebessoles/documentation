@@ -1,11 +1,11 @@
 = Participants impersonations
 
-Sometimes, people don't have the time to create an account, or don't have the knwoledge or ability to use technological tools. 
+Sometimes, people don't have the time to create an account, or don't have the knowledge or ability to use technological tools. 
 Impersonations allow administrators and participant managers to enable those persons to participate anyway. 
 
 NOTE: In the code and the User Interface, *Impersonation* and *Managed Participants* are the same thing.
 
-== Enable / Disable impersonations
+== Enable / disable impersonations
 
 Impersonations are only available when at least one authorization is enabled for the organization. 
 Indeed, they allow the system to search through a Verification system for an already existing participant, and to create 
@@ -13,19 +13,19 @@ a participant without the need for an email address.
 
 To enable an authorization, you need to have access to the xref:configure:system.adoc[System panel] or ask your administrator. 
 
-image::participants/participants_impersonations_backend_list_no_auth.png[Admin's Impersonations panel with no authorizations]
+image::participants/participants_impersonations_backend_list_no_auth.png[Administrators Impersonations panel with no authorizations]
 
-The different authorizations will give you different possibilities:
+The different authorizations give you different possibilities:
 
 * View impersonation logs only: When Identity documents, Code by postal letter, and/or Organization's census are enabled
 * Impersonate existing and new users: Direct verification enabled, like example authorization or other custom direct authorizations.
 
 NOTE: You can learn more regarding how to program your form authorization in 
-https://github.com/decidim/decidim/blob/develop/decidim-verifications/README.md[decidim-verification README].
+https://github.com/decidim/decidim/blob/develop/decidim-verifications/README.md[Decidim-verification README].
 
-image::participants/participants_impersonations_backend_list_logs.png[Admin's Impersonations panel with view log]
+image::participants/participants_impersonations_backend_list_logs.png[Administrators Impersonations panel with view log]
 
-image::participants/participants_impersonations_backend_list_button.png[Admin's Impersonations panel with impersonation action]
+image::participants/participants_impersonations_backend_list_button.png[Administrators Impersonations panel with impersonation action]
 
 == Manage impersonations
 
@@ -47,12 +47,12 @@ You can filter this list by clicking the "Filter" button and search for particip
 
 |image:icons/action_clock.png[View logs icon]
 |View logs
-|To check the impersonation history of the participant. 
+|To view the impersonation history of the participant. 
 |Available all the time. 
 
 |image:icons/action_promote.png[Promote icon]
 |Promote
-|To check the impersonation history of the participant. 
+|To view the impersonation history of the participant. 
 |Available only for managed users. 
 
 |===
@@ -61,7 +61,7 @@ You can filter this list by clicking the "Filter" button and search for particip
 
 Click the "Manage new participant" button. You are then able to enter the personal data to check against the verification:
 
-image::participants/participants_impersonations_form.png[Admin's Impersonations form]
+image::participants/participants_impersonations_form.png[Administrators Impersonations form]
 
 After this data is checked by the system, it opens a session for the participant for 30 minutes. 
 A banner at the top of the page reminds the administrator that they are impersonating the participant, and the remaining time. 
@@ -70,7 +70,7 @@ image::participants/participants_impersonations_user.png[Impersonated user sessi
 
 === Promote a managed participant
 
-Administrators can promote managed participants, in order to invite them to the create an account on the platform. 
+Administrators can promote managed participants, to invite them to the create an account on the platform. 
 Click the "Promote" icon to be able to add an email address to the participant and invite them by email. 
 
-image::participants/participants_impersonations_promotion.png[Admin's promotion Impersonations]
+image::participants/participants_impersonations_promotion.png[Administrators promotion Impersonations]
