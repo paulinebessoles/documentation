@@ -16,7 +16,7 @@ To access the Participants configuration panel, go in the administration panel a
 
 image::participants/participants_menu.png[Participants menu]
 
-There, you will first see the list of adminsitrators of the platform. 
+There, you first see the list of administrators of the platform. 
 
 image::participants/participants_sidebar_menu.png[Participants sidebar menu]
 
@@ -33,7 +33,7 @@ In the secondary navigation panel, you can see all the participants configuratio
 ** xref:admin:participants/authorizations/code_postal_letter.adoc[Code by postal letter]
 ** xref:admin:participants/authorizations/census.adoc[Organization's census]
 
-Some of those items might not appear in this menu, because they are'nt enabled. 
+Some of those items might not appear in this menu, because they aren't enabled. 
 To check how to enable them, go on the missing item documentation article. 
 
 == Examples

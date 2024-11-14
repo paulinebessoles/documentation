@@ -45,7 +45,8 @@ image:user_group_new_form.png[New user group form]
 
 |Avatar
 |Optional
-|Guidance for image: Preferably a landscape image that does not have any text. The service crops the image. Maximum file size: 5MB. Allowed file extensions: jpg jpeg gif png bmp ico
+|Guidance for image: Preferably a landscape image that does not have any text. The service crops the image. 
+Maximum file size: 5 MB. Allowed file extensions: .jpg .jpeg .gif .png .bmp .ico
 
 |About
 |Optional
