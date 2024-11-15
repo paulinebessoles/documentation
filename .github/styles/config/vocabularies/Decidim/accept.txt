@@ -3,7 +3,7 @@ CSV
 Config
 [Nn]ickame
 [Ee]mail
-Officialize
-officialization
-officializing
+[Oo]fficialize
+[Oo]fficialization
+[Oo]fficializing
 Reoffficialize
