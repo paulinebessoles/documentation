@@ -1,53 +1,96 @@
 = Configuration
 
-In this page you can configure general settings from Decidim.
+In this page you can configure general settings from Decidim, such as the name of the instance, the welcome notification, the 
+general features, the languages available, etc. 
 
-image::admin_configuration.png[Decidim Admin Configuration]
+== Configurations available
 
-These are:
+|===
+|Field |Type |Description |Visibility
 
-* **Name**. Required. The name that the platform has. Visible at title, emails, etc.
-* **Social**. Social handlers for different social networks. Visible at the footer in every page. This are:
-** Twitter
-** Facebook
-** Instagram
-** YouTube
-** GitHub
+|Name
+|Required
+|The name of the platform. 
+|Visible in platform title, emails, notifications, etc.
+
+|Social
+|Required
+|Social handlers for different social networks. In the field, only add the necessary slug instead of the whole URL. 
+|Visible in the footer, in every page. 
+
+|Default locale
+|Required
+|Default language for the platform. If you want to enable more languages, ask your technical administrator. 
+|If multiple languages, participants can choose their preferred one in their account settings. 
+
+|Time Zone
+|Required
+|In which Time Zone is your organization.
+|Used in multiple places, like meetings calendar. 
+
+|Reference prefix
+|Required
+|Reference prefix used to publicly identify all the instance resources. 
+|Visible in every resource page, like an assembly, meeting, proposal, etc. 
+
+|Enable badges
+|Checkbox
+|Whether you want or not that your participants have badges as a gamification mechanism when participating. 
+|If enabled, badges are visible in the participants profiles, and participation triggers badges level completion. 
+
+|Enable groups
+|Checkbox
+|Whether you want or not that your participants have the possibility to create xref:participants/groups.adoc[user Groups].
+|If enabled, groups are visible in the participants profiles and accounts, and they can create user groups. 
+
+|Enable participatory space filters
+|Checkbox
+|Whether you want or not to display filters in the participatory spaces index pages. 
+|If enabled, participants are able to filter spaces, like assemblies, by different filters on the space index. 
+
+|Comments max length
+|Required
+|Whether you want or not to limit the number of character in comments. Leave 0 for default value (1000).
+|Limit visible if you enable comments in a participatory component.
+
+|Enable rich text editor for participants
+|Checkbox
+|Whether you want or not to enable participants to have a https://en.wikipedia.org/wiki/WYSIWYG[WYSIWYG editor]. 
+|In some text areas, like proposal creation, participants are able to insert some HTML tags by using the rich text editor.
+
+|Send welcome notification
+|Checkbox
+|Whether you want or not that participants receive a notification when they first create their account. 
+|If you just enable this, participants receive the default notification. 
+
+|Customize welcome notification
+|Checkbox
+|Enable you to customize the notification sent to participant when they create an account.
+|If enabled you can customize the welcome notification in the fields below.
+
+|Welcome notification subject
+|Required
+|Enable you to customize the welcome notification subject. You can add variables, such as {{name}} or {{organization}}. 
+|Field visible if you enable the "Customize welcome notification" checkbox.
+
+|Welcome notification body
+|Required
+|Enable you to customize the welcome notification body. You can add variables, such as {{name}} or {{organization}}. 
+|Field visible if you enable the "Customize welcome notification" checkbox.
+
+|Body for the administrator terms of service
+|Required
+|Which message an administrator sees when accessing for the first time to the Administration panel.
+|Message displayed when an administrator access the administration panel for the first time. 
+
+|===
+
+image::settings/admin_configuration.png[Decidim Admin Configuration]
 
 image::settings_configuration_social.png[Social networks configuration in Decidim]
 
-* **Default locale**. Required.
-* **Time Zone**. Required. In which Time Zone is your organization. Used by things like calendars in Meetings.
-* **Reference prefix**. Required.
-* **Enable badges**. Whether you want or not that your participants have badges as a gamification mechanism, for instance for creating proposals or making comments.
-* **Enable groups**.  Whether you want or not that your participants have the possibility to create xref:participants/groups.adoc[User Groups]. Useful for example for associations or other collectives.
-* **Enable rich text editor for participants**.  Whether you want or not that your participants have the possibility to have a https://en.wikipedia.org/wiki/WYSIWYG[What You See Is What You Get (WYSIWYG) editor]. In some text areas, participants will be able to insert some HTML tags by using the rich text editor.
-* **Send welcome notification**. Whether you want or not that your participants receive a notification when their first created their account. If enabled you can customize this notification.
-** **Customize welcome notification**.
-** **Welcome notification subject**.
-** **Welcome notification body**.
-
-.Welcome notification
-====
-Hi {\{name}}, thanks for joining {\{organization}} and welcome!
-
-If you want to get a quick idea of what you can do here, have a look at the Help section.
-Once you have read it you will get your first badge. Here's a list of all the badges you can get as you participate in {\{organization}}
-
-Last but not least, join other people, share with them the experience of being engaged and participating in {\{organization}}. Make proposals, comments, debate, think about how to contribute to the common good, provide arguments to convince, listen and read to be convinced, express your ideas in a concrete and direct way, respond with patience and decision, defend your ideas and keep an open mind to collaborate and join other people's ideas.
-====
-
 image::settings_configuration_welcome.png[Welcome notification configuration in Decidim]
 
-* **Admin terms of use body**. Which message an Administrator user will see when accessing for the first time to the Administration panel.
+=== Actions
 
-.Admin terms of use
-====
-ADMIN TERMS OF USE
-
-We trust you have received the usual lecture from the local System Administrator. It usually boils down to these three things:
-
-* Respect the privacy of others.
-* Think before you click.
-* With great power comes great responsibility.
-====
+=== Important actions
