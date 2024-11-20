@@ -31,6 +31,7 @@
 *** xref:services:social_providers.adoc[Social Providers]
 
 * Admin
+** xref:admin:first_steps.adoc[First steps in Decidim]
 ** Settings
 *** xref:admin:configuration.adoc[Configuration]
 *** xref:admin:appearance.adoc[Appearance]
