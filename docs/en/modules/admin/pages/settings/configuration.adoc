@@ -7,7 +7,7 @@ general features, the languages available, etc.
 
 image::settings/admin_configuration.png[Decidim Admin Configuration]
 
-[cols="10h,10h,~,~"]
+[cols="20h,10h,~,~"]
 |===
 |Field |Type |Description |Visibility
 
