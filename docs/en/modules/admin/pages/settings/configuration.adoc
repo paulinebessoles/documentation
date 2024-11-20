@@ -5,6 +5,9 @@ general features, the languages available, etc.
 
 == Configurations available
 
+image::settings/admin_configuration.png[Decidim Admin Configuration]
+
+[cols="10h,10h,~,~"]
 |===
 |Field |Type |Description |Visibility
 
@@ -40,7 +43,7 @@ general features, the languages available, etc.
 
 |Enable groups
 |Checkbox
-|Whether you want or not that your participants have the possibility to create xref:participants/groups.adoc[user Groups].
+|Whether you want or not that your participants have the possibility to create xref:participants/groups.adoc[user groups].
 |If enabled, groups are visible in the participants profiles and accounts, and they can create user groups. 
 
 |Enable participatory space filters
@@ -85,12 +88,17 @@ general features, the languages available, etc.
 
 |===
 
-image::settings/admin_configuration.png[Decidim Admin Configuration]
+== Examples
 
-image::settings_configuration_social.png[Social networks configuration in Decidim]
+=== Social networks
 
-image::settings_configuration_welcome.png[Welcome notification configuration in Decidim]
+If you enter a value for each social network, their icons are displayed in the footer with a link to your account page. 
+Check that all the links are working well. 
 
-=== Actions
+image::settings/settings_configuration_social.png[Social networks configuration in Decidim]
 
-=== Important actions
+=== Welcome notification
+
+Participants receive welcome notification when they finalize the creation of their account, on their notification panel and by email. 
+
+image::settings/settings_configuration_welcome.png[Welcome notification configuration in Decidim]
