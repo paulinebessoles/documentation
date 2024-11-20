@@ -1,2 +1,4 @@
 Decidim 
 moderations
+gamification
+favicon

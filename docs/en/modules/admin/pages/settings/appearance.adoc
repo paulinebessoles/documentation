@@ -166,8 +166,6 @@ In the following screenshot, the three different colors are displayed.
 
 image::settings/appearance_colors.png[Decidim layout appearance colors example]
 
-image::admin_appearance.png[Decidim Admin Appearance]
-
 == Header snippets
 
 NOTE: You might not see this field. For more information on how to enable it, see the xref:customize:styles.adoc[Styles] documentation. 
