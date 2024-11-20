@@ -38,7 +38,7 @@ image::admin_tos_pending.png[Decidim Admin Dashboard in user menu]
 Those terms of service can be useful for you if you start inviting other administrators to the platform, and you need them to be aware
 of specific privacy rules, or anything relevant for them before they have access to the administration. 
 
-Those terms of services can be configured in the xref:admin:configuration.adoc[Configuration panel].
+Those terms of service can be configured in the xref:admin:configuration.adoc[Configuration panel].
 
 === Explanation of the dashboard
 
