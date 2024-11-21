@@ -2,25 +2,25 @@
 
 Scopes are the set of territories or subjects that an Organization has. A scope may have child scopes.
 
-For instance, in the case of the city of Barcelona the scopes are its districts, and the children of a district are its neighborhoods. They can also have types, so it can be configured, for example, by thematic and also territorial scopes.
+For instance, in the case of the city of Barcelona the scopes correspond to its districts, and the children of a 
+district are its neighborhoods. 
+They can also have types, so it can be configured, for example, by thematic and also territorial scopes.
 
-Most of the components and spaces in Decidim allow you to configure Scopes in one way or another. There are mainly three ways of using Scopes:
+Most of the components and spaces in Decidim allow you to configure Scopes in one way or another.
 
-To configure Scope on the Decidim platform, go to menu:Settings[Scopes] in the admin sidebar menu. A list will appear with the existing scopes if there are any:
+image::settings/scopes_list.png[Scopes list]
 
-image:scopes_list.png[Scopes list]
+== Create a scope type
 
-If you need so, you need to first configure the Scope type.
+To create a scope type, click the "Add" button in the Scope types tab. 
 
-== Form
+image::settings/scopes_types_new_form.png[New scope type form]
 
-image:scopes_types_new_form.png[New scope type form]
-
-.Admin New Scope Type form
+.Admin new scope type form
 |===
 |Field |Type |Description
 
-|Singular
+|Name
 |Required
 |Name of the scope type in singular.
 
@@ -30,9 +30,13 @@ image:scopes_types_new_form.png[New scope type form]
 
 |===
 
-image:scopes_new_form.png[New scope form]
+== Create a scope
 
-.Admin New Scope Form
+To create a scope, click the "Add" button in the Scope tab. 
+
+image::settings/scopes_new_form.png[New scope form]
+
+.Admin new scope form
 |===
 |Field |Type |Description
 
@@ -42,30 +46,28 @@ image:scopes_new_form.png[New scope form]
 
 |Code
 |Required
-|(Internal) name of the scope.
+|Internal identifier of the scope.
 
 |Scope type
-|Required
-|Which type of scope it's.
+|Optional
+|Which type of scope it's related to. It can be blank. 
 
 |===
 
 == Actions
 
-You have 3 possible actions in this list after a Scope is created:
-
 |===
 |Icon |Name |Definition
 
-|image:action_browse.png[Browse icon]
+|image:icons/action_browse.png[Browse icon]
 |Browse
 |See and configure the children scopes for this Scope.
 
-|image:action_edit.png[Edit icon]
+|image:icons/action_edit.png[Edit icon]
 |Edit
 |Edit form for a Scope. It's the same form as "Create a new scope".
 
-|image:action_delete.png[Delete icon]
+|image:icons/action_delete.png[Delete icon]
 |Delete
 |To delete this scope.
 
@@ -79,11 +81,12 @@ The main features related with scopes are:
 
 === Filtering
 
-For filtering. Most of the spaces and components allows an administrator or a participant to associate them to a scope. This allows to filter by scopes when exploring them.
+Most of the spaces and components allows an administrator or a participant to associate them to a scope.
+This allows to filter by scopes when exploring them.
 
-image:scopes_filter_initiatives.png[Initiatives scopes filtering]
+image::settings/scopes_filter_assemblies.png[Assemblies scopes filtering]
 
-image:scopes_filter_processes.png[Processes scopes filtering]
+image::settings/scopes_filter_processes.png[Processes scopes filtering]
 
 Some examples:
 
@@ -94,12 +97,12 @@ Some examples:
 You can also configure a participatory space so the filtering will only concern one scope and its children scopes. For example, let's imagine your organization have 3 different scopes for 3 cities, each of them having children scopes for the cities neighbourhoods.
 On a participatory space which concerns only one of the cities, you will be able to select only this scope and its children so that users do not see the scopes of other cities in the filter options.
 
-=== User interests and Newsletters
+=== User interests and newsletters
 
-A Participant can choose which Scopes they want to follow in its account.
+A participant can choose which scopes they want to follow in its account.
 
-image:account_my_interests.png[Account: my interests]
+image::settings/account_my_interests.png[Account: my interests]
 
-This is used by the xref:admin:newsletters.adoc[Newsletters], in the "Select recipients to deliver" step, "Filter for users having activated any selected scope in their account's My Interests settings." section.
+This is used in the xref:admin:newsletters.adoc[Newsletters], in the "Select recipients to deliver" step.
 
-image:newsletter_select_recipients.png[Newsletter: select recipients]
+image::newsletter_select_recipients.png[Newsletter: select recipients]

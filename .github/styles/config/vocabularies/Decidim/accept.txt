@@ -1,4 +1,5 @@
-Decidim 
+[Dd]ecidim 
 moderations
 gamification
 favicon
+[Kk]akogawa

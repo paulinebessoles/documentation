@@ -138,14 +138,13 @@ image::settings/homepage_organization_metrics.png[Organization metrics in Homepa
 === HTML block
 
 The HTML block content block allows to add an editable HTML block on the homepage, and therefore to create a personalized section. 
+image::settings/homepage_html_block.png[HTML block in Homepage content block]
+
+Here are some examples of how some organizations personalize their homepage with this content block.
 
 image::settings/homepage_html_block_barcelona.png[HTML block in Homepage content block Barcelona example]
 
 Homepage HTML block of the platform of the city of Barcelona in Spain (www.decidim.barcelona).
-
-image::settings/homepage_html_block.png[HTML block in Homepage content block]
-
-Here are some examples of how some organizations personalize their homepage with this content block.
 
 image::settings/homepage_html_block_nyc.png[HTML block in Homepage content block NYC example]
 
