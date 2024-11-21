@@ -7,3 +7,4 @@ Config
 [Oo]fficialization
 [Oo]fficializing
 Reoffficialize
+moderations
