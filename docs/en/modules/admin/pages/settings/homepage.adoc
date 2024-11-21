@@ -49,7 +49,7 @@ image::settings/homepage_sub_hero_banner.png[Sub hero banner in Homepage content
 === Highlighted content banner
 
 The highlighted content banner content block displays the banner configured in 
-xref:admin:appearance.adoc#highlighted_content_banner[Appearance].
+xref:admin:settings/appearance.adoc#highlighted_content_banner[Appearance].
 
 image::settings/homepage_highlighted_content_banner.png[Highlighted content banner in Homepage content block]
 
@@ -138,6 +138,7 @@ image::settings/homepage_organization_metrics.png[Organization metrics in Homepa
 === HTML block
 
 The HTML block content block allows to add an editable HTML block on the homepage, and therefore to create a personalized section. 
+
 image::settings/homepage_html_block.png[HTML block in Homepage content block]
 
 Here are some examples of how some organizations personalize their homepage with this content block.
