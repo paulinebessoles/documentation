@@ -1,53 +1,168 @@
 = My public profile
 
-Every participant has a public profile that shows details about them and their activity on the instance.
+== Understand the basics
 
-To go to this section:
+Every participant has a public profile that shows details about them and their activity on the instance.
+This profile page is accessible to all participants and visitors. 
+
+== How to find it?
+
+To see a participant public profile, click directly in their avatar or their user name in the participant tool-tip. 
+
+image::features/my_profile/profile_pop_up.png[Participant tool-tip]
+
+To access your public profile:
 
 . Sign in as a participant
-. Click in the name of the participant in the header
+. Click in your avatar in the header
 . Click in "My public profile"
 
-The sections available under the public profile are:
+image::features/my_profile/profile_dropdown.png[Frontend user menu dropdown]
 
-* xref:admin:features/my_public_profile/timeline.adoc[Timeline]
-* xref:admin:features/my_public_profile/activity.adoc[Activity]
-* xref:admin:features/badges.adoc[Badges]
-* xref:admin:features/my_public_profile/follows.adoc[Follows]
-* xref:admin:features/my_public_profile/followers.adoc[Followers]
-* xref:admin:features/my_public_profile/groups.adoc[Groups]
+== Profile tabs
 
-= Badges
+There, you'll find different tabs.
+
+NOTE: You might not see the Badges and the Groups tab if you didn't enable them in the xref:admin:configuration.adoc[Configuration] panel.
+
+=== Activity
+
+This tab displays all the activity of the participant, starting with the most recent content. 
+
+image::features/my_profile/profile_activity.png[Public profile activity tab]
+
+=== Badges
 
 The public profile's badges shows which badges the participant has accumulated and what their current level is for each badge.
 
-More information about badges is available on the xref:admin:features/badges.adoc[Badges feature page].
+More information about badges is available on the xref:admin:features/social_features/badges.adoc[Badges feature page].
 
-= Followers
+image::features/my_profile/profile_badges.png[Public profile badges tab]
 
-The followers section contains a list of participants and groups that are following the participant that the profile belongs to.
+=== Follows
 
-= Follows
+The follows section contains a list of participants and groups the participant is currently following. 
+By following another participant or a group on the platform, the participant receives notifications about the activity 
+done by those participants or groups on the platform. Some participants may also require that they need to be following 
+a participant before they can exchange private messages with each other.
 
-The follows section contains a list of participants and groups the participant is currently following. By following another participant or a group on the platform, the participant will receive notifications about the activity done by those other participants or groups on the platform. Some participants may also require that they need to be following the other participant before they can exchange private messages with each other.
+image::features/my_profile/profile_follows.png[Public profile follows tab]
 
-= Groups
+=== Followers
 
-The groups section contains all the groups that the user belongs to. More information about the groups feature is available at the xref:admin:features/my_account/groups.adoc[User groups page].
+The followers section contains a list of participants and groups that are following the participant.
 
-= Timeline
+image::features/my_profile/profile_followers.png[Public profile followers tab]
 
-The timeline view displays the participants activity on the website, including the activity items that should be only visible to the participant currently logged in. This section is not visible to any other user than the participant themselves because it can also contain items that should be visible only to that participant.
+=== Groups
 
-= Notifications
+The groups section contains all the groups that the user belongs to. More information about the groups feature is 
+available at the xref:admin:features/my_account/groups.adoc[User groups page].
 
-In this section participants can see the notifications that the system has sent to them. For instance, if the participant is followign a participatory space or a proposal, they get related notifications about the actions that happen in these sections of the platform.
+image::features/my_profile/profile_groups.png[Public profile groups tab]
 
-This section can be accessed through the bell icon in the header bar of the platform. The bell icon shows highlighted as active when there are notifications and dimmer when there are no new notifications for the user right now.
+== Actions available
 
+=== When on another participant profile
 
-= Notifications
+Logged in participants can perform two actions from another participant public profile page: 
 
-In this section participants can see the notifications that the system has sent to them. For instance, if the participant is followign a participatory space or a proposal, they get related notifications about the actions that happen in these sections of the platform.
+. Send them a message
+. Follow them
+. Report them
 
-This section can be accessed through the bell icon in the header bar of the platform. The bell icon shows highlighted as active when there are notifications and dimmer when there are no new notifications for the user right now.
+=== When on your own profile
+
+Logged in participants can perform two actions from their public profile page: 
+
+. Edit their profile: When clicking this button, they are redirected to their xref:admin:features/my_account/account.adoc[account].
+. Create a group: When clicking this button, they are redirected to the group creation forms.
+
+NOTE: The group creation option is only available when groups are enabled for the organization. 
+You can do it from the xref:admin:configuration.adoc[Configuration] panel.
+
+==== Create a group
+
+As a participant, I might want to create a user group for my association, my company, my club, etc. 
+To create a group, click on the "Create group" button in your public profile. 
+
+image::features/my_profile/profile_create_group.png[Public profile group creation form]
+
+.Group creation form
+|===
+|Field |Type |Description
+
+|Name
+|Required
+|Name of the organization, association, collective, group, etc.
+
+|Nickname
+|Required
+|Nickname of the organization, association, collective, group, etc. Do not use spaces nor accents.
+
+|Email
+|Required
+|Email of your organization, association, collective, group, etc.
+
+|Avatar
+|Optional
+|Avatar of your organization, that is displayed as a user avatar. Can be a logo, a picture, etc.
+
+|About
+|Optional
+|More information about your organization. This is publicly displayed on the user group profile page. 
+
+|Document number
+|Optional
+|Fill this field if you want an administrator to verify the authenticity of your user group. 
+
+|Phone
+|Optional
+|Fill this field if you want an administrator to be able to call someone in your organization to 
+verify the authenticity of the user group. 
+
+|===
+
+The user group is visible on the platform as soon as you create it. After its creation, you are redirected to the 
+user group profile page. 
+
+==== Manage a group
+
+After a group has been created, it's possible to invite participants to become members of the group. 
+After a participant has accepted to be part of this group then they can become an admin.
+
+The actions that can be done by a user group administrator are:
+
+* Edit group profile
+* Manage members
+* Manage admins
+* Invite participant
+* Leave group
+
+image::features/my_profile/profile_manage_group.png[Public profile group creation form]
+
+User groups profiles pages display: 
+
+* Members: Members of the groups, and who are the administrators. 
+* Badges: User group badges. 
+* Followers: Participants can also follow user groups. 
+
+You can also have Conversations as a group. This is in the group profile page:
+
+image::features/my_profile/user_group_conversation.png[User group: conversations]
+
+==== Participate as a group
+
+The interest of having an administrator verify the user group is that you can then participate to the platform as a group, 
+and create debate, proposal, meetings, comments, etc. 
+
+NOTE: Only user group administrators are authorized to participate in name of the group. 
+
+Administrators of the user group can for example comment in the name of their group. 
+
+image::features/my_profile/user_group_make_comment.png[User group: make a comment]
+
+They can also choose to endorse a debate or a proposal in the name of their group and / or in their own name.  
+
+image::features/my_profile/user_group_endorse.png[User group: endorse]
+
