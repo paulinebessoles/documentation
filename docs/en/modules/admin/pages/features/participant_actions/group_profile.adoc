@@ -53,6 +53,12 @@ verify the authenticity of the user group.
 The user group is visible on the platform as soon as you create it. After its creation, you are redirected to the 
 user group profile page. 
 
+User groups profiles pages display: 
+
+* Members: Members of the groups, and who are the administrators. 
+* Badges: User group badges. 
+* Followers: Participants can also follow user groups. 
+
 == Manage a group
 
 After a group has been created, it's possible to invite participants to become members of the group. 
@@ -66,23 +72,37 @@ The actions that can be done by a user group administrator are:
 * Invite participant
 * Leave group
 
-image::features/my_profile/profile_manage_group.png[Public profile group creation form]
+image::features/my_profile/profile_manage_group.png[Public profile group drop down menu]
 
-User groups profiles pages display: 
+=== Manage members
 
-* Members: Members of the groups, and who are the administrators. 
-* Badges: User group badges. 
-* Followers: Participants can also follow user groups. 
+On this page, you can accept and reject participants requests to join your group, but also promote group members to administrators 
+or remove them from the group. 
 
-=== Invite members
+image::features/my_profile/user_group_manage_participant.png[User groups: manage participants]
+
+=== Manage admins
+
+On this page, you can only remove group administrator rights, but it won't remove the participant from the group. 
+
+image::features/my_profile/user_group_manage_admins.png[User groups: manage admins]
+
+=== Invite participants
+
+To invite a participant, they need to have an account on the platform. 
+You can invite them with their nickname. 
+
+image::features/my_profile/user_group_invite_participant.png[User groups: invite a participant]
+
+Then, they receive an invitation to join the group. They can accept it or not. 
 
 === Conversations
 
-You can also have Conversations as a group. This is in the group profile page:
+You can also have Conversations as a group.
 
 image::features/my_profile/user_group_conversation.png[User group: conversations]
 
-==== Participate as a group
+== Participate as a group
 
 The interest of having an administrator verify the user group is that you can then participate to the platform as a group, 
 and create debate, proposal, meetings, comments, etc. 
