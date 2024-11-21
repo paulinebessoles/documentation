@@ -128,6 +128,7 @@
 ***** xref:admin:features/participant_actions/my_account/my_data.adoc[My data]
 ***** xref:admin:features/participant_actions/my_account/delete_my_account.adoc[Delete my account]
 **** xref:admin:features/participant_actions/my_public_profile.adoc[My public profile]
+**** xref:admin:features/participant_actions/group_profile.adoc[Group profiles]
 ** xref:admin:global_moderations.adoc[Global moderations]
 
 * xref:contribute:index.adoc[Contribute]
