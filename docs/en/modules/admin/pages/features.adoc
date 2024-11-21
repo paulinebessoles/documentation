@@ -8,7 +8,7 @@ participation on the platform, etc.
 
 For the readability of this documentation, they are divided in four different sections: 
 
-. *xref:admin:features/search.adoc[Search] engine*
+. *xref:admin:features/search.adoc[Search engine]*
 . *xref:admin:features/social_features.adoc[Social features]*
 . *xref:admin:features/transparency_features.adoc[Transparency features]*
 . *xref:admin:features/participants_actions.adoc[Participant account and actions]*
