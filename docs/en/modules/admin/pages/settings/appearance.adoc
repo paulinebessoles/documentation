@@ -3,7 +3,7 @@
 In this page you can configure the look and feel of your Decidim instance.
 
 NOTE: Please mind that this would be incompatible with some of the changes that your implementers could make in your general installation. 
-For instance if there were changes in the xref:customize:styles.adoc[Styles] some parameters could not be applied as expected.
+For instance if there were changes in the xref:customize:styles.adoc[Styles] some parameters couldn't be applied as expected.
 
 == Edit homepage appearance
 

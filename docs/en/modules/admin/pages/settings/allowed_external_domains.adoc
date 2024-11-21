@@ -5,7 +5,7 @@ to an external webpage, and add the following alert pop-up after the user clicks
 
 image::settings/allowed_external_domains_pop-up.png[Pop-up that appears when clicking any external domains on Decidim]
 
-It warns participants that they are leaving your instance. 
+It warns participants that they're leaving your instance. 
 
 == Allow an external domains
 

@@ -16,4 +16,4 @@ image::settings/help_sections_backend.png[Help sections: backend]
 
 You can hide these information boxes by leaving the contents all empty for every language.
 
-image::settings/help_sections_disable_backend.png[Disable help section in admin]
+image::settings/help_sections_disable_backend.png[Disable help section in administration]
