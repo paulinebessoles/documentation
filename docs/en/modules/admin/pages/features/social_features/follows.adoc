@@ -1,27 +1,42 @@
 = Follows
 
-Most of the contents in Decidim allows to be followed. This means that you'll receive xref:features/notifications.adoc[notifications]
-of the activity being made by the thing you're following.
+== Understand the basics
 
-You can control these notifications in the xref:features/my_account/notifications_settings.adoc[settings of your account].
+Participants can follow contents in Decidim, such as participatory spaces, proposals, a specific meeting, other participants, user groups, etc. 
+Following something or someone means that when there are news related to this content, the participant receive xref:features/notifications.adoc[notifications].
 
-The activity of the things that you're following is visible in your xref:features/my_public_profile/timeline.adoc[profile timeline].
+Notifications are accessible in the notification page, but can also be sent by email. 
+You can control these notifications in the xref:features/participant_actions/my_account.adoc#_notifications_settings[settings of your account].
 
-For following a thing:
+The activity that you're following is visible in your xref:features/participant_actions/my_public_profile.adoc[profile activity].
+
+== Follow a content
+
+NOTE: By default, administrators follow all the new spaces created in the platform.
+
+To follow a content:
 
 . Navigate to whatever you want to follow.
 . Click in the "Follow" button.
-image:button_follow.png[Follow button]
-. You'll see the "Follow" button disappear and the "Stop following" button appear.
+. See that the "Follow" button disappear and the "Stop following" button appear.
 
-To unfollow a thing:
+image::follows/button_follow.png[Follow button]
+
+== Unfollow a content
+
+To unfollow a content:
 
 . Navigate to whatever you want to unfollow.
 . Click in the "Stop following" button.
-image:button_stop_following.png[Stop following button]
 . You'll see the "Stop following" button disappear and the "Follow" button appear.
 
-Administrators by default follow all the new spaces that are created in the Decidim platform.
+image::follows/button_stop_following.png[Stop following button]
 
-A participant can also follow another participants. This is public and it's visible in the profile sections
+== Follow a participant
+
+A participant can also follow participants. This is public and visible in the profile sections
 xref:features/my_public_profile/follows.adoc[follows] and xref:features/my_public_profile/followers.adoc[followers].
+
+To follow a participant, pass the cursor on their avatar, or click the "Follow" button in their public profile page. 
+
+image::follows/user_tooltip_follow.png[Follow user]
