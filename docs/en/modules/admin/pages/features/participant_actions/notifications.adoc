@@ -1,19 +1,27 @@
 = Notifications
 
-== The notification menu
+== Understand the basics
 
-Most of the actions in the platform generate notifications so particpants can know when there are new things to watch.
+Notifications allow participants to keep up to date with the platform latest news, with the spaces, the contents and the participants they follow, etc. 
+Most of the actions in the platform generate notifications.
 
-This is accessible from the `Notifications` menu item (image:icon_bell.png[Notification icon]) in the header, after a participant has logged in.
+Participants can manage their notifications preferences in their xref:admin:features/participant_actions/account.adoc[account]. 
 
-To see the notifications:
+== The notification page
 
-. Sign in as participant
-. Click in the notifications icon in the header
+To access the notifications page:
 
-If there are notifications, then the participant will see the icon with a color image:icon_bell_on.png[Notification icon with color]
+. Sign in as a participant
+. Click in your avatar in the header
+. Click in "Notifications"
+
+image::features/notifications/notifications_dropdown.png[Frontend user menu dropdown]
+
+If there are notifications, the participant sees a colored circle next to their avatar, and in the dropdown menu. 
 
 image:features/notifications/notifications.png[Example of notifications page when there are notifications]
+
+When there are no notifications, or the participant marked all the notifications as read, a message is displayed. 
 
 image:features/notifications/no_notifications_yet.png[Example of notifications page when there aren't notifications]
 
@@ -21,10 +29,8 @@ image:features/notifications/no_notifications_yet.png[Example of notifications p
 
 Below is an exhaustive list of actions that trigger notifications to participants. Participants are divided into three categories: affected users, followers, and administrators.
 
-[NOTE]
-====
-Affected users depend on the notification context. For instance, it could be the author of moderated content, a user that earns a badge, a user that has been mentioned, etc.
-====
+NOTE: Affected users depend on the notification context. For instance, it could be the author of 
+moderated content, a user that earns a badge, a user that has been mentioned, etc.
 
 [cols="7,2,1,1,1"]
 |============================================================================================================================================================================

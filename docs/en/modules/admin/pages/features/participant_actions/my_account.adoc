@@ -11,7 +11,7 @@ participant xref:admin:features/participant_actions/my_public_profile.adoc[publi
 To access your account settings:
 
 . Sign in as a participant
-. Click in the name of the participant in the header
+. Click in your avatar in the header
 . Click in "My account"
 
 image::features/my_account/account_dropdown.png[Frontend user menu dropdown]
