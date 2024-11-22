@@ -2,7 +2,7 @@
 
 == Understand the basics
 
-Although the platform should show the xref:admin:features/versions.adoc[Versions] for almost all of the contents, it'd still be possible 
+Although the platform should show the xref:admin:features/transparency/versions.adoc[Versions] for almost all of the contents, it'd still be possible 
 for a system administrator to manipulate the content by editing the database directly.
 
 As mitigation for this risk, the platform shows a fingerprint for some important fields, for instance, a proposal body and title.

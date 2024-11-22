@@ -5,7 +5,7 @@
 Notifications allow participants to keep up to date with the platform latest news, with the spaces, the contents and the participants they follow, etc. 
 Most of the actions in the platform generate notifications.
 
-Participants can manage their notifications preferences in their xref:admin:features/participant_actions/account.adoc[account]. 
+Participants can manage their notifications preferences in their xref:admin:features/participant_actions/my_account.adoc[account]. 
 
 == The notification page
 
