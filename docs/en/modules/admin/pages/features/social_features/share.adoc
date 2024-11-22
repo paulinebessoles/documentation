@@ -1,9 +1,13 @@
 = Share
 
+== Understand the basics
+
 Participants can share content on the platform through the share links available on the different contents pages. 
 The share links allow easier sharing to different social media services that can be configured for Decidim through the configuration files.
 
 NOTE: Check xref:customize:social_shares.adoc[Social share services] for more information. 
+
+== Share a content
 
 To share a content, such as a proposal, go to the content page and click the "Share" link at the right of the description. 
 
