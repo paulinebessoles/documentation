@@ -21,7 +21,7 @@ image::features/metrics/example_stats.png[Example of statistics]
 
 NOTE: Looking for how to enable this feature technically? Go to xref:develop:metrics.adoc[Metrics in Developers guide]. 
 
-With metrics, participants can see the evolution in time of some resources, such as Proposals, Supports, Endorsements, Followers, Participants, Accepted propsoals, Comments, etc. 
+With metrics, participants can see the evolution in time of some resources, such as Proposals, Supports, Endorsements, Followers, Participants, Accepted proposals, Comments, etc. 
 
 The homepage configuration allows administrators to enable a metrics content block to be displayed on the homepage. 
 
@@ -33,6 +33,6 @@ You can see a real world example of this in https://meta.decidim.org/processes/r
 
 image::features/metrics/example.png[Example of metrics]
 
-By clicking in "Show all", visitors can see other metrics and download this data in CSV format.
+By clicking in the "Show all" button visitors can see other metrics and download this data in CSV format.
 
 image:features/metrics/page.png[Metrics page]
