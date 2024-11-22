@@ -16,6 +16,7 @@ To create a group, click the "Create group" button in your public profile.
 image::features/my_profile/profile_create_group.png[Public profile group creation form]
 
 .Group creation form
+[cols="20h,10h,~"]
 |===
 |Field |Type |Description
 
@@ -81,7 +82,7 @@ or remove them from the group.
 
 image::features/my_profile/user_group_manage_participant.png[User groups: manage participants]
 
-=== Manage admins
+=== Manage administrators
 
 On this page, you can only remove group administrator rights, but it won't remove the participant from the group. 
 

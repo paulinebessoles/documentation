@@ -57,7 +57,7 @@ image::features/my_profile/profile_followers.png[Public profile followers tab]
 === Groups
 
 The groups section contains all the groups that the user belongs to. More information about the groups feature is 
-available at the xref:admin:features/my_account/groups.adoc[User groups page].
+available at the xref:admin:features/participant_actions/my_account/groups.adoc[User groups page].
 
 image::features/my_profile/profile_groups.png[Public profile groups tab]
 
@@ -75,7 +75,7 @@ Logged in participants can perform two actions from another participant public p
 
 Logged in participants can perform two actions from their public profile page: 
 
-. Edit their profile: When clicking this button, they are redirected to their xref:admin:features/participants_actions/my_account/account.adoc[account].
+. Edit their profile: When clicking this button, they are redirected to their xref:admin:features/participant_actions/my_account/account.adoc[account].
 . Create a group: When clicking this button, they are redirected to the xref:admin:features/participant_actions/group_profile.adoc[group creation form].
 
 NOTE: The group creation option is only available when groups are enabled for the organization. 
