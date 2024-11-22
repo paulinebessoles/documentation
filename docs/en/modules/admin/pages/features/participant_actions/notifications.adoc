@@ -39,7 +39,7 @@ moderated content, a user that earns a badge, a user that has been mentioned, et
 | A new attachment has been created                                                     | Admin                                                      | ❌             | ✅        | ❌
 | An admin requested an export                                                          | Admin                                                      | ❌             | ❌        | ✅
 | A component has been published in a participatory space                               | Admin                                                      | ❌             | ✅        | ❌
-| A participant has tried to verify themself with the data of another participant       | Verifications                                              | ❌             | ❌        | ✅
+| A participant has tried to verify themselves with the data of another participant       | Verifications                                              | ❌             | ❌        | ✅
 | An administrator moderated a resource because it has been reported                    | Moderation                                                 | ✅             | ❌        | ❌
 | A resource has been reported                                                          | Moderation                                                 | ❌             | ❌        | ✅
 | A user confirms the registration (if welcome notification is enabled)                 | User                                                       | ✅             | ❌        | ❌
@@ -97,8 +97,8 @@ moderated content, a user that earns a badge, a user that has been mentioned, et
 | A user has replied your comment                                                       | Comments                                                   | ✅             | ❌        | ❌
 | A group you belong to has been mentioned                                              | Comments                                                   | ✅             | ❌        | ❌
 | You have been mentioned                                                               | Comments                                                   | ✅             | ❌        | ❌
-| Your comment in has been upvoted                                                      | Comments                                                   | ✅             | ❌        | ❌
-| Your comment in has been downvoted                                                    | Comments                                                   | ✅             | ❌        | ❌
+| Your comment in has been up-voted                                                      | Comments                                                   | ✅             | ❌        | ❌
+| Your comment in has been down-voted                                                    | Comments                                                   | ✅             | ❌        | ❌
 | A debate has been created                                                             | Debates                                                    | ❌             | ✅        | ❌
 | Debate creation is enabled for participants                                           | Debates                                                    | ❌             | ✅        | ❌
 | Debate creation is no longer active                                                   | Debates                                                    | ❌             | ✅        | ❌
@@ -110,7 +110,7 @@ moderated content, a user that earns a badge, a user that has been mentioned, et
 | The allocated slots for the meeting are over X%                                       | Meetings                                                   | ❌             | ❌        | ✅
 | The meeting has enabled registrations                                                 | Meetings                                                   | ❌             | ✅        | ❌
 | The registration code for the meeting has been validated.                             | Meetings                                                   | ✅             | ❌        | ❌
-| The meeting will start in less than 48h                                               | Meetings                                                   | ❌             | ✅        | ❌
+| The meeting will start in less than 48 h                                               | Meetings                                                   | ❌             | ✅        | ❌
 | A new proposal has been published                                                     | Proposals                                                  | ❌             | ✅        | ❌
 | Proposal creation is open                                                             | Proposals                                                  | ❌             | ✅        | ❌
 | Proposal supports are open                                                            | Proposals                                                  | ❌             | ✅        | ❌
