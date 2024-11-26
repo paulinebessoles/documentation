@@ -11,11 +11,10 @@ To see a participant public profile, click directly in their avatar or their use
 
 image::features/my_profile/profile_pop_up.png[Participant tool-tip]
 
-To access your public profile:
+As a signed in participant, you can access your public profile from two places:
 
-. Sign in as a participant
-. Click in your avatar in the header
-. Click in "My public profile"
+. Click in your avatar in the header, and then click in the "My public profile" menu item
+. Click in the "My public profile" link in the footer, in the "My account" section
 
 image::features/my_profile/profile_dropdown.png[Frontend user menu dropdown]
 

@@ -9,11 +9,10 @@ Participants can manage their notifications preferences in their xref:admin:feat
 
 == The notification page
 
-To access the notifications page:
+As a signed in participant, you can access your notifications from two places:
 
-. Sign in as a participant
-. Click in your avatar in the header
-. Click in "Notifications"
+. Click in your avatar in the header, and then click in the "Notifications" menu item
+. Click in the "Notifications" link in the footer, in the "My account" section
 
 image::features/notifications/notifications_dropdown.png[Frontend user menu dropdown]
 

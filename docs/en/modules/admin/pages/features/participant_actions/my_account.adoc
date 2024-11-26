@@ -8,11 +8,10 @@ participant xref:admin:features/participant_actions/my_public_profile.adoc[publi
 
 == How to find it?
 
-To access your account settings:
+As a signed in participant, you can access your account configuration from two places:
 
-. Sign in as a participant
-. Click in your avatar in the header
-. Click in "My account"
+. Click in your avatar in the header, and then click in the "My account" menu item
+. Click in the "Configuration" link in the footer, in the "My account" section
 
 image::features/my_account/account_dropdown.png[Frontend user menu dropdown]
 
