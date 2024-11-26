@@ -1,8 +1,14 @@
 = Verifications conflicts
 
-A verification conflict can happen when authorizations are enabled, and some participants were impersonated. 
+A verification conflict can happen when authorizations are enabled, and some participants create several accounts 
+or get impersonated. 
 
 For instance:
+
+. A participant create an account, and get verified against an authorization.
+. Then they create another account and try to get verified again against the same authorization.
+
+This can also happens with impersonations: 
 
 . A participant get xref:admin:participants/impersonations.adoc[impersonated] with their data, but don't enter an email
 . Then they create an account, and try to verify themselves with the same verification
@@ -56,5 +62,5 @@ image:participants/verifications_conflicts_transfer_user.png[Transfer user form]
 
 |===
 
-After the user is transferred, both accounts, the managed one and the new one, is merged into one, with the 
-email address entered in the form. 
+After the user is transferred, both accounts, the managed one and the new one, is merged into one, that takes the 
+email address entered in the form, and the valid verification is transferred to this account. 

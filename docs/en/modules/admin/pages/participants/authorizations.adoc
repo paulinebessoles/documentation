@@ -10,7 +10,7 @@ NOTE: Several authorizations are available by default, but you can also develop 
 
 == Enable / disable authorizations
 
-To enable an authorization, you need to have access to the xref:configure:system.adoc[System panel] or ask your administrator. 
+To enable an authorization, you need to have access to the xref:configure:system.adoc[System panel] or ask the instance implementer. 
 To understand more what are authorizations and how to configure them, please refer to the
 xref:customize:authorizations.adoc[Authorizations section in the Customize Guide].
 

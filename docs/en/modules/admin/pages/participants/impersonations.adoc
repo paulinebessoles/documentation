@@ -11,7 +11,7 @@ Impersonations are only available when at least one authorization is enabled for
 Indeed, they allow the system to search through a Verification system for an already existing participant, and to create 
 a participant without the need for an email address.
 
-To enable an authorization, you need to have access to the xref:configure:system.adoc[System panel] or ask your administrator. 
+To enable an authorization, you need to have access to the xref:configure:system.adoc[System panel] or ask your instance implementer. 
 
 image::participants/participants_impersonations_backend_list_no_auth.png[Administrators Impersonations panel with no authorizations]
 
