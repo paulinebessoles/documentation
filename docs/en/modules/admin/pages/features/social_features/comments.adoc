@@ -127,5 +127,3 @@ image::features/comments/actions.png[Comments actions]
 Once a comment is deleted, it's no longer visible, and a message indicates the date when it was deleted. 
 
 image::features/comments/deleted_comment.png[Deleted comment]
-
-
