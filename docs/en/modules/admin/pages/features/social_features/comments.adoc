@@ -7,7 +7,7 @@ Comments are public messages allowing participants to share information or opini
 NOTE: Comments need to be enabled by administrators, otherwise participants are not able to comment. To learn 
 how to enable comments on a component, please refer to the component's article. 
 
-image:features/comments/nested_comment.png[Comments example]
+image::features/comments/nested_comment.png[Comments example]
 
 == Create a comment
 
@@ -15,7 +15,7 @@ image:features/comments/nested_comment.png[Comments example]
 . Go to the bottom of the page
 . Fill the "Add comment" field and leave your comment
 
-image:features/comments/form.png[Comments form]
+image::features/comments/form.png[Comments form]
 
 When commenting, participants can: 
 
@@ -48,49 +48,84 @@ link label takes the content title.
 |No syntax
 |😁
 
+|Give their opinion
+|Participants can say they are in favor, neutral, or against the content
+|No syntax
+|In favor
+
 |===
 
-Below, you can find an example of a comment with several of those elements. 
+Below, you can find an example of a comment field with several of those elements. 
 
-image:features/comments/rich_text_write.png[Comments with rich text (write)]
-image:features/comments/rich_text_read.png[Comments with rich text (read)]
-image:features/comments/hashtag_search.png[Hashtags in comments]
-image:features/comments/emoji_selector.png[Emoji selector in comments]
+image::features/comments/rich_text_write.png[Comments with rich text (write)]
 
-NOTE: HTML injection added in comments are escaped and not shown
+Once published, this comment and its different elements are displayed like below. 
 
-image:features/comments/xss_write.png[XSS in comments (write)]
-image:features/comments/xss_read.png[XSS in comments (read)]
+image::features/comments/rich_text_read.png[Comments with rich text (read)]
+
+When clicking on a hashtag in a comment or another content, participant is redirected to the global search. 
+
+image::features/comments/hashtag_search.png[Hashtags in comments]
+
+NOTE: HTML injection added in comments are escaped and not shown.
+
+image::features/comments/xss_write.png[XSS in comments (write)]
+image::features/comments/xss_read.png[XSS in comments (read)]
 
 == Actions
 
-After a comment is created, its author can "Reply", "Report", "Get link", "Edit" and "Delete". 
-Other participants can "Reply",  "Report" and "Get link". 
-Those actions are accessible in the three dots menu:
+Participants can interact with comments in different ways. 
 
-image:features/comments/actions.png[Comments actions]
+* Everyone can sort them and show and hide replies thread. 
+* Participants can additionally reply to comments, up-vote or down-vote them, report them or get the link to the comment.
+* Authors of comments can also edit and delete their own comments. 
 
 === Sort comments
 
-Participants can sort comments by "Best rated", "Recent", "Older" or "More discussed".
+Participants can sort comments by:
+* Best rated: comments with the more up-votes appear first in the list
+* Recent: most recent comments appear first. 
+* Older: older comments appear first. 
+* More discussed: comments with the more nested comments appear first. 
 
-image:features/comments/order_by.png[Order comments]
+image::features/comments/order_by.png[Order comments]
+
+They can also hide replies, when they don't want to display a whole comment thread. 
 
 === Reply
 
-By cliking on the "Reply" button, participants can reply to other participants and have public discussions. 
+By clicking on the "Reply" button below a comment, participants can reply to other participants and have public discussions. 
 Comments can be nested until four levels. On the fourth level, the "Reply" button is not available anymore. 
 
-image:features/comments/anidation_levels.png[Nested comments]
+image::features/comments/anidation_levels.png[Nested comments]
 
-=== Delete
+=== Report 
 
-Once a comment is deleted, it's no longer visible, and a message indicates the date when it was deleted. 
+Please read the xref:admin:moderations/reported_content.adoc[Reported content] article to know more about reporting content. 
 
-image:features/comments/deleted_comment.png[Deleted comment]
+=== Get link
+
+By clicking on the "Get link" item, participants are redirected to the comment dedicated URL. 
+They can then share this link to others, and it lead them directly to the one comment. 
+A message is displayed to warn the visitor that they are seeing a single comment, with a link to see all the other comments. 
+
+image::features/comments/single_comment.png[Edited comment]
 
 === Edit
 
-Once a comment is edited then it's shown that was edited. It doesn't have a version history of the changes made.
+Participants can edit their comments, and after they do, a "Edited" mention appears on their comment to indicate to other 
+participants that this content was edited. 
 
-image:features/comments/edited_comment.png[Edited comment]
+Comments don't have a version history of the changes made.
+
+image::features/comments/edited_comment.png[Edited comment]
+
+=== Delete
+
+image::features/comments/actions.png[Comments actions]
+
+Once a comment is deleted, it's no longer visible, and a message indicates the date when it was deleted. 
+
+image::features/comments/deleted_comment.png[Deleted comment]
+
+
