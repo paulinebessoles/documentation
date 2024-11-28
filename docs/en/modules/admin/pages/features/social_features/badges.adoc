@@ -48,7 +48,7 @@ make proposals that can be carried out. This way they are more likely to be acce
 |Followers
 |Granted when participant reach a certain number of followers. The platform is a social and political network, so
 participants need to weave their web to communicate with other people in the platform.
-|The participant needs to be active and follow other people. That will surely make other people follow them.
+|The participant needs to be active and follow other people. It encourages other people to follow them.
 |1, 15, 30, 60, 100
 
 |image:features/badges/published_initiatives_badge.png[Published initiatives badge]

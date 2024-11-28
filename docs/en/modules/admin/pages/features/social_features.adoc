@@ -14,3 +14,4 @@ Here, you'll find:
 . xref:admin:features/social_features/endorsements.adoc[Endorsements]
 . xref:admin:features/social_features/follows.adoc[Follows]
 . xref:admin:features/social_features/share.adoc[Share]
+. xref:admin:features/social_features/hashtags.adoc[Hashtags]

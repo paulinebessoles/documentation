@@ -11,9 +11,9 @@ image::features/versions/side_by_side_escaped.png[Versions in resources]
 
 == How to find it?
 
-. Go to the content for which you want to check the different versions. 
+. Go to the content for which you want to review the different versions. 
 . Click in the "see other versions" link in the bottom of the page. 
-. From there you can change the visualisation of the version differences, and check all past versions.
+. From there you can change the visualisation of the version differences, and review all past versions.
 
 image::features/versions/sidebar.png[See other versions link in page bottom]
 
