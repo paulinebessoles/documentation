@@ -24,6 +24,7 @@ When there is a verification conflict, administrators receive an email notificat
 == Manage verifications conflicts
 
 In the verifications conflict panel, you can find all the conflicts, with:
+
 * *User*: name of the non managed participant who tried to get verified from their account.
 * *Managed user*: name of the impersonated user with the same verification data. 
 * *Attempts*: number of time the user tried to get verified with their data. 

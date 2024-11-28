@@ -16,6 +16,7 @@ To learn more about how participants can do this, go to the xref:admin:features/
 == Manage user groups
 
 When a participant creates a user group, it adds a line in the user groups list in the administration panel, with: 
+
 * *Name*: name of the user group.
 * *Nickame*: nickame of the user group.
 * *Document number*: can be the identification number of the structure, like a company or association identification number. 

@@ -39,6 +39,7 @@ If an administrator doesn't already have an account, but didn't register, you ca
 == Manage administrators
 
 You can find all the administrators on the administrators list in the administration panel, with:
+
 * *Role*: type of administrator rights, can only be Administrator or Participant manager. 
 * *Name*: name of the participant.
 * *Email*: email of the participant.
