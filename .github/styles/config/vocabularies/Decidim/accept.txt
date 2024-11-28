@@ -2,6 +2,7 @@ Config
 CSV
 [Dd]ecidim
 [Ee]mail
+[Ff]aq
 [Mm]oderations
 [Nn]ickame
 [Oo]fficialization
