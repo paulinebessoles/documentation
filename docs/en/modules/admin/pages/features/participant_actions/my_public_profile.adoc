@@ -74,8 +74,8 @@ Logged in participants can perform two actions from another participant public p
 
 Logged in participants can perform two actions from their public profile page: 
 
-. Edit their profile: When clicking this button, they are redirected to their xref:admin:features/participant_actions/my_account.adoc[account].
-. Create a group: When clicking this button, they are redirected to the xref:admin:features/participant_actions/group_profile.adoc[group creation form].
+. Edit their profile: When clicking this button, they're redirected to their xref:admin:features/participant_actions/my_account.adoc[account].
+. Create a group: When clicking this button, they're redirected to the xref:admin:features/participant_actions/group_profile.adoc[group creation form].
 
 NOTE: The group creation option is only available when groups are enabled for the organization. 
 You can do it from the xref:admin:configuration.adoc[Configuration] panel.
