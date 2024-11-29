@@ -54,6 +54,7 @@
 **** xref:admin:participants/authorizations/census.adoc[Organization's census]
 ** xref:admin:spaces.adoc[Spaces]
 *** xref:admin:spaces/processes.adoc[Participatory Processes]
+**** xref:admin:spaces/processes/process_creation.adoc[Process creation]
 **** xref:admin:spaces/processes/phases.adoc[Phases]
 **** xref:admin:spaces/processes/components.adoc[Components]
 **** xref:admin:spaces/processes/categories.adoc[Categories]
