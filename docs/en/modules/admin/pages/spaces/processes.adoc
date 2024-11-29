@@ -34,7 +34,7 @@ What this diagram is showing is that for a participatory process you can have di
 
 Inside of every one of these Phases, you can enable the xref:admin:components.adoc[Components] you need.
 
-== Manage processes
+== How to find it?
 
 To access the Participatory processes panel, go in the administration panel and click the "Processes" item in the administration 
 navigation bar. 
@@ -43,7 +43,11 @@ image::spaces/processes/processes_menu.png[Pages: Access processes panel]
 
 There, you are able to manage participatory processes and processes groups.
 
+== Manage processes
+
 image::spaces/processes/processes_list.png[Participatory processes list]
+
+On this page, you are able to manage processes and xref:admin:spaces/processes/groups.adoc[process groups].
 
 You can find all the processes on the list in the administration panel, with:
 
@@ -83,6 +87,28 @@ image::spaces/processes/processes_list_filter.png[Participatory processes list f
 |To access the process moderation panel. 
 
 |===
+
+You can also click the "Manage" button at the top right of the page, to be able to import a process or 
+configure xref:admin:spaces/processes/types.adoc[Process Types]. 
+
+=== Import a process
+
+To import a process, click the "Manage" button at the top right of the page. 
+
+image::spaces/processes/import_menu.png[Participatory processes import menu]
+
+You are redirected to the import page, where you need to fill in those fields: 
+
+* Title : The title you wish to give to the process.
+* URL identifier: The ‘slug’ for the process.
+* Add a document: Here you need to load the process JSON file obtained by email when exporting.
+
+You can then select the type of data you want to import from the file. 
+
+* Import steps: Imports all the phases present in the original file. 
+* Import categories: Imports all the categories present in the original file. 
+* Import attachments : Import attachments of the original process. 
+* Import components : Imports all the components and their configuration from the original file, without importing their content. 
 
 == Examples
 
