@@ -12,6 +12,18 @@ For example, you could have a participatory process like this:
 
 NOTE: You want to create a participatory process? Check the xref:admin:spaces/processes/process_creation.adoc[process creation] article. 
 
+Once you created a process, in the secondary navigation panel, you can see all the process configuration available:
+
+* xref:admin:spaces/processes/process_creation.adoc[About this process]: here you can access and edit all the fields from the creation form.
+* xref:admin:spaces/processes/process_creation.adoc[Landing page]
+* xref:admin:spaces/processes/phases.adoc[Phases]
+* xref:admin:spaces/processes/components.adoc[Components]
+* xref:admin:spaces/processes/categories.adoc[Categories]
+* xref:admin:spaces/processes/attachments.adoc[Attachments]
+* xref:admin:spaces/processes/admins.adoc[Process admins]
+* xref:admin:spaces/processes/private_participants.adoc[Private participants]
+* xref:admin:spaces/processes/moderations.adoc[Moderations]
+
 Examples of participatory processes are: a process of electing committee members (where candidatures are first presented,
 then debated and finally a candidacy is chosen), participatory budgets (where proposals are made, valued economically,
 and voted on with the money available), a strategic planning process, the collaborative drafting of a regulation or norm,
