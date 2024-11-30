@@ -1,4 +1,4 @@
-= Processes
+= Participatory processes
 
 == Understand the basics
 
@@ -12,18 +12,6 @@ For example, you could have a participatory process like this:
 
 NOTE: You want to create a participatory process? Check the xref:admin:spaces/processes/process_creation.adoc[process creation] article. 
 
-Once you created a process, in the secondary navigation panel, you can see all the process configuration available:
-
-* xref:admin:spaces/processes/process_creation.adoc[About this process]: here you can access and edit all the fields from the creation form.
-* xref:admin:spaces/processes/process_creation.adoc[Landing page]
-* xref:admin:spaces/processes/phases.adoc[Phases]
-* xref:admin:spaces/processes/components.adoc[Components]
-* xref:admin:spaces/processes/categories.adoc[Categories]
-* xref:admin:spaces/processes/attachments.adoc[Attachments]
-* xref:admin:spaces/processes/admins.adoc[Process admins]
-* xref:admin:spaces/processes/private_participants.adoc[Private participants]
-* xref:admin:spaces/processes/moderations.adoc[Moderations]
-
 Examples of participatory processes are: a process of electing committee members (where candidatures are first presented,
 then debated and finally a candidacy is chosen), participatory budgets (where proposals are made, valued economically,
 and voted on with the money available), a strategic planning process, the collaborative drafting of a regulation or norm,
@@ -34,15 +22,8 @@ in a participatory process in Decidim:
 
 image::process_steps_components.png[Relation between Steps and Components in a Process in Decidim]
 
-What this diagram is showing is that for a participatory process you can have different phases, like:
-
-. Configuration & Presentation
-. Diagnostic
-. Proposal Creation
-. Proposal Selection
-. Results
-. Evaluation
-. Monitoring
+What this diagram is showing is that for a participatory process you can configure different phases, and enable and configure 
+the components for each phase as you need it for your process. 
 
 Inside of every one of these Phases, you can enable the xref:admin:components.adoc[Components] you need.
 
@@ -72,6 +53,22 @@ You can filter and sort this list by clicking the "Filter" button and the column
 You can also search for processes by their title in the search bar.
 
 image::spaces/processes/processes_list_filter.png[Participatory processes list filtered]
+
+==
+
+In this section, you can find hos to configure and manage all of those items: 
+
+* xref:admin:spaces/processes/groups.adoc[Process Groups]
+* xref:admin:spaces/processes/types.adoc[Process Types]
+* xref:admin:spaces/processes/process_creation.adoc[Process creation]
+* xref:admin:spaces/processes/landing_page.adoc[Landing page]
+* xref:admin:spaces/processes/phases.adoc[Phases]
+* xref:admin:spaces/processes/components.adoc[Components]
+* xref:admin:spaces/processes/categories.adoc[Categories]
+* xref:admin:spaces/processes/attachments.adoc[Attachments]
+* xref:admin:spaces/processes/admins.adoc[Process admins]
+* xref:admin:spaces/processes/private_participants.adoc[Private participants]
+* xref:admin:spaces/processes/moderations.adoc[Moderations]
 
 == Actions 
 
@@ -131,3 +128,5 @@ Below, you can find some links to examples participatory processes:
 * https://brasilparticipativo.presidencia.gov.br/processes/planoclima/[Plano Clima, Brazilian government]
 * https://omastadi.hel.fi/processes/osbu-2023/[Helsinki city participatory budget]
 * https://ecrivons.angers.fr/processes/BP24-25[Angers city participatory budget]
+
+== 

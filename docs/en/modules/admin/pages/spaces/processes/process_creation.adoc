@@ -1,9 +1,23 @@
 = Participatory process creation
 
+== Understand the basics
+
 Participatory processes allows administrators to configure components in articulation with different participatory phases. 
 To start creating a process, when on the process list, click the "New process" button at the top right of the page. 
 
 The process creation form is divided into different sections that are detailed in the sections below. 
+
+Once you created a process, in the secondary navigation panel, you can see all the process configuration available:
+
+* xref:admin:spaces/processes/process_creation.adoc[About this process]: here you can access and edit all the fields from the creation form.
+* xref:admin:spaces/processes/landing_page.adoc[Landing page]
+* xref:admin:spaces/processes/phases.adoc[Phases]
+* xref:admin:spaces/processes/components.adoc[Components]
+* xref:admin:spaces/processes/categories.adoc[Categories]
+* xref:admin:spaces/processes/attachments.adoc[Attachments]
+* xref:admin:spaces/processes/admins.adoc[Process admins]
+* xref:admin:spaces/processes/private_participants.adoc[Private participants]
+* xref:admin:spaces/processes/moderations.adoc[Moderations]
 
 == General information
 
