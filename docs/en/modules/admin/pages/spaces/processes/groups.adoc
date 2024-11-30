@@ -68,7 +68,7 @@ and the "Hero image and CTA" landing page blocks.
 |Optional
 |Image that will be used in presentation cards of this process group. Guidance for image:
 Preferably a landscape image that does not have any text. The service crops the image.
-Maximum file size: 10 MB. Allowed file extensions: jpeg jpg png
+Maximum file size: 10 MB. Allowed file extensions: JPEG JPG PNG
 |Visible in the card of the process groups on the homepage and the processes index.
 
 |===
@@ -163,7 +163,7 @@ The Title and description content block allows to display:
 * *Hashtag*: the hashtag, redirecting to the X social media. 
 * *Website*: a link to the website. 
 
-image::spaces/processes/processes_group_landing_title.png[Participatory process group landing page title and dscription block]
+image::spaces/processes/processes_group_landing_title.png[Participatory process group landing page title and description block]
 
 === Metadata
 

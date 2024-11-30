@@ -21,13 +21,13 @@ Click the "New process type" button on the top right of the page.
 image:spaces/processes/process_types_form.png[Process type creation form]
 
 .New participatory process type form: General information
-[cols="20h,10h,~,~"]
+[cols="20h,10h,~"]
 |===
 |Field |Type |Description
 
 |Title
 |Required
-|Title of the participatory process type. For instance, "Consultative".
+|Title of the participatory process type.
 
 |===
 
