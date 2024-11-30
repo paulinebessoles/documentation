@@ -225,3 +225,13 @@ image::spaces/processes/processes_new_form_related_processes.png[New participato
 |Select other participatory processes that are related to this one.
 
 |===
+
+== Other
+
+This section is empty, unless an administrator already created xref:admin:spaces/processes/types.adoc[Process Types]. 
+If so, you should be able to select a process type to categorize the process. 
+Participants are then able to filter processes in the processes index with those types. 
+
+image::spaces/processes/process_types_edit_process.png[Choose a process type when editing a process]
+
+image::spaces/processes/process_types_filter.png[Process types filter in the processes index]

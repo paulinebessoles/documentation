@@ -31,15 +31,15 @@ In this documentation section, you can find how to configure and manage all of t
 
 * xref:admin:spaces/processes/groups.adoc[Process Groups]
 * xref:admin:spaces/processes/types.adoc[Process Types]
-* xref:admin:spaces/processes/process_creation.adoc[Process creation]
-* xref:admin:spaces/processes/landing_page.adoc[Landing page]
-* xref:admin:spaces/processes/phases.adoc[Phases]
-* xref:admin:spaces/processes/components.adoc[Components]
-* xref:admin:spaces/processes/categories.adoc[Categories]
-* xref:admin:spaces/processes/attachments.adoc[Attachments]
-* xref:admin:spaces/processes/admins.adoc[Process admins]
-* xref:admin:spaces/processes/private_participants.adoc[Private participants]
-* xref:admin:spaces/processes/moderations.adoc[Moderations]
+** xref:admin:spaces/processes/process_creation.adoc[Process creation]
+** xref:admin:spaces/processes/landing_page.adoc[Landing page]
+** xref:admin:spaces/processes/phases.adoc[Phases]
+** xref:admin:spaces/processes/components.adoc[Components]
+** xref:admin:spaces/processes/categories.adoc[Categories]
+** xref:admin:spaces/processes/attachments.adoc[Attachments]
+** xref:admin:spaces/processes/admins.adoc[Process admins]
+** xref:admin:spaces/processes/private_participants.adoc[Private participants]
+** xref:admin:spaces/processes/moderations.adoc[Moderations]
 
 == How to find it?
 
@@ -126,5 +126,3 @@ Below, you can find some links to examples participatory processes:
 * https://brasilparticipativo.presidencia.gov.br/processes/planoclima/[Plano Clima, Brazilian government]
 * https://omastadi.hel.fi/processes/osbu-2023/[Helsinki city participatory budget]
 * https://ecrivons.angers.fr/processes/BP24-25[Angers city participatory budget]
-
-== 

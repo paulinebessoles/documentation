@@ -150,7 +150,7 @@ image::spaces/processes/processes_group_landing.png[Participatory process group 
 
 Below, you'll find all the content blocks configuration guides and screenshots of how there are displayed on the landing page.
 
-NOTE: If there is no content to display in a content block, or if wasn't configurer, it won't be displayed on the landing page. 
+NOTE: If there is no content to display in a content block, or if wasn't configured, it won't be displayed on the landing page. 
 
 === Title and description
 
@@ -225,3 +225,8 @@ The https://www.decidim.barcelona/processes_groups/4[Barcelona City Council's Ne
 euro shock plan that aims to reduce inequalities within the city. There are 10 sub-processes, one for each involved neighborhood.
 
 image::spaces/processes/processes_group__barcelona_example.png[Participatory process group example]
+
+The https://participer.loire-atlantique.fr/processes_groups/32[Loire-Atlantique participatory budget], with an elaborated HTML block
+on the landing page. 
+
+image::spaces/processes/processes_group__cd44_example.png[Participatory process group example]
