@@ -26,14 +26,14 @@ This section allows to provide a general description about the process, mainly a
 image::spaces/processes/processes_new_form_general_info.png[New participatory process form general info section]
 
 .New participatory process form: General information
-[cols="20h,10h,~"]
+[cols="20h,10h,~,~"]
 |===
 |Field |Type |Description |Visibility
 
 |Title
 |Required
 |Title of the participatory process. For instance, "Participatory Budgeting 2020"
-|Visible in the card of the process on the homepage, the processes index the navigation, and the "Hero image and CTA" landing page block. 
+|Visible in the card of the process on the homepage, the processes index, the navigation, and the "Hero image and CTA" landing page block. 
 
 |Subtitle
 |Required
@@ -49,7 +49,7 @@ image::spaces/processes/processes_new_form_general_info.png[New participatory pr
 |Required
 |URL slugs are used to generate the URLs that point to this process. Only accepts letters, numbers and dashes, and must
 start with a letter.
-|Visible in the URL of the participatory process, e.g. https://example.org/processes/participatory-budget-2020.
+|Visible in the URL of the participatory process, for example https://example.org/processes/participatory-budget-2020.
 
 |Hashtag
 |Optional
@@ -107,7 +107,7 @@ image::spaces/processes/processes_new_form_images.png[New participatory process 
 |Home image
 |Optional
 |Image used in presentation cards of this process. Guidance for file: Has to be an image or a document.
-For images, use preferably landscape images, the service crops the image. Maximum file size: 10MB
+For images, use preferably landscape images, the service crops the image. Maximum file size: 10 MB
 
 |===
 

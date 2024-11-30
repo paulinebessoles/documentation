@@ -27,6 +27,20 @@ the components for each phase as you need it for your process.
 
 Inside of every one of these Phases, you can enable the xref:admin:components.adoc[Components] you need.
 
+In this documentation section, you can find how to configure and manage all of those items: 
+
+* xref:admin:spaces/processes/groups.adoc[Process Groups]
+* xref:admin:spaces/processes/types.adoc[Process Types]
+* xref:admin:spaces/processes/process_creation.adoc[Process creation]
+* xref:admin:spaces/processes/landing_page.adoc[Landing page]
+* xref:admin:spaces/processes/phases.adoc[Phases]
+* xref:admin:spaces/processes/components.adoc[Components]
+* xref:admin:spaces/processes/categories.adoc[Categories]
+* xref:admin:spaces/processes/attachments.adoc[Attachments]
+* xref:admin:spaces/processes/admins.adoc[Process admins]
+* xref:admin:spaces/processes/private_participants.adoc[Private participants]
+* xref:admin:spaces/processes/moderations.adoc[Moderations]
+
 == How to find it?
 
 To access the Participatory processes panel, go in the administration panel and click the "Processes" item in the administration 
@@ -53,22 +67,6 @@ You can filter and sort this list by clicking the "Filter" button and the column
 You can also search for processes by their title in the search bar.
 
 image::spaces/processes/processes_list_filter.png[Participatory processes list filtered]
-
-==
-
-In this section, you can find hos to configure and manage all of those items: 
-
-* xref:admin:spaces/processes/groups.adoc[Process Groups]
-* xref:admin:spaces/processes/types.adoc[Process Types]
-* xref:admin:spaces/processes/process_creation.adoc[Process creation]
-* xref:admin:spaces/processes/landing_page.adoc[Landing page]
-* xref:admin:spaces/processes/phases.adoc[Phases]
-* xref:admin:spaces/processes/components.adoc[Components]
-* xref:admin:spaces/processes/categories.adoc[Categories]
-* xref:admin:spaces/processes/attachments.adoc[Attachments]
-* xref:admin:spaces/processes/admins.adoc[Process admins]
-* xref:admin:spaces/processes/private_participants.adoc[Private participants]
-* xref:admin:spaces/processes/moderations.adoc[Moderations]
 
 == Actions 
 
