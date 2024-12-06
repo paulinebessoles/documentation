@@ -25,10 +25,12 @@ You can find all the components on the list in the administration panel, with:
 To configure a new component, click the *Add component* from the upper right part of the screen and select the type of
 component you want. 
 
-image::spaces/components_new_dropdown.png[Add a component in a space]
+image::spaces/components/components_new_dropdown.png[Add a component in a space]
 
 == Actions
 
+.Components actions in component list
+[cols="20h,10h,~"]
 |===
 |Icon |Name |Definition
 
