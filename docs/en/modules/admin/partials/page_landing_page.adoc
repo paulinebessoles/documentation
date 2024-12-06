@@ -122,12 +122,14 @@ image::spaces/landing_page/images.png[Landing page content Related images conten
 === Upcoming meetings
 
 The upcoming meetings allows administrator to display the upcoming xref:admin:spaces/components/meetings.adoc[Meetings] on the landing page with a map when they have a location.
+You can configure the component to take the meetings from by clicking the Edit button of the content block. 
 
 image::spaces/landing_page/meetings.png[Landing page content meetings content block]
 
 === Posts
 
 The posts content block allows administrator to display the last posts published on the space, with their images if they were added as attachments to the posts. 
+You can configure the component to take the posts from by clicking the Edit button of the content block. 
 
 image::spaces/landing_page/posts.png[Landing page content posts content block]
 
@@ -144,6 +146,8 @@ image::spaces/landing_page/proposals_admin.png[Landing page proposals content bl
 === Results
 
 image::spaces/landing_page/results.png[Landing page results content block]
+
+You can configure the display order and the Accountability to take the results from component by clicking the Edit button of the content block. 
 
 === HTML
 
