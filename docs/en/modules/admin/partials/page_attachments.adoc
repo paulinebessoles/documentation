@@ -56,6 +56,8 @@ file extensions depends in your server configuration.
 
 == Create a new folder
 
+image:spaces/attachments_folders_admin.png[View the folders in the administration interface]
+
 To create and manage attachments folders, click the *Folders* tab.
 
 image:spaces/attachments_new_folder_form.png[Create a new folder for attachments form]
