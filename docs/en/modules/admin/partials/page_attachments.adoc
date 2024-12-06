@@ -38,7 +38,7 @@ image:spaces/attachments_new_form.png[Create a new attachment form]
 
 |Order position
 |Optional
-|Which order it has in relation to the other attachments. Having a lower number means a higher priority. For instance, if you have two categories, "Attachment a" with weight "10" and "Attachment b" with weight "0", then "Attachment b" will be first when ordering.
+|Which order it has in relation to the other attachments. Having a lower number means a higher priority. For instance, if you have two categories, "Attachment a" with weight "10" and "Attachment b" with weight "0" then "Attachment b" will be first when ordering.
 
 |Description
 |Required
@@ -70,7 +70,7 @@ image:spaces/attachments_new_folder_form.png[Create a new folder for attachments
 
 |Order position
 |Optional
-|Which order it has in relation to the other folders. Having a lower number means a higher priority. For instance, if you have two folders, "Folder a" with weight "10" and "Folder b" with weight "0", then "Folder b" will be first when ordering.
+|Which order it has in relation to the other folders. Having a lower number means a higher priority. For instance, if you have two folders, "Folder a" with weight "10" and "Folder b" with weight "0" then "Folder b" will be first when ordering.
 
 |Description
 |Required
