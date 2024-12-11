@@ -1,0 +1,18 @@
+== Assemblies types
+
+For clasyfing the assemblies in different kinds, you can define Assembly types. These types can be filtered in the public
+assemblies page.
+
+image:assemblies_type_filters.png[Filter by assembly type]
+
+image:assemblies_new_type_form.png[New assembly type form]
+
+.New assembly type form
+|===
+|Field |Type |Description
+
+|Title
+|Required
+|Title of the this assembly type. For instance, "Consultative".
+
+|===
