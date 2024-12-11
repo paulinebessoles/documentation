@@ -12,4 +12,5 @@ participatory budgeting for example.
 * xref:admin:components/sortitions.adoc[*Sortitions*]: allows to randomly selected proposals.
 * xref:admin:components/surveys.adoc[*Survey*]: for conducting surveys with different kinds of questions.
 
-In the cases where your needs are not covered by one of those components, you can create your own component through a xref:develop:modules.adoc[Module].
+In the cases where your needs aren't covered by one of those components, 
+you can create your own component through a xref:develop:modules.adoc[Module].

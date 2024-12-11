@@ -13,7 +13,7 @@ different resources by these categories. For instance, they can be used in propo
 
 image::spaces/categories_sidebar.png[Filter categories in proposals]
 
-NOTE: Once a category is in use it cannot be deleted, as there are resources that are linked to it.
+NOTE: Once a category is in use it can't be deleted, as there are resources that are linked to it.
 
 Decidim has other ways to classify resources, for instance xref:admin:scopes.adoc[Scopes] and xref:admin:features/hashtags.adoc[Hashtags].
 The main difference is that Categories can be defined in a given space, Scopes are global for all the platform, and Hashtags

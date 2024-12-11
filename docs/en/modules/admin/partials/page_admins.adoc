@@ -57,11 +57,11 @@ image:spaces/admins_form.png[New space administrator form]
 
 |Name
 |Required
-|What is the name of the new administrator.
+|What's the name of the new administrator.
 
 |Email
 |Required
-|What is the email of the new administrator, so they can receive an invitation if they don't already have an account. 
+|What's the email of the new administrator, so they can receive an invitation if they don't already have an account. 
 
 |Role
 |Required
