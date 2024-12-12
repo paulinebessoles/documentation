@@ -17,6 +17,8 @@ have phases, meaning that they don't have timelines.
 
 In this documentation section, you can find how to configure and manage all of those items: 
 
+* xref:admin:spaces/assemblies/types.adoc[Assembly types]
+* xref:admin:spaces/assemblies/assembly_creation.adoc[Assembly creation]
 * xref:admin:spaces/assemblies/components.adoc[Components]
 * xref:admin:spaces/assemblies/categories.adoc[Categories]
 * xref:admin:spaces/assemblies/attachments.adoc[Attachments]
