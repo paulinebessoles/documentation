@@ -37,17 +37,17 @@ image::spaces/processes/process_phases_list.png[Phases of a participatory proces
 |===
 |Icon |Name |Definition |Condition
 
-|image:action_edit.png[Edit icon]
+|image:icons/action_edit.png[Edit icon]
 |Edit
 |To edit this phase.
 |Always available
 
-|image:action_activate.png[Activate icon]
+|image:icons/action_activate.png[Activate icon]
 |Activate
 |To make this phase the active one.
 |Only available for inactive phases. 
 
-|image:action_delete.png[Delete icon]
+|image:icons/action_delete.png[Delete icon]
 |Delete
 |To delete this phase.
 |Always available
