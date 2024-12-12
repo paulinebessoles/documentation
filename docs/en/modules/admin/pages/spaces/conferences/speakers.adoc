@@ -43,7 +43,7 @@ You can search speakers thanks to the search bar.
 image:spaces/conferences/new_speaker.png[Conferences speakers]
 
 .New conference speaker form
-[cols="20h,10h,~"]
+[cols="20h,~,~"]
 |===
 |Field |Type |Description
 
