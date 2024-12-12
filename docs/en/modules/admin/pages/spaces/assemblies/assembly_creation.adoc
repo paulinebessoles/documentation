@@ -179,7 +179,7 @@ This section allows to provide meta information about the assembly.
 image::spaces/assemblies/assemblies_new_form_metadata.png[New assembly form metadata section]
 
 .New assembly form: Metadata
-[cols="20h,10h,~,~"]
+[cols="20h,10h,~"]
 |===
 |Field |Type |Description
 
