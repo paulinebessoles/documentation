@@ -183,10 +183,6 @@ image::spaces/assemblies/assemblies_new_form_metadata.png[New assembly form meta
 |===
 |Field |Type |Description
 
-.New assembly form: Metadata
-|===
-|Field |Type |Description
-
 |What is decided
 |Optional
 |The issue of the assembly, the object of what is decided. 
