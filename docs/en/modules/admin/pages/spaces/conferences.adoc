@@ -7,6 +7,8 @@ information fields typical of large congresses or social events (registration, l
 event, etc.) A conference can be a relevant event for an organization and its members, or take place as part of a participatory
 process or follow a consultation.
 
+In conferences, meetings components are displayed in a program form, with days and hours being listed like in an event program. 
+
 NOTE: You want to create a conference? Check the xref:admin:spaces/conferences/conference_creation.adoc[conference creation] article. 
 
 In this documentation section, you can find how to configure and manage all of those items: 
