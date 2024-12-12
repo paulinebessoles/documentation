@@ -182,4 +182,4 @@ For creating the program of the conference you need to create a new xref:compone
 dates and times of the different talks, workshops, sessions, etc. After publishing the meetings, the program button 
 is visible in the landing page. 
 
-image::spaces/conferences/program_frontend.png[Conferences program (frontend)]
+image::spaces/conferences/program_frontend.png[Conferences program frontend]

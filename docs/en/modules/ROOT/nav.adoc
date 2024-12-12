@@ -73,6 +73,7 @@
 **** xref:admin:spaces/assemblies/moderations.adoc[Moderations]
 *** xref:admin:spaces/initiatives.adoc[Initiatives]
 *** xref:admin:spaces/conferences.adoc[Conferences]
+**** xref:admin:spaces/conferences/conference_creation.adoc[Conference creation]
 **** xref:admin:spaces/conferences/components.adoc[Components]
 **** xref:admin:spaces/conferences/categories.adoc[Categories]
 **** xref:admin:spaces/conferences/attachments.adoc[Attachments]
