@@ -38,6 +38,7 @@ To create a new media link, click the "New media link" button in the top right o
 image::spaces/conferences/new_media_link.png[Create a new conferences media link]
 
 .New media link form
+[cols="20h,10h,~"]
 |===
 |Field |Type |Description
 
@@ -53,7 +54,7 @@ image::spaces/conferences/new_media_link.png[Create a new conferences media link
 |Required
 |Publication date of the link.
 
-|Weight
+|Order position
 |Optional
 |Which order it has in relation to the other links. Having a lower number means a higher priority. For instance, if you have two links, "Link a" with weight "10" and "Link b" with weight "0" then "Link b" is first when ordering.
 
