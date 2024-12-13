@@ -1,0 +1,123 @@
+=== New initiative type form
+
+In the first place, you will have to configure the various forms of initiatives. This could be specified in a regulation (like a municipal normative or state law), specifying the number of signatures required for processing the various types of initiatives. For example, an initiative for incorporating one or several items into the Municipal Council’s agenda evidently requires fewer signatures than another initiative for promoting a binding consultation.
+
+== 0. Initiative setup
+
+How initiatives work depends on two things: how the initiative module is configured through the xref:admin:initiatives_initializer.adoc[initializer] (in code) and how the initiative type is configured in the administration panel.
+
+Regarding initiatives type, **an administrator** needs to define one. For Initiatives to work on an organization there must be at least one initiative type created and configured with at least one initiative type scope. If there's only one type then the participant will not get the possibility to choose the initiative type, this step will be skipped in the initiative creation wizard.
+
+Some real examples from the city of Barcelona are:
+
+* To add an item to the Municipal Council or Districts agendas
+* To perform a participatory process
+* To create a new assembly
+* To approve or modify a regulation
+* To request the holding of a citizen consultation
+* To call for assemblies (neighborhood councils or public audiences)
+
+
+image:admin_initiative_type.png[New initiative type form]
+
+.Admin new initiative type form: General information
+|===
+|Field |Type |Description
+
+|Title
+|Required
+|Title of the initiative type. For instance, "New park at city center".
+
+|Description
+|Required
+|Explanation of what can be done with this initiative type.
+
+|Banner image
+|Required
+|An image for this initiative type. NOTE: At the moment this is not used.
+
+|===
+
+.Admin new initiative type form: Options
+|===
+|Field |Type |Description
+
+|Signature type
+|Optional
+|Which kind of signature type will be allowed. Options are: Online, In-person and Mixed. The Mixed option allows a participant to choose which signature type will have the initiative.
+
+|Enable attachments
+|Optional
+|Whether it'll allow to upload attachments to initiatives.
+
+|Enable participants to undo their online signatures
+|Optional
+|Can a participant undo its signature when they already signed?
+
+|Enable authors to choose the end of the signature collection period
+|Optional
+|Can the authors of an initiative change the end of the signature collection period?
+
+|Enable authors to choose the area for their initiative
+|Optional
+|Can the authors choose the area of their initiative?
+
+|Enable child scope signatures
+|Optional
+|This config flag doesn't support offline votes, it enables sub-scopes and works with an authorization handler that associates a scope to the user, make sure you select that authorization, bellow in authorization settings. For it to work, scopes need to be configured in a hierarchical way : 1 Parent - N Child.
+
+|Only allow global scope initiatives creation
+|Optional
+|Tick this flag if you enabled "Child scope signature" and configured the global scope as your parent scope. By enabling this, scope selection will be skipped in the initiative creation wizard.
+
+|Enable promoting committee
+|Optional
+|Whether it will only allow individual initiatives (made by only one person) or allow collective initiatives (multiple promoters, being multiple individuals or a user group).
+
+|Minimum of committee members
+|Optional
+|When "Enable promoting committee" option is checked, defines the minimum number of promoter's committee member to send the initiative to technical validation
+
+|Collect participant personal data on signature
+|Optional
+|Adds a step to the signature process. When a participant clicks on the signature button, they will be redirected to a form asking for some personal data. This will be used with the PDF export action after the recollection period has ended.
+
+|Legal information about the collection of personal data
+|Depends on whether the option "Collect participant personal data on the signature" is checked
+|Privacy notice and terms of use for the participant personal data during the signature process.
+
+|===
+
+.Admin new initiative type form: Authorization settings
+|===
+|Field |Type |Description
+
+|Authorization to verify document number on signatures
+|Optional
+|When a participant is making the signature process, will they be asked for an authorization?
+
+|Add SMS code validation step to the signature process
+|
+|During the signature process, will it ask for SMS validation? See xref:services:sms.adoc[configuration of SMS service].
+
+|===
+
+=== New initiative type scope form
+
+An initiative type can also have scopes associated. For Initiatives it needs at least one scope configured.
+
+image:admin_initiative_type_scope.png[New initiative type form]
+
+.Admin new initiative type scope form
+|===
+|Field |Type |Description
+
+|Scopes
+|Required
+|A Scope. An author can choose this scope in the creation of the initiative.
+
+|Signatures required
+|Required
+|Number of signatures the initiative need to have before the end period so it can be accepted.
+
+|===

@@ -1,0 +1,36 @@
+== 6. Answer an initiative
+
+After the initiative has collected all the signatures then it can be answered by an administrator. An initiative answer don't have different types.
+
+image:initiative_backend_answer.png[Initiative backend answer]
+
+image:initiative_frontend_answer.png[Initiative frontend answer]
+
+== Initiative statuses
+
+For better understanding all the status, this is a summary:
+
+|===
+|Status |Explanation
+
+|Created
+|The initiative has been created but is not yet public for every visitor or the rest of the participants.
+
+|Technical validation
+|The initiative needs to be reviewed by an administrator. From here, it can be "discarded" or "published"
+
+|Expired
+|The initiative wasn't reviewed by an administrator and wasn't approved, and the maximum time for validation has passed.
+
+|Discarded
+|The initiative was reviewed by an administrator and was discarded, so it's not published.
+
+|Published
+|The initiative was reviewed by an administrator and was approved, so it's published.
+
+|Rejected
+|The period for signature recollection has ended and there weren't enough signatures.
+
+|Accepted
+|The period for signature recollection has ended and there were enough signatures.
+|===

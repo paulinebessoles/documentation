@@ -1,0 +1,16 @@
+== 4. Sign an initiative
+
+This action is done by **a participant**.
+
+After the initiative was published, it'll be visible in the initiatives listing page (/initiatives):
+
+image:initiative_list_published.png[Initiative list after it was published]
+
+image:initiative_admin_show_published.png[Admin initiative show after it was published]
+image:initiative_show_published.png[Initiative show after it was published]
+
+And authorized participants can sign it:
+
+image:initiative_admin_show_published_detail.png[Admin initiative show after it was published (detail)]
+
+image:initiative_show_signed.png[Initiative show after it was signed]

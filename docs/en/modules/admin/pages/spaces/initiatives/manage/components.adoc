@@ -1,2 +1,10 @@
 
 include::partial$page_components.adoc[]
+
+=== Components
+
+Once an initiative has been created it gets the Meetings and Page component enabled by
+default. The initiative author has no control over these - an admin will need to manage
+them. All of the other usual components may be added by an admin too.
+
+image:initiative_admin_show.png[Admin initiative show page]

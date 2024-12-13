@@ -1,0 +1,112 @@
+= Manage initiatives
+
+Process for managing initiatives
+
+
+== Actions
+
+|===
+|Icon |Name |Definition
+
+|image:icons/action_edit.png[Edit icon]
+|Edit
+|To edit the initiative, its attachments, committee members, components, etc.
+
+|image:icons/action_answer.png[Answer icon]
+|Answer
+|Allows to xref:admin:spaces/initiatives/manage/answer.adoc[Answer an initiative].
+
+|image:icons/action_preview.png[Preview icon]
+|Preview
+|To see how the initiative looks in the frontend to participants.
+
+|image:action_permissions.png[Permissions icon]
+|Permissions
+|To edit permissions on this initiative. 
+
+|===
+
+[plantuml]
+....
+@startuml
+:Created;
+:Technical validation;
+if (has passed the maximum validation time?) then (yes)
+  #pink:Expired;
+  kill;
+elseif (validated?) then (no)
+  #pink:Discarded;
+  kill;
+else (yes)
+  #palegreen:Published;
+  if (enough signatures?) then (no)
+    #pink:Rejected
+    (not enough signatures);
+    kill;
+  else (yes)
+    #palegreen:Accepted
+    (enough signatures);
+    stop;
+  endif;
+endif
+@enduml
+....
+
+Finally, these are all the relevant settings in every moment in the initiatives life cicle:
+
+[plantuml]
+....
+@startuml
+(*) --> "Create a new initiative"
+if "Has only one type?" then
+--> [Yes] "Fill initiative form"
+else
+--> [No] "Select initiative type"
+--> "Fill initiative form"
+Endif
+partition Created {
+  if "Is the User a UserGroup?" then
+  --> [Yes] "Send to Technical Validation"
+  else
+  --> [No] Collect the minimum number of committee members (2 by default)
+  --> "Send to Technical Validation"
+  Endif
+}
+partition Validating {
+  if "Has passed the maximum time for validation (60 days by default)?" then
+    --> [Yes] "Expired"
+  else
+    --> [No] if "Is accepted by an administrator?" then
+      --> [No] "Discarded"
+      else
+      --> [Yes] "Publish"
+      endIf
+  endIf
+}
+partition Published {
+  --> "Signature process"
+  if "Has passed the configured time window for validation (60 days by default)?"
+    --> [Yes] "Expired"
+  else
+    --> [No] Export PDF to signatures
+    --> Check signatures with offline signatures for duplicates (if the Initiative has them)
+    --> if "Has the initiative get the number of signatures required?" then
+      --> [No] Rejected
+    else
+      --> [Yes] Accepted
+    endIf
+  endIf
+}
+--> (*)
+@enduml
+....
+
+
+== 5. Export signatures
+
+This action is done by **an administrator**. After the initiative started to get signatures, 
+there's an option for exporting a PDF of the signatures:
+
+image:initiative_actions_export.png[Initiative actions with Export to PDF]
+
+image:initiative_actions_export_pdf.png[Initiative exported PDF]
