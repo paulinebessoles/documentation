@@ -1,3 +1,4 @@
+[Aa]nonymised
 Config
 CSV
 [Dd]ecidim
@@ -6,11 +7,14 @@ CSV
 [Ff]avicon
 [Gg]amification
 [Kk]akogawa
+Keka
 [Mm]oderations
 [Nn]ickame
 [Oo]fficialization
 [Oo]fficializing
 [Oo]fficialize
+[Oo]fficialized
 [Rr]eoffficialize
-[Uu]nreport
+[Un]nfollow
 [Uu]nhide
+[Uu]nreport
