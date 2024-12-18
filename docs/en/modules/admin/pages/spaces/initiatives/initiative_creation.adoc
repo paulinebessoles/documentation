@@ -86,10 +86,17 @@ See the xref:admin:spaces/initiatives/author_manage/committee.adoc[Promoting com
 
 === Finish
 
-The finish step announce the initiative creation to the participant, and shows them different buttons depending if they still need to find promoting committee members.
+The finish step announces the initiative creation to the participant, and shows them different buttons depending if they still need to find promoting committee members.
 
 image::spaces/initiatives/initiative_new_step_finish.png[Initiative creation: initiative finish]
 
 If the initiative type doesn't require multiple committee members, participants can directly send their initiative to technical validation. 
 
 NOTE: The initiative won't be publicly visible on the initiatives list until reviewed and published by an administrator. 
+
+From this page, participants can:
+
+* Go back to the initiatives list
+* Edit their initiative
+* Go to their initiatives
+* Send their initiate to technical validation
