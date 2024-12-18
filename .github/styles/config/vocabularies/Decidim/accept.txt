@@ -3,6 +3,7 @@ CSV
 [Dd]ecidim
 [Ee]mail
 [Ff]aq
+initializer
 [Mm]oderations
 [Nn]ickame
 [Oo]fficialization

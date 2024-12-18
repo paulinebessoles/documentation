@@ -1,99 +1,95 @@
-== 1. Create an initiative
+= Initiative creation
 
-This action is done by **the author**. The author is a participant that creates the initiative. Depending on how the initiatives module is configured in the initializer or how the initiative type is configured, it may need to ask for authorization, or it will even not show the "New initiative" button.
+== Understand the basics
 
-image:initiative_list.png[Initiatives list]
+Once you configured the xref:admin:spaces/initiatives/types.adoc[initiatives types and scopes], you should be able to access the initiative space in the user interface. 
 
-For creating an initiative, a participant must click in the "New initiative" button. Then they will have a wizard with multiple steps:
+image::spaces/initiatives/initiatives_index_front.png[Initiatives index in front without initiatives]
 
+Participants are now able to create initiatives.
+Depending on how the initiatives module is configured in the initializer or how the initiative type is configured, it may need to ask for an authorization.
 
-=== 1.1 Choose the initiative type
+== Initiative creation steps
 
-image:initiative_new_step1.png[Initiative creation: step 1]
+To start creating an initiative, the participant must click in the "New initiative" button.
+Depending on the configuration of your instance, they have to pass different steps before being able to send their initiative to technical validation, where it gets reviewed 
+by an administrator before being published and starting collecting signatures. 
 
-=== 1.2 Add title and description
+=== Initiative type choice
 
-image:initiative_new_step2.png[Initiative creation: step 2]
+If the instance has multiple initiative types, then the first step is the choice of the initiative type. 
 
-=== 1.3 [Optional] Similarity comparison
+image::spaces/initiatives/initiative_new_step_type.png[Initiative creation: initiative type choice]
 
-Checks the rest of the initiatives if there are other similar initiatives. If there are, the system will show them before continuing. This is a way to avoid duplicates.
+If there is only one initiative type configured, this step is automatically skipped. 
 
-=== 1.4 Finish
+=== Content creation
 
-image:initiative_new_step3.png[Initiative creation: step 3]
+image::spaces/initiatives/initiative_new_step_content.png[Initiative creation: initiative content creation]
 
-image:initiative_new_step4.png[Initiative creation: step 4]
+.New initiative form
+[cols="20h,10h,~"]
+|===
+|Field |Type |Description
 
-=== Actions after it was created
+|Title
+|Required
+|The title of the initiative. 
 
-After the initiative was created, a participant can see the initiative page, but until the initiative is reviewed and accepted by an administrator, through the technical validation, it will not be published and visible for all the participants.
+|Description
+|Required
+|The content of the initiative. 
 
-image:initiative_show.png[Initiative show]
+|Hashtag
+|Optional
+|A hashtag for the initiative, to communicate about it on the platform and social media.
 
-In the sidebar a participant can make some actions: Edit, Print and Send to technical validation.
+|Signature collection type
+|Required
+|Depends on the configuration of the initiative type. 
 
-image:initiative_actions.png[Initiative actions]
+|Scope
+|Required
+|Depends on the configuration of the initiative type  and type scopes.
 
-==== Edit
+|End of signature collection period
+|Optional
+|If the author wants to change the signature collection end date. Can be configured from the initiative type.
 
-After the initiative was created and before it was sent to technical validation, **an author** can edit and correct the initiative if it has any error.
+|Area
+|Optional
+|If the author wants to categorize their initiative.
 
-image:initiative_edit.png[Initiative edit]
+|Add documents
+|Optional
+|If the author wants to add attachments to their initiative.
 
-==== Print
+|Add image
+|Optional
+|If the author wants to add an image, that is then displayed on the initiative card in the initiatives list.
 
-An author can also print the initiative.
+|===
 
-image:initiative_print.png[Print an initiative]
+=== Similarity comparison
 
-==== Technical validation
+Can be disabled by your organization implementer.
+Checks the rest of the initiatives if there are other similar initiatives. If there are, the system shows them before continuing. 
+This is a way to avoid duplicates and encourage participants to support other similar initiatives.
 
-After the author has reviewed how the initiative will look, they can send it to technical validation.
+=== Promoter committee
 
-image:initiative_send_to_technical_validation.png[Send initiative to technical validation]
+If promoter committee is enabled for this initiative type, this step allows participants to understand what they need to do before being able to send their initiative for publication.
 
-== 2. Send initiative to technical validation
+image::spaces/initiatives/initiative_new_step_committee.png[Initiative creation: initiative promoting committee]
 
-This action is done by **the author**.
+See the xref:admin:spaces/initiatives/author_manage/committee.adoc[Promoting committee] article for more information.
 
-After it has been reviewed by the author, it can be sent to "Technical validation", but it depends in the configuration of the initiative type, in whether the options "Enable promoting committee" and "Minimum of committee members" are configured.
+=== Finish
 
-=== Promoter's committee
+The finish step announce the initiative creation to the participant, and shows them different buttons depending if they still need to find promoting committee members.
 
-An initiative type can optionally be supported by a promoter's committee, with a minimum number of committee members. Once the user has created the initiative and before it can be sent for technical validation they need to invite committee members to promote it.
+image::spaces/initiatives/initiative_new_step_finish.png[Initiative creation: initiative finish]
 
-When the user has created the initiative they will be given a link to share with possible committee members, which will look something like `/initiatives/.../committee_requests/new`
+If the initiative type doesn't require multiple committee members, participants can directly send their initiative to technical validation. 
 
-When a prospective committee member opens the link, they can click a button which allows them to request to be part of the committee. The initiative author then needs to approve each request. The author can approve them by clicking on the "Edit" button of their initiative at the bottom of the form they can approve or reject committee members.
-
-image:initiative_commitee_members_send_to_technical_false.png[Initiative promotor committee: edit screen]
-
-The initiative cannot be sent to technical validation until it meets the minimum number of committee members required. You can find the invitation link in the edit form.
-
-image:initiative_edit_commitee_members.png[Initiative promotor committee: edit screen]
-
-Share the invitation link with the people you'd like to have on your committee.
-
-image:initiative_commitee_members_ask.png[Initiative promotor committee: edit screen]
-
-The people invited with the link will be able to read the initiative and ask to be part of the committee.
-
-image:initiative_commitee_members_sent.png[Initiative promotor committee: edit screen]
-
-The request is sent and the author can then and accept or refuse it in the initiative edit form.
-
-image:initiative_commitee_members_approve.png[Initiative promotor committee: edit screen]
-
-image:initiative_commitee_members_send_to_technical_true.png[Initiative promotor committee: edit screen]
-
-Once enough people have joined the promoter committee the initiative author can send it for
-technical validation.
-
-== 3. Publish an initiative
-
-This action is done by **an administrator**.
-
-After the initiative was sent to technical validation by a participant, an administrator can view all the initiatives in the admin panel and make some corrections.
-
-image:initiative_admin_list.png[Admin initiatives list]
+NOTE: The initiative won't be publicly visible on the initiatives list until reviewed and published by an administrator. 

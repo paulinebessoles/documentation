@@ -32,6 +32,7 @@ Then, click the "New initiative type" button. You are redirected to the initiati
 image::spaces/initiatives/type_form_general.png[Initiative type form general information]
 
 .Admin new initiative type form: General information
+[cols="20h,10h,~"]
 |===
 |Field |Type |Description
 
@@ -54,6 +55,7 @@ image::spaces/initiatives/type_form_general.png[Initiative type form general inf
 image::spaces/initiatives/type_form_options.png[Initiative type form options]
 
 .Admin new initiative type form: Options
+[cols="~,10h,~"]
 |===
 |Field |Type |Description
 
@@ -104,7 +106,7 @@ Make sure you select that authorization below in authorization settings. For it 
 This is then used with the PDF export action after the recollection period has ended.
 
 |Legal information about the collection of personal data
-|Depends on whether the option "Collect participant personal data on the signature" is checked.
+|Required if previous flag is checked.
 |Privacy notice and terms of use for the participant personal data during the signature process.
 
 |===
@@ -114,6 +116,7 @@ This is then used with the PDF export action after the recollection period has e
 image::spaces/initiatives/type_form_authorizations.png[Initiative type form authorizations]
 
 .Admin new initiative type form: Authorization settings
+[cols="20h,10h,~"]
 |===
 |Field |Type |Description
 
@@ -140,6 +143,7 @@ Click the "New initiative type scope" button to create one.
 image::spaces/initiatives/admin_initiative_type_scope.png[New initiative type form]
 
 .Admin new initiative type scope form
+[cols="20h,10h,~"]
 |===
 |Field |Type |Description
 
@@ -162,9 +166,7 @@ image::spaces/initiatives/type_form_scopes_multiple.png[Initiative type form sco
 
 image::spaces/initiatives/initiatives_types_list.png[Initiatives types list]
 
-On this page, you are able to manage initiatives types.
-
-You can find all the initiatives types on the list in the administration panel, with:
+Once you created one or multiple initiative types, you are able to manage them on the list in the administration panel, with:
 
 * *Initiative types*: title of the initiatives type. 
 * *Created at*: date of creation of the initiative types.
@@ -187,3 +189,12 @@ You can find all the initiatives types on the list in the administration panel, 
 |To delete the initiate type. Can only be done when no initiative is linked to this type. 
 
 |===
+
+== Permissions
+
+You can configure permissions for an initiative type by clicking the image:icons/action_permissions.png icon. 
+
+image::spaces/initiatives/initiatives_types_permissions.png[Initiatives types permissions edition]
+
+On this page, you can ask for specific xref:admin:participants/authorizations.adoc[Authorizations] in order for participants to be able to sign or create an initiative. 
+

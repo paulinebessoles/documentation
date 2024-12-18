@@ -33,7 +33,8 @@ In this documentation section, you can find how to configure and manage all of t
 
 * xref:admin:spaces/initiatives/types.adoc[Initiatives types]
 * xref:admin:spaces/initiatives/initiative_creation.adoc[Initiative creation]
-** xref:admin:spaces/initiatives/committee.adoc[Promoting committee]
+** xref:admin:spaces/initiatives/author_manage/committee.adoc[Promoting committee]
+** xref:admin:spaces/initiatives/author_manage/manage.adoc[Author actions]
 * xref:admin:spaces/initiatives/manage.adoc[Initiative management]
 ** xref:admin:spaces/initiatives/manage/committee.adoc[Committee members]
 ** xref:admin:spaces/initiatives/manage/components.adoc[Components]
