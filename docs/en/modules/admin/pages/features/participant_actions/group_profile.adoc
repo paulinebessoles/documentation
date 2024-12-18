@@ -105,10 +105,10 @@ image::features/my_profile/user_group_conversation.png[User group: conversations
 
 == Participate as a group
 
+NOTE: For user group administrators to be able to participate as a group, an administrator of the instance must have verified it. 
+
 The interest of having an administrator verify the user group is that you can then participate to the platform as a group, 
 and create debate, proposal, meetings, comments, etc. 
-
-NOTE: Only user group administrators are authorized to participate in name of the group. 
 
 Administrators of the user group can for example comment in the name of their group. 
 
