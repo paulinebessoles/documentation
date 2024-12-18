@@ -1,24 +1,35 @@
-=== New initiative type form
+= Initiative types
 
-In the first place, you will have to configure the various forms of initiatives. This could be specified in a regulation (like a municipal normative or state law), specifying the number of signatures required for processing the various types of initiatives. For example, an initiative for incorporating one or several items into the Municipal Council’s agenda evidently requires fewer signatures than another initiative for promoting a binding consultation.
+== Understand the basics
 
-== 0. Initiative setup
+Initiative types are the main framework for initiatives, as they allow administrators to define the different forms initiatives 
+can take, as well as the specific rules and number of signatures needed for each type of initiatives. 
 
-How initiatives work depends on two things: how the initiative module is configured through the xref:admin:initiatives_initializer.adoc[initializer] (in code) and how the initiative type is configured in the administration panel.
+For example, your organization could allow participants to:
 
-Regarding initiatives type, **an administrator** needs to define one. For Initiatives to work on an organization there must be at least one initiative type created and configured with at least one initiative type scope. If there's only one type then the participant will not get the possibility to choose the initiative type, this step will be skipped in the initiative creation wizard.
+* propose a new regulation
+* open a working group or a committee
+* modify an existing regulation
+* calls for an extraordinary general assembly
+* adding items to a city council agenda
 
-Some real examples from the city of Barcelona are:
+In general, such mechanisms are specified in an internal regulation (like a municipal normative or state law), specifying 
+the number of signatures required. 
 
-* To add an item to the Municipal Council or Districts agendas
-* To perform a participatory process
-* To create a new assembly
-* To approve or modify a regulation
-* To request the holding of a citizen consultation
-* To call for assemblies (neighborhood councils or public audiences)
+You need to create at least *one initiative type* and *one initiative type scope* to enable participants to publish initiatives. 
+If you create several initiative types, then participants can choose which type their initiative belongs to. 
 
+== Create an initiative type
 
-image:admin_initiative_type.png[New initiative type form]
+To create an initiative type, click the "Manage" button in the top right of the page, then the "Initiative types" menu item. 
+
+image::spaces/initiatives/initiatives_menu_types.png[Access Initiatives types panel]
+
+Then, click the "New initiative type" button. You are redirected to the initiative type creation form. 
+
+=== General information
+
+image::spaces/initiatives/type_form_general.png[Initiative type form general information]
 
 .Admin new initiative type form: General information
 |===
@@ -26,7 +37,7 @@ image:admin_initiative_type.png[New initiative type form]
 
 |Title
 |Required
-|Title of the initiative type. For instance, "New park at city center".
+|Title of the initiative type.
 
 |Description
 |Required
@@ -38,17 +49,21 @@ image:admin_initiative_type.png[New initiative type form]
 
 |===
 
+=== Options
+
+image::spaces/initiatives/type_form_options.png[Initiative type form options]
+
 .Admin new initiative type form: Options
 |===
 |Field |Type |Description
 
 |Signature type
 |Optional
-|Which kind of signature type will be allowed. Options are: Online, In-person and Mixed. The Mixed option allows a participant to choose which signature type will have the initiative.
+|Which kind of signature type is allowed. Options are: Online, In-person and Mixed. The Mixed option allows a participant to choose which signature type the initiative can collect.
 
 |Enable attachments
 |Optional
-|Whether it'll allow to upload attachments to initiatives.
+|Wether it allows to upload attachments to initiatives of this type.
 
 |Enable participants to undo their online signatures
 |Optional
@@ -56,37 +71,47 @@ image:admin_initiative_type.png[New initiative type form]
 
 |Enable authors to choose the end of the signature collection period
 |Optional
-|Can the authors of an initiative change the end of the signature collection period?
+|Can the authors of an initiative change the end of the signature collection period when creating their initiative?
 
-|Enable authors to choose the area for their initiative
+|Enable authors to choose the xref:admin:areas.adoc[area] for their initiative
 |Optional
-|Can the authors choose the area of their initiative?
+|Allow authors and administrators to categorize initiatives thanks to organization xref:admin:areas.adoc[Areas].
 
 |Enable child scope signatures
 |Optional
-|This config flag doesn't support offline votes, it enables sub-scopes and works with an authorization handler that associates a scope to the user, make sure you select that authorization, bellow in authorization settings. For it to work, scopes need to be configured in a hierarchical way : 1 Parent - N Child.
+|This configuration flag only support online votes. It enables sub-scopes and works with an authorization handler that associates a scope to the user.
+Make sure you select that authorization below in authorization settings. For it to work, scopes need to be configured in a hierarchical way : 1 Parent - N Child.
 
 |Only allow global scope initiatives creation
 |Optional
-|Tick this flag if you enabled "Child scope signature" and configured the global scope as your parent scope. By enabling this, scope selection will be skipped in the initiative creation wizard.
+|Tick this flag if you enabled "Child scope signature" and configured the global scope as your parent scope. By enabling this, scope selection is skipped in the initiative creation wizard.
 
 |Enable promoting committee
 |Optional
-|Whether it will only allow individual initiatives (made by only one person) or allow collective initiatives (multiple promoters, being multiple individuals or a user group).
+|Whether this type only allow individual initiative or allow collective initiatives (multiple promoters, being multiple individuals or a user group).
 
 |Minimum of committee members
 |Optional
-|When "Enable promoting committee" option is checked, defines the minimum number of promoter's committee member to send the initiative to technical validation
+|When "Enable promoting committee" option is checked, defines the minimum number of promoter's committee member to send the initiative to technical validation. 
+
+|Enable comments
+|Optional
+|Whether initiatives of this type can receive comments from participants. 
 
 |Collect participant personal data on signature
 |Optional
-|Adds a step to the signature process. When a participant clicks on the signature button, they will be redirected to a form asking for some personal data. This will be used with the PDF export action after the recollection period has ended.
+|Adds a step to the signature process. When a participant clicks on the signature button, they are redirected to a form asking for some personal data. 
+This is then used with the PDF export action after the recollection period has ended.
 
 |Legal information about the collection of personal data
-|Depends on whether the option "Collect participant personal data on the signature" is checked
+|Depends on whether the option "Collect participant personal data on the signature" is checked.
 |Privacy notice and terms of use for the participant personal data during the signature process.
 
 |===
+
+=== Authorization settings
+
+image::spaces/initiatives/type_form_authorizations.png[Initiative type form authorizations]
 
 .Admin new initiative type form: Authorization settings
 |===
@@ -94,19 +119,25 @@ image:admin_initiative_type.png[New initiative type form]
 
 |Authorization to verify document number on signatures
 |Optional
-|When a participant is making the signature process, will they be asked for an authorization?
-
-|Add SMS code validation step to the signature process
-|
-|During the signature process, will it ask for SMS validation? See xref:services:sms.adoc[configuration of SMS service].
+|The type of authorization required to sign an initiative. Leave blank is no authorization is needed.
 
 |===
 
-=== New initiative type scope form
+Click the create button at the bottom of the form to save your initiative type.
+Only after this, you are able to create the initiative type scope needed for creating the first initiatives. 
 
-An initiative type can also have scopes associated. For Initiatives it needs at least one scope configured.
+=== Create an initiative type scope
 
-image:admin_initiative_type_scope.png[New initiative type form]
+An initiative type must have associated scopes to allow participants to create initiatives. 
+Indeed, they allow to associate a scope with a number of signatures, and therefore to have multiple signatures threshold for a same initiative type. 
+
+On the initiative type form, scroll down to find a new section called "Scopes for the initiative type" and a button. 
+
+image::spaces/initiatives/type_form_scopes.png[Initiative type form scopes]
+
+Click the "New initiative type scope" button to create one.
+
+image::spaces/initiatives/admin_initiative_type_scope.png[New initiative type form]
 
 .Admin new initiative type scope form
 |===
@@ -114,10 +145,45 @@ image:admin_initiative_type_scope.png[New initiative type form]
 
 |Scopes
 |Required
-|A Scope. An author can choose this scope in the creation of the initiative.
+|Choose the scope related to this number if signatures. If you don't have any rule, keep Global scope.
 
 |Signatures required
 |Required
-|Number of signatures the initiative need to have before the end period so it can be accepted.
+|Number of signatures the initiative need to have before the end collection date to be accepted.
+
+|===
+
+You can add multiple initiative type scopes if you have specific number of signatures for specific scopes.
+For example, it can be a percentage of different territories inhabitants.
+
+image::spaces/initiatives/type_form_scopes_multiple.png[Initiative type form scopes with three scopes]
+
+== Manage initiative types
+
+image::spaces/initiatives/initiatives_types_list.png[Initiatives types list]
+
+On this page, you are able to manage initiatives types.
+
+You can find all the initiatives types on the list in the administration panel, with:
+
+* *Initiative types*: title of the initiatives type. 
+* *Created at*: date of creation of the initiative types.
+
+== Actions 
+
+|===
+|Icon |Name |Definition
+
+|image:icons/action_edit.png[Configure initiatives type icon]
+|Configure
+|To edit the configuration and initiate type scopes for this type.
+
+|image:icons/action_permissions.png[Permissions icon]
+|Permissions
+|To edit the permissions for this initiative type. 
+
+|image:icons/action_delete.png[Delete initiatives type icon]
+|Delete
+|To delete the initiate type. Can only be done when no initiative is linked to this type. 
 
 |===

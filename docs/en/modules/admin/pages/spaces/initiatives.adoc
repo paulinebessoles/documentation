@@ -10,11 +10,17 @@ modify a regulation, initiate a project, change the name of a department or a st
 The promoters of an initiative can define its objectives, gather support, debate, disseminate it and define meeting 
 venues where signatures can be collected from the attendees or debates open to other participants.
 
-Examples of initiatives: 
+NOTE: A lot of the initiatives behaviour and settings is configurable in the initiative 
+xref:admin:initiatives_initializer.adoc[initializer]. Ask the organization implementer if you have some doubts regarding your organization
+configuration. 
 
-* Signatures collection to call for a consultation among all the members of an organization
-* Signatures collection to create an assembly, 
-* Signatures collection to call for a budget increase for a territory or domain of the organization. 
+Examples of initiatives types: 
+
+* To add an item to an assembly agenda
+* To perform a participatory process
+* To create a new assembly
+* To approve or modify a regulation
+* To call for assemblies
 
 Initiatives are to be distinguished from the other spaces because they can be used as a participatory tool promoted *by participants*. 
 In other words, the initiatives are mechanisms for *semi-direct democracy* through which participants can promote a certain 
