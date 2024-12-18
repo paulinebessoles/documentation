@@ -36,11 +36,11 @@ In this documentation section, you can find how to configure and manage all of t
 ** xref:admin:spaces/initiatives/author_manage/committee.adoc[Promoting committee]
 ** xref:admin:spaces/initiatives/author_manage/manage.adoc[Author actions]
 * xref:admin:spaces/initiatives/manage.adoc[Initiative management]
-** xref:admin:spaces/initiatives/manage/committee.adoc[Committee members]
-** xref:admin:spaces/initiatives/manage/components.adoc[Components]
-** xref:admin:spaces/initiatives/manage/attachments.adoc[Attachments]
-** xref:admin:spaces/initiatives/manage/moderations.adoc[Moderations]
-** xref:admin:spaces/initiatives/manage/answer.adoc[Answer an initiative]
+** xref:admin:spaces/initiatives/admin_manage/committee.adoc[Committee members]
+** xref:admin:spaces/initiatives/admin_manage/components.adoc[Components]
+** xref:admin:spaces/initiatives/admin_manage/attachments.adoc[Attachments]
+** xref:admin:spaces/initiatives/admin_manage/moderations.adoc[Moderations]
+** xref:admin:spaces/initiatives/admin_manage/answer.adoc[Answer an initiative]
 * xref:admin:spaces/initiatives/sign.adoc[Sign an initiative]
 
 == How to find it?
