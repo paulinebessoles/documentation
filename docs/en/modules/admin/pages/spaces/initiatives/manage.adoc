@@ -3,6 +3,19 @@
 Process for managing initiatives
 
 
+== 3. Publish an initiative
+
+This action is done by **an administrator**.
+
+After the initiative was sent to technical validation by a participant, an administrator can view all the initiatives in the admin panel and make some corrections.
+
+image:initiative_admin_list.png[Admin initiatives list]
+
+
+
+image::spaces/initiatives/initiatives_index_front_with_initiatives.png[Initiatives index in front with initiatives]
+
+
 == Actions
 
 |===

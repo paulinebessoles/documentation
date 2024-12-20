@@ -12,74 +12,15 @@ it is not published and visible for all the participants.
 
 image::spaces/initiatives/initiative_show.png[Initiative show]
 
-In the right panel, the authors can edit their proposals, and send them to the administrator validation step if the initiative is ready and has enough committee members.
-
-=== Edit
-
 Once the initiative is created and before it's sent to technical validation, an author can edit and correct the initiative if it has any error.
 
 image::spaces/initiatives/initiative_edit.png[Initiative edit]
 
-If the promoting committee is enabled for the initiative type of this initiative, the author of an initiative can manage requests and committee members at the end of the edit form. 
+If the xref:admin:spaces/initiatives/author_manage/committee.adoc[Promoting committee] is enabled for the initiative type of this initiative, the author of an initiative can manage requests and committee members at the end of the edit form. 
 
-=== Print
+== Send to technical validation
 
-An author can also print the initiative.
-
-image:initiative_print.png[Print an initiative]
-
-=== Send to technical validation
-
-Once all the conditions are right, the author can send the initiative to technical validation.
-A modal is displayed to make sure the initiative is ready, as the author won't be able to edit it after this action. 
+Once all the conditions are right, if the initiative is ready and has enough committee members, the author can send the initiative to technical validation.
+When clicking on the "Send to technical validation" button, a modal is displayed to warn the author that they won't be able to edit it after this action. 
 
 image::spaces/initiatives/initiative_send_to_technical_validation.png[Send initiative to technical validation]
-
-== Send initiative to technical validation
-
-This action is done by **the author**.
-
-After it has been reviewed by the author, it can be sent to "Technical validation", but it depends in the configuration of the initiative type, in whether the options "Enable promoting committee" and "Minimum of committee members" are configured.
-
-=== Promoter's committee
-
-An initiative type can optionally be supported by a promoter's committee, with a minimum number of committee members. Once the user has created the initiative and before it can be sent for technical validation they need to invite committee members to promote it.
-
-When the user has created the initiative they will be given a link to share with possible committee members, which will look something like `/initiatives/.../committee_requests/new`
-
-When a prospective committee member opens the link, they can click a button which allows them to request to be part of the committee. The initiative author then needs to approve each request. The author can approve them by clicking on the "Edit" button of their initiative at the bottom of the form they can approve or reject committee members.
-
-image:initiative_commitee_members_send_to_technical_false.png[Initiative promotor committee: edit screen]
-
-The initiative cannot be sent to technical validation until it meets the minimum number of committee members required. You can find the invitation link in the edit form.
-
-image:initiative_edit_commitee_members.png[Initiative promotor committee: edit screen]
-
-Share the invitation link with the people you'd like to have on your committee.
-
-image:initiative_commitee_members_ask.png[Initiative promotor committee: edit screen]
-
-The people invited with the link will be able to read the initiative and ask to be part of the committee.
-
-image:initiative_commitee_members_sent.png[Initiative promotor committee: edit screen]
-
-The request is sent and the author can then and accept or refuse it in the initiative edit form.
-
-image:initiative_commitee_members_approve.png[Initiative promotor committee: edit screen]
-
-image:initiative_commitee_members_send_to_technical_true.png[Initiative promotor committee: edit screen]
-
-Once enough people have joined the promoter committee the initiative author can send it for
-technical validation.
-
-== 3. Publish an initiative
-
-This action is done by **an administrator**.
-
-After the initiative was sent to technical validation by a participant, an administrator can view all the initiatives in the admin panel and make some corrections.
-
-image:initiative_admin_list.png[Admin initiatives list]
-
-
-
-image::spaces/initiatives/initiatives_index_front_with_initiatives.png[Initiatives index in front with initiatives]
