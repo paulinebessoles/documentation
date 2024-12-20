@@ -43,6 +43,24 @@ In this documentation section, you can find how to configure and manage all of t
 ** xref:admin:spaces/initiatives/admin_manage/answer.adoc[Answer an initiative]
 * xref:admin:spaces/initiatives/sign.adoc[Sign an initiative]
 
+== How to find it?
+
+To access the initiatives panel, go in the administration panel and click the "Initiatives" item in the administration 
+navigation bar. 
+
+image::spaces/initiatives/initiatives_menu.png[Access Initiatives panel]
+
+There, you are able to start configuring initiatives space, by:
+
+. Creating xref:admin:spaces/initiatives/types.adoc[Initiatives types] and initiative type scopes
+. Configuring authorizations if needed
+. Manage participants initiatives 
+
+image::spaces/initiatives/initiatives_list_empty.png[Initiatives panel without initiatives]
+
+NOTE: At first, the list is empty and participants can't create initiatives. 
+To do the initial setup of the initiative space, read the xref:admin:spaces/initiatives/types.adoc[Initiatives types] article. 
+
 == Initiatives life-cycle
 
 Initiatives pass through different steps, and follow a specific life-cycle:
@@ -129,24 +147,6 @@ partition Published {
 --> (*)
 @enduml
 ....
-
-== How to find it?
-
-To access the initiatives panel, go in the administration panel and click the "Initiatives" item in the administration 
-navigation bar. 
-
-image::spaces/initiatives/initiatives_menu.png[Access Initiatives panel]
-
-There, you are able to start configuring initiatives space, by:
-
-. Creating xref:admin:spaces/initiatives/types.adoc[Initiatives types] and initiative type scopes
-. Configuring authorizations if needed
-. Manage participants initiatives 
-
-image::spaces/initiatives/initiatives_list_empty.png[Initiatives panel without initiatives]
-
-NOTE: At first, the list is empty and participants can't create initiatives. 
-To do the initial setup of the initiative space, read the xref:admin:spaces/initiatives/types.adoc[Initiatives types] article. 
 
 == Examples
 
