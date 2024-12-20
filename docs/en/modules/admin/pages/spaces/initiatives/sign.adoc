@@ -1,16 +1,25 @@
-== 4. Sign an initiative
+= Sign an initiative
 
-This action is done by **a participant**.
+== Understand the basics
 
-After the initiative was published, it'll be visible in the initiatives listing page (/initiatives):
+Initiatives are meant to be signed, wether with online or in-person signatures. The goal of an initiative author is to promote its initiative
+and gather support for it. 
 
-image:initiative_list_published.png[Initiative list after it was published]
+== Signature process
 
-image:initiative_admin_show_published.png[Admin initiative show after it was published]
-image:initiative_show_published.png[Initiative show after it was published]
+Once the initiative is published by an administrator, it becomes visible in the initiatives listing page.
 
-And authorized participants can sign it:
+image::spaces/initiatives/initiatives_index_front_with_initiatives.png[Initiatives index in front with initiatives]
 
-image:initiative_admin_show_published_detail.png[Admin initiative show after it was published (detail)]
+The initiative page displays a "Sign" button and a signature counter, with the signature goal to reach and the current signature number.
 
-image:initiative_show_signed.png[Initiative show after it was signed]
+image::spaces/initiatives/initiative_show_published.png[Initiative show after it was published]
+
+Authorized participants only have to click the "Sign" button for their signature to be taken into account. 
+
+NOTE: Depending on the authorizations you ask for signing, the process may be different and include additional steps.
+
+Once the participant clicked the button, the signature is incremented in the signature counter. 
+If it's authorized for this initiative type, participants can also undo their signature by clicking the "Already signed" button. 
+
+image::spaces/initiatives/initiative_show_signed.png[Initiative show after it was signed]

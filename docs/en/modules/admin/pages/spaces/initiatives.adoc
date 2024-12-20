@@ -43,6 +43,93 @@ In this documentation section, you can find how to configure and manage all of t
 ** xref:admin:spaces/initiatives/admin_manage/answer.adoc[Answer an initiative]
 * xref:admin:spaces/initiatives/sign.adoc[Sign an initiative]
 
+== Initiatives life-cycle
+
+Initiatives pass through different steps, and follow a specific life-cycle:
+
+* *Created*: The author created the initiative, it's only visible by author, promoter committee members and administrators.
+* *Technical validation*: The initiative is ready for review by an administrator.
+* *Published*: An administrator reviewed the initiative and published it. 
+* *Expired*: If no administrator published it before a time configured in the initiative initializer. 
+* *Discarded*: If the initiative didn't pass the review by an administrator. 
+* *Rejected*: If the initiative didn't receive enough signatures in the signature collection period.
+* *Accepted*: If the initiative received enough signatures in the signature collection period.
+
+[plantuml]
+....
+@startuml
+:Created;
+:Technical validation;
+if (has passed the maximum validation time?) then (yes)
+  #pink:Expired;
+  kill;
+elseif (validated?) then (no)
+  #pink:Discarded;
+  kill;
+else (yes)
+  #palegreen:Published;
+  if (enough signatures?) then (no)
+    #pink:Rejected
+    (not enough signatures);
+    kill;
+  else (yes)
+    #palegreen:Accepted
+    (enough signatures);
+    stop;
+  endif;
+endif
+@enduml
+....
+
+Finally, these are all the relevant settings in every moment in the initiatives life cycle:
+
+[plantuml]
+....
+@startuml
+(*) --> "Create a new initiative"
+if "Has only one type?" then
+--> [Yes] "Fill initiative form"
+else
+--> [No] "Select initiative type"
+--> "Fill initiative form"
+Endif
+partition Created {
+  if "Is the User a UserGroup?" then
+  --> [Yes] "Send to Technical Validation"
+  else
+  --> [No] Collect the minimum number of committee members
+  --> "Send to Technical Validation"
+  Endif
+}
+partition Validating {
+  if "Has passed the maximum time for validation (60 days by default)?" then
+    --> [Yes] "Expired"
+  else
+    --> [No] if "Is accepted by an administrator?" then
+      --> [No] "Discarded"
+      else
+      --> [Yes] "Publish"
+      endIf
+  endIf
+}
+partition Published {
+  --> "Signature process"
+  if "Has passed the configured time window for validation (60 days by default)?"
+    --> [Yes] "Expired"
+  else
+    --> [No] Export PDF to signatures
+    --> Check signatures with offline signatures for duplicates (if the Initiative has them)
+    --> if "Has the initiative get the number of signatures required?" then
+      --> [No] Rejected
+    else
+      --> [Yes] Accepted
+    endIf
+  endIf
+}
+--> (*)
+@enduml
+....
+
 == How to find it?
 
 To access the initiatives panel, go in the administration panel and click the "Initiatives" item in the administration 

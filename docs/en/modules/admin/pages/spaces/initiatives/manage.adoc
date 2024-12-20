@@ -2,92 +2,21 @@
 
 == Understand the basics
 
-Initiatives pass through different steps, and follow a specific life-cycle:
+When a participant creates an initiative, it doesn't only create a resource like a proposal, it creates a whole space,
+allowing administrators to manage in the administration: 
 
-* *Created*: The author created the initiative, it's only visible by author, promoter committee members and administrators.
-* *Technical validation*: The initiative is ready for review by an administrator.
-* *Published*: An administrator reviewed the initiative and published it. 
-* *Expired*: If no administrator published it before a time configured in the initiative initializer. 
-* *Discarded*: If the initiative didn't pass the review by an administrator. 
-* *Rejected*: If the initiative didn't receive enough signatures in the signature collection period.
-* *Accepted*: If the initiative received enough signatures in the signature collection period.
+* xref:admin:spaces/initiatives/admin_manage/committee.adoc[Committee members]
+* xref:admin:spaces/initiatives/admin_manage/components.adoc[Components]
+* xref:admin:spaces/initiatives/admin_manage/attachments.adoc[Attachments]
+* xref:admin:spaces/initiatives/admin_manage/moderations.adoc[Moderations]
+* xref:admin:spaces/initiatives/admin_manage/answer.adoc[Answer an initiative]
 
-[plantuml]
-....
-@startuml
-:Created;
-:Technical validation;
-if (has passed the maximum validation time?) then (yes)
-  #pink:Expired;
-  kill;
-elseif (validated?) then (no)
-  #pink:Discarded;
-  kill;
-else (yes)
-  #palegreen:Published;
-  if (enough signatures?) then (no)
-    #pink:Rejected
-    (not enough signatures);
-    kill;
-  else (yes)
-    #palegreen:Accepted
-    (enough signatures);
-    stop;
-  endif;
-endif
-@enduml
-....
+NOTE: If you didn't configure it, once an initiative is created, it gets the Meetings and Page component enabled by
+default. Ask your instance implementer to modify this parameter if you don't need it, or want other components enabled by default. 
 
-Finally, these are all the relevant settings in every moment in the initiatives life cycle:
+image:initiative_admin_show.png[Admin initiative show page]
 
-[plantuml]
-....
-@startuml
-(*) --> "Create a new initiative"
-if "Has only one type?" then
---> [Yes] "Fill initiative form"
-else
---> [No] "Select initiative type"
---> "Fill initiative form"
-Endif
-partition Created {
-  if "Is the User a UserGroup?" then
-  --> [Yes] "Send to Technical Validation"
-  else
-  --> [No] Collect the minimum number of committee members
-  --> "Send to Technical Validation"
-  Endif
-}
-partition Validating {
-  if "Has passed the maximum time for validation (60 days by default)?" then
-    --> [Yes] "Expired"
-  else
-    --> [No] if "Is accepted by an administrator?" then
-      --> [No] "Discarded"
-      else
-      --> [Yes] "Publish"
-      endIf
-  endIf
-}
-partition Published {
-  --> "Signature process"
-  if "Has passed the configured time window for validation (60 days by default)?"
-    --> [Yes] "Expired"
-  else
-    --> [No] Export PDF to signatures
-    --> Check signatures with offline signatures for duplicates (if the Initiative has them)
-    --> if "Has the initiative get the number of signatures required?" then
-      --> [No] Rejected
-    else
-      --> [Yes] Accepted
-    endIf
-  endIf
-}
---> (*)
-@enduml
-....
-
-== Initiatives management
+== Manage initiatives
 
 After the initiative was sent to technical validation by a participant, an administrator can view all the initiatives in the administration panel.
 
@@ -128,6 +57,22 @@ image::spaces/initiatives/initiative_list_filters.png[Initiatives list filtered]
 |To edit permissions on this initiative. 
 
 |===
+
+== Edit an initiative
+
+When clicking the "Edit" button or the initiative title on the initiative list in administration, the administrator is 
+redirected to the initiative edit form, and can see that the secondary navigation bar on the left also allows to manage 
+the initiative committee members, its components, attachments and reported content. 
+
+image::spaces/initiatives/initiative_edit_form_admin.png[Initiative edit form in administration]
+
+On the edition form, the administrator can review and modify the initiative's title, description, scope, area, etc.
+They can also send the initiative to technical validation. 
+
+== Publish an initiative
+
+Once an initiative is sent to technical validation, the administrator can decide to publish it or discard it. 
+To publish an initiative in technical validation, go on the initiative edition page and click the "Publish" button. 
 
 == Export signatures
 
