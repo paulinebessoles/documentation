@@ -28,4 +28,4 @@ The author of an initiative can manage the committee members requests in the edi
 image::spaces/initiatives/promoter_members_edit.png[Promoter's committee management in initiative edit form]
 
 All the approved committee members are then able to access the initiative, edit it, manage its members, and send it to technical validation. 
-The initiative cannot be sent to technical validation until it meets the minimum number of committee members required. 
+The initiative can't be sent to technical validation until it meets the minimum number of committee members required. 

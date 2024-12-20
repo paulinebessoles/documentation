@@ -24,3 +24,9 @@ Once all the conditions are right, if the initiative is ready and has enough com
 When clicking on the "Send to technical validation" button, a modal is displayed to warn the author that they won't be able to edit it after this action. 
 
 image::spaces/initiatives/initiative_send_to_technical_validation.png[Send initiative to technical validation]
+
+== Retrieve created initiatives
+
+Participants can also find their initiatives in the initiatives index by un-checking the "Open" status filter, and clicking on the "My initiatives" filter. 
+
+image::spaces/initiatives/initiative_filters_my_initiatives.png[Filters for my initiatives]

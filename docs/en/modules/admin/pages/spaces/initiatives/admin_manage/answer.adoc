@@ -1,3 +1,5 @@
+image::spaces/initiatives/initiatives_index_front_with_initiatives.png[Initiatives index in front with initiatives]
+
 == 6. Answer an initiative
 
 After the initiative has collected all the signatures then it can be answered by an administrator. An initiative answer don't have different types.

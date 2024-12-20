@@ -1,43 +1,16 @@
 = Manage initiatives
 
-Process for managing initiatives
+== Understand the basics
 
+Initiatives pass through different steps, and follow a specific life-cycle:
 
-== 3. Publish an initiative
-
-This action is done by **an administrator**.
-
-After the initiative was sent to technical validation by a participant, an administrator can view all the initiatives in the admin panel and make some corrections.
-
-image:initiative_admin_list.png[Admin initiatives list]
-
-
-
-image::spaces/initiatives/initiatives_index_front_with_initiatives.png[Initiatives index in front with initiatives]
-
-
-== Actions
-
-|===
-|Icon |Name |Definition
-
-|image:icons/action_edit.png[Edit icon]
-|Edit
-|To edit the initiative, its attachments, committee members, components, etc.
-
-|image:icons/action_answer.png[Answer icon]
-|Answer
-|Allows to xref:admin:spaces/initiatives/manage/answer.adoc[Answer an initiative].
-
-|image:icons/action_preview.png[Preview icon]
-|Preview
-|To see how the initiative looks in the frontend to participants.
-
-|image:action_permissions.png[Permissions icon]
-|Permissions
-|To edit permissions on this initiative. 
-
-|===
+* *Created*: The author created the initiative, it's only visible by author, promoter committee members and administrators.
+* *Technical validation*: The initiative is ready for review by an administrator.
+* *Published*: An administrator reviewed the initiative and published it. 
+* *Expired*: If no administrator published it before a time configured in the initiative initializer. 
+* *Discarded*: If the initiative didn't pass the review by an administrator. 
+* *Rejected*: If the initiative didn't receive enough signatures in the signature collection period.
+* *Accepted*: If the initiative received enough signatures in the signature collection period.
 
 [plantuml]
 ....
@@ -65,7 +38,7 @@ endif
 @enduml
 ....
 
-Finally, these are all the relevant settings in every moment in the initiatives life cicle:
+Finally, these are all the relevant settings in every moment in the initiatives life cycle:
 
 [plantuml]
 ....
@@ -81,7 +54,7 @@ partition Created {
   if "Is the User a UserGroup?" then
   --> [Yes] "Send to Technical Validation"
   else
-  --> [No] Collect the minimum number of committee members (2 by default)
+  --> [No] Collect the minimum number of committee members
   --> "Send to Technical Validation"
   Endif
 }
@@ -114,12 +87,52 @@ partition Published {
 @enduml
 ....
 
+== Initiatives management
 
-== 5. Export signatures
+After the initiative was sent to technical validation by a participant, an administrator can view all the initiatives in the administration panel.
 
-This action is done by **an administrator**. After the initiative started to get signatures, 
-there's an option for exporting a PDF of the signatures:
+image::spaces/initiatives/initiative_admin_list.png[Admin initiatives list]
 
-image:initiative_actions_export.png[Initiative actions with Export to PDF]
+You can find all the processes on this list with:
 
-image:initiative_actions_export_pdf.png[Initiative exported PDF]
+* *ID*: identification number of the initiative.
+* *Initiatives*: title of the initiative. 
+* *Signatures*: sum of online and in-person signatures.
+* *Created at*: date of creation of the initiative. 
+* *Published at*: date of publication of the initiative. 
+
+You can filter and sort this list by clicking the "Filter" button and the columns headers. 
+You can also search for initiatives by their title in the search bar.
+
+image::spaces/initiatives/initiative_list_filters.png[Initiatives list filtered]
+
+== Actions
+
+|===
+|Icon |Name |Definition
+
+|image:icons/action_edit.png[Edit icon]
+|Edit
+|To edit the initiative, its attachments, committee members, components, etc.
+
+|image:icons/action_answer.png[Answer icon]
+|Answer
+|Allows to xref:admin:spaces/initiatives/admin_manage/answer.adoc[Answer an initiative].
+
+|image:icons/action_preview.png[Preview icon]
+|Preview
+|To see how the initiative looks in the frontend to participants.
+
+|image:icons/action_permissions.png[Permissions icon]
+|Permissions
+|To edit permissions on this initiative. 
+
+|===
+
+== Export signatures
+
+After the initiative started to get signatures, administrators can export the signatures in the initiative edit form, in CSV or in .pdf. 
+
+image::spaces/initiatives/initiative_actions_export.png[Initiative actions with Export to PDF]
+
+image::spaces/initiatives/initiative_actions_export_pdf.png[Initiative exported PDF]
