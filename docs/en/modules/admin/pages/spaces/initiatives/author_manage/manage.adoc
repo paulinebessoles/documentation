@@ -12,31 +12,30 @@ it is not published and visible for all the participants.
 
 image::spaces/initiatives/initiative_show.png[Initiative show]
 
-TO DO
+In the right panel, the authors can edit their proposals, and send them to the administrator validation step if the initiative is ready and has enough committee members.
 
-In the sidebar a participant can make some actions: Edit, Print and Send to technical validation.
+=== Edit
 
-image:initiative_actions.png[Initiative actions]
+Once the initiative is created and before it's sent to technical validation, an author can edit and correct the initiative if it has any error.
 
-==== Edit
+image::spaces/initiatives/initiative_edit.png[Initiative edit]
 
-After the initiative was created and before it was sent to technical validation, **an author** can edit and correct the initiative if it has any error.
+If the promoting committee is enabled for the initiative type of this initiative, the author of an initiative can manage requests and committee members at the end of the edit form. 
 
-image:initiative_edit.png[Initiative edit]
-
-==== Print
+=== Print
 
 An author can also print the initiative.
 
 image:initiative_print.png[Print an initiative]
 
-==== Technical validation
+=== Send to technical validation
 
-After the author has reviewed how the initiative will look, they can send it to technical validation.
+Once all the conditions are right, the author can send the initiative to technical validation.
+A modal is displayed to make sure the initiative is ready, as the author won't be able to edit it after this action. 
 
-image:initiative_send_to_technical_validation.png[Send initiative to technical validation]
+image::spaces/initiatives/initiative_send_to_technical_validation.png[Send initiative to technical validation]
 
-== 2. Send initiative to technical validation
+== Send initiative to technical validation
 
 This action is done by **the author**.
 
