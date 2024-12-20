@@ -2,6 +2,13 @@
 
 == Understand the basics
 
+As explained in the xref:admin:index.adoc[introduction page], to understand how Decidim works, you need to distinguish between *spaces* and *components*. 
+The participatory spaces are the channels that citizens can participate through when public decisions are being taken, whereas participatory components are 
+mechanisms that enable interaction between users of the platform and the various participatory spaces.
+
+All components can be enabled in each space, for example you can enable three Proposals components in a same participatory process, or having all the 
+components enabled in an assembly space.
+
 include::partial$components_list.adoc[]
 
 == How to find it?
