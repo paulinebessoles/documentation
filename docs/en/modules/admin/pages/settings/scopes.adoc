@@ -92,10 +92,10 @@ Some examples:
 
 * With Accountability module, so it's possible to filter Results
 * Assemblies and Processes can have Scopes. It's used for filtering multiple assemblies in the main listing page (/assemblies or /processes). These can be hidden with the "Enable participatory space filters" in the xref:admin:settings/configuration.adoc[configuration]. 
-* Filtering in the sidebar is possible in Budgets Projects, Initiatives and Proposals. In some of these components you can control if these filters are shown with the "Scopes enabled" checkbox in the component settings. This will also enable or disable the scope selector in the resource creation form. 
+* Filtering in the sidebar is also available in some components, where you can control if these filters are shown with the "Scopes enabled" checkbox in the settings. It also enable the scope selector in the resource creation form. 
 
-You can also configure a participatory space so the filtering will only concern one scope and its children scopes. For example, let's imagine your organization have 3 different scopes for 3 cities, each of them having children scopes for the cities neighbourhoods.
-On a participatory space which concerns only one of the cities, you will be able to select only this scope and its children so that users do not see the scopes of other cities in the filter options.
+You can also configure a participatory space so the filtering only concerns one scope and its children scopes. For example, let's imagine your organization have 3 different scopes for 3 cities, each of them having children scopes for the cities neighbourhoods.
+On a participatory space which concerns only one of the cities, you are able to select only this scope and its children so that users do not see the scopes of other cities in the filter options.
 
 === User interests and newsletters
 
