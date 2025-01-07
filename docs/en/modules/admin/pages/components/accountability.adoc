@@ -2,23 +2,17 @@
 
 == Understand the basics
 
-The Accountability component allows to view the progress of a project implementation. 
-It allows to create results in a participatory space, and to keep track of the decisions made on the platform,
-and to relate them to the proposals and meetings that helped to shape them.
+The Accountability component allows administrators to present a summary of the achievements decided upon in assemblies, during 
+participatory processes, or any other space. Administrators create Results they can then categorize and link to proposals, meetings, or 
+investment projects (for example, as part of a participatory budget). 
 
-The results can be linked to projects or decomposed into sub-results. Administrators can define implementation status,
-ranging from 0% to 100%. The results, projects, and states can be updated manually through the administration panel or through a CSV.
+Results are closely monitored, with a history of modifications saved, and percentages of completion and milestones 
+indicating their progress. The results, projects, and states can be updated manually through the administration panel or through a CSV.
 
-== Examples
+The results can be linked to projects and decomposed into sub-results. Administrators can define implementation status,
+ranging from 0% to 100%.
 
-You can see examples of the Accountability component in the 
-https://www.decidim.barcelona/processes/pam/f/8/[2016-2019 Municipal Action Plan in Decidim Barcelona].
-
-image::components/accountability/example_landing.png[Example landing page for Accountability]
-
-image::components/accountability/example_result.png[Example result page for Accountability]
-
-== Creation
+== Configure
 
 To create an Accountability component, first go in the xref:admin:spaces.adoc[participatory space] where you want to create it. 
 
@@ -31,9 +25,13 @@ Then:
 . Select "Accountability"
 . Fill the component creation form
 
+You can still update this form and the configuration after creating the component, by clicking the 
+image:icons/action_configure.png[Configure icon] in the components list. 
+
 image::components/accountability/component.png[Add component form]
 
 .Accountability form
+[cols="20h,10h,~"]
 |===
 |Field |Type |Description
 
@@ -50,6 +48,7 @@ then "component b" is first when ordering.
 |===
 
 .Global settings
+[cols="20h,10h,~"]
 |===
 |Field |Type |Description
 
@@ -80,6 +79,7 @@ then "component b" is first when ordering.
 |===
 
 .Step settings
+[cols="20h,10h,~"]
 |===
 |Field |Type |Description
 
@@ -88,97 +88,117 @@ then "component b" is first when ordering.
 |Whether you want to enable comments for this phase.
 |===
 
-==  Manage results
+== Manage results
 
-=== New result
+=== Create a result
 
-image:components/accountability/new_result.png[New result form]
+To start creating results, click in the component title in the navigation bar or in the component list, or click in the 
+image:icons/action_edit.png[Manage component icon].
+
+image::components/accountability/new_result_button.png[New result button]
+
+Then, click the "New result" button on the top right of the page. 
+
+image::components/accountability/new_result.png[New result form]
 
 .New result form
+[cols="20h,10h,~"]
 |===
 |Field |Type |Description
 
 |Title
 |Required
-|
+|Title of the result. 
 
 |Description
 |Optional
-|
+|Description of the result. 
 
 |Scope
-|
-|
+|Optional
+|Available when scopes are enabled in the space.
 
 |Category
-|
-|
+|Optional
+|Allows categorizing the results on the Accountability landing page. 
 
 |Start date
-|
-|Expected format: dd/mm/yyyy
+|Optional
+|Expected format: dd/mm/yyyy.
 
 |End date
-|
-|Expected format: dd/mm/yyyy
+|Optional
+|Expected format: dd/mm/yyyy.
 
 |Status
-|
-|
+|Optional
+|Allows to give a status to results.
 
 |Progress
-|
-|
+|Optional
+|Percentage of progression of the result.
 
-|Included proposals
-|
-|
-
-|Choose proposals
-|
-|
+|Proposals
+|Optional
+|Proposals that originated the result. 
 
 |Included projects
-|
-|
+|Optional
+|Projects that originated the result. 
 
 |===
 
 === Actions
 
+On the results list in the administration panel, administrators can see:
+
+* *ID*: Identification number for this result.
+* *Title*: Title of the result.
+* *Category*: Category of the result.
+* *Scope*: Scope of the result, if enabled in the participatory space.
+* *Status*: Status of the result.
+* *Progress*: Result percentage progress.
+* *Created*: Creation date of the result. 
+
+You can filter and sort this list by clicking the "Filter" button and the columns headers. 
+You can also search for results by their ID and title in the search bar.
+
+image::components/accountability/results_list_filter.png[New result button]
+
 .Actions
+[cols="10h,20h,~"]
 |===
 |Icon |Name |Definition
 
-|image:action_preview.png[Preview icon]
-|Preview
-|To see how it's shown in the frontend to participants.
-
-|image:action_plus.png[New result icon]
-|New result
-|Allows add a result related to this result.
-
-|image:action_clock.png[Project evolution icon]
-|xref:_project_evolution[Project evolution]
-|Allows you to manage the project evolution.
-
 |image:action_edit.png[Edit icon]
 |Edit
-|Edit form for a Result. It's the same form as "New result".
+|To edit the result.
 
-|image:action_folder.png[Folders icon]
+|image:icons/action_plus.png[New result icon]
+|New result
+|Redirects to the list of sub-results, and allows to create sub-results.
+
+|image:icons/action_clock.png[Project evolution icon]
+|xref:_project_evolution[Project evolution]
+|Allows you to manage the project evolution and timeline entries.
+
+|image:icons/action_folder.png[Folders icon]
 |Folders
-|For classifying Attachments.
+|To create folders to classify the attachments.
 
-|image:action_attachments.png[Attachments icon]
+|image:icons/action_attachments.png[Attachments icon]
 |Attachments
-|Documents that are related to the result.
+|To create and manage attachments related to the result.
 
-|image:action_permissions.png[Permissions icon]
+|image:icons/action_preview.png[Preview icon]
+|Preview
+|To preview the result in the user panel.
+
+|image:icons/action_permissions.png[Permissions icon]
 |Permissions
-|To handle the permissions of this result, depending on the verification a participant has. Allows an admin to configure who can *Comment* a result.
+|To handle the authorizations needed to comment this specific result.
 
-|image:action_delete.png[Delete icon]
+|image:icons/action_delete.png[Delete icon]
 |Delete
 |To delete this result.
 
@@ -186,9 +206,14 @@ image:components/accountability/new_result.png[New result form]
 
 === Project evolution
 
-Project timeline entries
+For participants to be able to follow and monitor the evolution of the projects, administrators can create timeline entries by 
+clicking the image:icons/action_clock.png[Project evolution icon]. 
 
-image:components/accountability/new_entry.png[New entry form]
+image::components/accountability/timeline_list.png[Timeline entries list]
+
+There, you can create and manage the different implementation phases for the result, and create new timeline entries.
+
+image::components/accountability/new_entry.png[New timeline entry form]
 
 .New entry form
 |===
@@ -198,13 +223,28 @@ image:components/accountability/new_entry.png[New entry form]
 |Required
 |Expected format: dd/mm/yyyy
 
-|Description
+|Title
 |Required
-|
+|Title of the timeline entry. 
+
+|Description
+|Optional
+|Description of the timeline entry. 
+
+The timeline entries are then available on the result page. 
+
+image::components/accountability/results_entries.png[Result page with timeline entries]
 
 |===
 
 === Statuses
+
+To be able to manage results quickly and give them quickly progress percentages, you can create Statuses by 
+clicking the "Statuses" button on the top right of the results list. 
+
+image::components/accountability/statuses_list.png[Statuses list]
+
+There, you can create and manage the different statuses for the results.
 
 image:components/accountability/new_status.png[New status form]
 
@@ -222,11 +262,11 @@ image:components/accountability/new_status.png[New status form]
 
 |Description
 |Optional
-|
+|Description for this status.
 
 |Progress
-|Opional
-|Number with percentage (from 0 to 100) of the execution.
+|Optional
+|Number with percentage (from 0 to 100) of the progress.
 
 |===
 
@@ -261,7 +301,11 @@ the format and what you'll need to fill out.
 ** progress: Percentage (from 0 to 100) of the execution
 ** proposals_ids: internal ID of the related proposals (separated with a comma). It gets automatically converted to proposal_url
 
-== Permissions
+== Examples
 
-An administrator can choose which kind of xref:admin:participants/authorizations.adoc[Authorizations]
-a participant need to have to be able to *comment* a result. 
+You can see examples of the Accountability component in the 
+https://www.decidim.barcelona/processes/pam/f/8/[2016-2019 Municipal Action Plan in Decidim Barcelona].
+
+image::components/accountability/example_landing.png[Example landing page for Accountability]
+
+image::components/accountability/example_result.png[Example result page for Accountability]
