@@ -1,0 +1,32 @@
+=== Statuses
+
+To be able to manage results quickly and give them quickly progress percentages, you can create Statuses by 
+clicking the "Statuses" button on the top right of the results list. 
+
+image::components/accountability/statuses_list.png[Statuses list]
+
+There, you can create and manage the different statuses for the results.
+
+image:components/accountability/new_status.png[New status form]
+
+.New status form
+|===
+|Field |Type |Description
+
+|Key
+|Required
+|Used as the unique identifier for the xref:_import_csv[Import CSV].
+
+|Name
+|Required
+|Name for this status.
+
+|Description
+|Optional
+|Description for this status.
+
+|Progress
+|Optional
+|Number with percentage (from 0 to 100) of the progress.
+
+|===

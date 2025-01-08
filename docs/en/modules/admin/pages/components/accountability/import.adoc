@@ -1,0 +1,32 @@
+
+
+== Export all
+
+* Results as CSV
+* Results as JSON
+* Results as Excel
+* Comments as CSV
+* Comments as JSON
+* Comments as Excel
+
+== Import CSV
+
+image:components/accountability/import_csv.png[Import results from CSV form]
+
+We recommend that you follow these steps:
+
+. Create the xref:_statuses[Statuses] for the Results that you want to add
+. Create at least one xref:_new_result[Result] manually through this Admin panel before using Import, for having a better understanding of
+the format and what you'll need to fill out.
+. Download the xref:_export_all[Export with CSV format]
+. Make the changes locally. You can only change the following columns of the CSV:
+** category/id: ID for the Category
+** scope/id: ID for the Scope
+** parent/id: ID of the parent (for related Results). Optional
+** title/I18N: Title on X language
+** description/I18N: Description on X language
+** start_date: date when the result starts execution (format YYYY-MM-DD)
+** end_date: date when the result ends execution (format YYYY-MM-DD)
+** status/id: ID of the Status for this result
+** progress: Percentage (from 0 to 100) of the execution
+** proposals_ids: internal ID of the related proposals (separated with a comma). It gets automatically converted to proposal_url
