@@ -1,4 +1,4 @@
-=== Project evolution
+= Project evolution
 
 For participants to be able to follow and monitor the evolution of the projects, administrators can create timeline entries by 
 clicking the image:icons/action_clock.png[Project evolution icon]. 

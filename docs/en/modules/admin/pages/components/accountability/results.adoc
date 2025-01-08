@@ -1,6 +1,6 @@
-== Manage results
+= Results
 
-=== Create a result
+== Create a result
 
 To start creating results, click in the component title in the navigation bar or in the component list, or click in the 
 image:icons/action_edit.png[Manage component icon] icon.
@@ -58,7 +58,7 @@ image::components/accountability/new_result.png[New result form]
 
 |===
 
-=== Actions
+== Actions
 
 On the results list in the administration panel, administrators can see:
 
@@ -89,7 +89,7 @@ image::components/accountability/results_list_filter.png[New result button]
 |Redirects to the list of sub-results, and allows to create sub-results.
 
 |image:icons/action_clock.png[Project evolution icon]
-|xref:_project_evolution[Project evolution]
+|xref:admin:components/accountability/timeline.adoc[Project evolution]
 |Allows you to manage the project evolution and timeline entries.
 
 |image:icons/action_folder.png[Folders icon]
