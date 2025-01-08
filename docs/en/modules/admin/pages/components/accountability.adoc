@@ -93,7 +93,7 @@ then "component b" is first when ordering.
 === Create a result
 
 To start creating results, click in the component title in the navigation bar or in the component list, or click in the 
-image:icons/action_edit.png[Manage component icon].
+image:icons/action_edit.png[Manage component icon] icon.
 
 image::components/accountability/new_result_button.png[New result button]
 
@@ -166,11 +166,11 @@ You can also search for results by their ID and title in the search bar.
 image::components/accountability/results_list_filter.png[New result button]
 
 .Actions
-[cols="10h,20h,~"]
+[cols="10h,~,~"]
 |===
 |Icon |Name |Definition
 
-|image:action_edit.png[Edit icon]
+|image:icons/action_edit.png[Edit icon]
 |Edit
 |To edit the result.
 
