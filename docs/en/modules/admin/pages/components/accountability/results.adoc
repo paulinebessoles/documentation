@@ -1,5 +1,10 @@
 = Results
 
+== Understand the basics
+
+Results are the entities composing the accountability component. They can be linked to proposals, projects, meetings, and have 
+categories, statuses and dates assigned. 
+
 == Create a result
 
 To start creating results, click in the component title in the navigation bar or in the component list, or click in the 
@@ -58,7 +63,7 @@ image::components/accountability/new_result.png[New result form]
 
 |===
 
-== Actions
+== Manage results
 
 On the results list in the administration panel, administrators can see:
 
@@ -74,6 +79,8 @@ You can filter and sort this list by clicking the "Filter" button and the column
 You can also search for results by their ID and title in the search bar.
 
 image::components/accountability/results_list_filter.png[New result button]
+
+== Actions
 
 .Actions
 [cols="10h,~,~"]

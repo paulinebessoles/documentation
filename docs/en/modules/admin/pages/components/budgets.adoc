@@ -11,6 +11,11 @@ Administrators have several options for the voting workflow and for the voting r
 
 image::components/budgets/example02.png[Budgets example voting]
 
+In this documentation section, you can find how to configure and manage all of those items:
+
+* xref:admin:components/budgets/budgets.adoc[Budgets]
+* xref:admin:components/budgets/projects.adoc[Projects]
+
 == Configuration
 
 To create a Budgets component component, first go in the xref:admin:spaces.adoc[participatory space] where you want to create it. 
@@ -58,10 +63,9 @@ image::components/budgets/component_02.png[Add component form - Global settings]
 |Optional
 |Which xref:admin:settings/scopes.adoc[Scope] does this component belongs to.
 
-|xref:_workflows[Workflow]
+|Workflow
 |Required
-|How the participants can vote if there are multiple budget sets. 
-You can define your own xref:_workflows[Workflow] or use one already available.
+|How the participants can vote if there are multiple budget sets. You can define your own workflow or use one already available.
 
 |Projects per page
 |Required
