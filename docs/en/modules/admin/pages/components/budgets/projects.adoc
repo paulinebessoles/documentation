@@ -72,6 +72,7 @@ image::components/budgets/projects_list_filter.png[Projects list filter]
 === Actions
 
 .Actions
+[cols="10h,20h,~"]
 |===
 |Icon |Name |Definition
 

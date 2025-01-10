@@ -24,7 +24,7 @@ Then:
 . Fill the component creation form
 
 You can still update this form and the configuration after creating the component, by clicking the 
-image:icons/action_configure.png[Configure icon] in the components list. 
+image:icons/action_configure.png[Configure icon] icon in the components list. 
 
 image::components/blog/component.png[Add component form]
 
@@ -139,6 +139,10 @@ image:components/blog/new_post.png[New post form]
 |image:icons/action_attachments.png[Attachments icon]
 |Attachments
 |To add documents related to the post.
+
+|image:icons/action_preview.png[Preview icon]
+|Preview
+|To see how it's shown in the frontend to participants.
 
 |image:icons/action_permissions.png[Permissions icon]
 |Permissions
