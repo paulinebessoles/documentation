@@ -110,6 +110,8 @@
 **** xref:admin:components/accountability/import.adoc[Import and export results]
 *** xref:admin:components/blog.adoc[Blog]
 *** xref:admin:components/budgets.adoc[Budgets]
+**** xref:admin:components/budgets/budgets.adoc[Budgets]
+**** xref:admin:components/budgets/projects.adoc[Projects]
 *** xref:admin:components/debates.adoc[Debates]
 *** xref:admin:components/meetings.adoc[Meetings]
 **** xref:admin:components/meetings/registrations.adoc[Registrations]

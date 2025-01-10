@@ -5,6 +5,8 @@
 It's important to understand that Budget is not only the name of the component, but is also an entity of the component. 
 Indeed, a same Budget component can contain multiple budgets.
 
+image::components/budgets/multiple_budgets_front.png[Budgets list in frontend]
+
 This allows to create complex workflows and answer several use cases. 
 
 == Configuration
@@ -24,6 +26,7 @@ image::components/budgets/new_budget_button.png[New budget button]
 image::components/budgets/new_budget.png[New budget form]
 
 .New budget form
+[cols="20h,10h,~"]
 |===
 |Field |Type |Description
 
