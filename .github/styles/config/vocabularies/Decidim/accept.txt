@@ -3,6 +3,7 @@ Config
 CSV
 [Dd]ecidim
 [Ee]mail
+end_date
 [Ff]aq
 [Gg]amification
 Keka
@@ -12,7 +13,10 @@ Keka
 [Oo]fficializing
 [Oo]fficialize
 [Oo]fficialized
+proposals_ids
+proposal_url
 [Rr]eoffficialize
+start_date
 [Un]nfollow
 [Uu]nhide
 [Uu]npublish
