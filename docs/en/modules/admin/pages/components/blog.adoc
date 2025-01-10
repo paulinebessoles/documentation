@@ -14,7 +14,7 @@ image::components/blog/example02.png[Example of a blog post]
 
 To create a Blog component, first go in the xref:admin:spaces.adoc[participatory space] where you want to create it. 
 
-image::components/accountability/component_blog.png[Add Blog component button]
+image::components/blog/component_blog.png[Add Blog component button]
 
 Then:
 
@@ -29,6 +29,7 @@ image:icons/action_configure.png[Configure icon] in the components list.
 image::components/blog/component.png[Add component form]
 
 .Add component: Blog form
+[cols="20h,10h,~"]
 |===
 |Field |Type |Description
 
@@ -43,6 +44,7 @@ image::components/blog/component.png[Add component form]
 |===
 
 .Blog form - Global settings
+[cols="20h,10h,~"]
 |===
 |Field |Type |Description
 
@@ -61,6 +63,7 @@ image::components/blog/component.png[Add component form]
 |===
 
 .Step settings
+[cols="20h,10h,~"]
 |===
 |Field |Type |Description
 
@@ -152,3 +155,4 @@ image:components/blog/new_post.png[New post form]
 Below, you can find some links to examples blog components:
 
 * https://meta.decidim.org/processes/news/f/1719/posts[Latest news of the Decidim association]
+* https://www.decidim.barcelona/processes/volem-decidir/f/6338/posts[News on a participatory process in Barcelona]
