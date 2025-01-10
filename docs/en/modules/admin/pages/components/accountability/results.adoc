@@ -3,7 +3,7 @@
 == Create a result
 
 To start creating results, click in the component title in the navigation bar or in the component list, or click in the 
-image:icons/action_edit.png[Manage component icon] icon.
+image:icons/action_edit.png[Manage component icon] icon on the components list.
 
 image::components/accountability/new_result_button.png[New result button]
 
@@ -66,7 +66,7 @@ On the results list in the administration panel, administrators can see:
 * *Title*: Title of the result.
 * *Category*: Category of the result.
 * *Scope*: Scope of the result, if enabled in the participatory space.
-* *Status*: Status of the result.
+* *xref:admin:components/accountability/statuses.adoc[Status]*: Status of the result.
 * *Progress*: Result percentage progress.
 * *Created*: Creation date of the result. 
 

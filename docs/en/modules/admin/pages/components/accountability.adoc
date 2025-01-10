@@ -16,11 +16,11 @@ In this documentation section, you can find how to configure and manage all of t
 * xref:admin:components/accountability/timeline.adoc[Project evolution]
 * xref:admin:components/accountability/import.adoc[Import and export results]
 
-== Configure
+== Configuration
 
 To create an Accountability component, first go in the xref:admin:spaces.adoc[participatory space] where you want to create it. 
 
-image::components/accountability/component_accountability.png[Add Accountability component button]
+image::components/blog/component_accountability.png[Add Accountability component button]
 
 Then:
 
