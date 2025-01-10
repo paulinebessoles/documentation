@@ -92,7 +92,7 @@ image:icons/action_edit.png[Manage component icon] icon on the components list.
 
 image:components/blog/manage_posts.png[Manage posts table]
 
-=== Create a post
+== Create a post
 
 To create a post, click the "New post" button on the top right of the page. 
 

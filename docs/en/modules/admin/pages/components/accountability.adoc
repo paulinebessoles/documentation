@@ -82,7 +82,7 @@ then "component b" is first when ordering.
 
 |Display progress
 |Optional
-|Check it if you want a progress bar to be displayed on the results with an execution level. 
+|Check it if you want a progress bar to be displayed on the results with aa progress level. 
 
 |===
 
