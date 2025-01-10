@@ -27,6 +27,6 @@ image::spaces/initiatives/initiative_send_to_technical_validation.png[Send initi
 
 == Retrieve created initiatives
 
-Participants can also find their initiatives in the initiatives index by un-checking the "Open" status filter, and clicking on the "My initiatives" filter. 
+Authors can also find their initiatives in the initiatives index by un-checking the "Open" status filter, and clicking on the "My initiatives" filter. 
 
 image::spaces/initiatives/initiative_filters_my_initiatives.png[Filters for my initiatives]
