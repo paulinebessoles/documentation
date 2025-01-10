@@ -5,8 +5,12 @@ CSV
 [Ee]mail
 end_date
 [Ff]aq
+[Ff]avicon
 [Gg]amification
+initializer
+[Kk]akogawa
 Keka
+Mautic
 [Mm]oderations
 [Nn]ickame
 [Oo]fficialization
