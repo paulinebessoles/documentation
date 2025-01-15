@@ -44,8 +44,9 @@ image::components/budgets/component_01.png[Add component form title]
 
 |Order position
 |Optional
-|Which order it had in relation to the other budgets. Having a lower number means a higher priority.
-For instance, if you have two budgets, "Budget a" with weight "10" and "Budget b" with weight "0" then "Budget b" is first when ordering.
+|The order of the component in relation with the other components. Having a lower number means a higher priority. 
+For instance, if you have two components, "Component a" with weight "10" and "Component b" with weight "0" 
+then "component b" is first when ordering.
 
 |===
 

@@ -46,8 +46,9 @@ image:components/surveys/component.png[Add component form]
 
 |Order position
 |Optional
-|Which order will it have in relation to the other surveys. Having a lower number means a higher priority.
-For instance, if you have two surveys, "Survey a" with weight "10" and "Survey b" with weight "0", then "Survey b" will be first when ordering.
+|The order of the component in relation with the other components. Having a lower number means a higher priority. 
+For instance, if you have two components, "Component a" with weight "10" and "Component b" with weight "0" 
+then "component b" is first when ordering.
 
 |===
 

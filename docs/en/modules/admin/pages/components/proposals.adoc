@@ -44,8 +44,9 @@ image:components/proposals/component.png[Add component form]
 
 |Order position
 |Optional
-|Which order will it have in relation to the other components. Having a lower number means a higher priority.
-For instance, if you have two components, "Proposals" with weight "10" and "Meetings" with weight "0", then "Meetings" will be first when ordering.
+|The order of the component in relation with the other components. Having a lower number means a higher priority. 
+For instance, if you have two components, "Component a" with weight "10" and "Component b" with weight "0" 
+then "component b" is first when ordering.
 
 |===
 
