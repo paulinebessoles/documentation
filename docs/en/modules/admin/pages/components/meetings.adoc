@@ -5,12 +5,13 @@
 The Meetings component allows administrators to organize, advertise, deal with registration and wrap up in-person or online meetings. 
 Depending on the component configuration, meetings can be created only by administrators, or also by participants. 
 
-There are different kinds of features that can be enabled in meetings, such as:
+In this documentation section, you can find how to configure and manage all of those items:
 
-* xref:admin:components/meetings/registrations.adoc[Registrations]: for managing how participants can register to attend the meeting.
-* xref:admin:components/meetings/agenda.adoc[Agenda]: for seeing the topics discussed in the meeting.
-* xref:admin:components/meetings/polls.adoc[Polls]: for quick voting during an online meeting.
-* xref:admin:components/meetings/close.adoc[Close]: for adding the final report on what was discussed in the meeting.
+* xref:admin:components/meetings/meetings.adoc[Meetings creation]: Create official or participant meetings. 
+* xref:admin:components/meetings/registrations.adoc[Registrations]: Manage how participants can register to attend the meetings.
+* xref:admin:components/meetings/agenda.adoc[Agenda]: Announce the meetings topics to be discussed.
+* xref:admin:components/meetings/polls.adoc[Polls]: Enable quick voting during an online meeting.
+* xref:admin:components/meetings/close.adoc[Close]: Add the final report and minutes of the meeting. 
 
 image::components/meetings/example01.png[Example meeting detail 01]
 

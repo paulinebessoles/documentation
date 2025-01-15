@@ -197,7 +197,7 @@ Then, they are redirected on the participants meetings creation form.
 image::components/meetings/new_meeting_form_frontend01.png[Create a new meeting form (frontend)]
 
 .Create meeting - Frontend form
-[cols="20h,10h,~"]
+[cols="20h,20h,~"]
 |===
 |Field |Type |Description
 
@@ -269,7 +269,7 @@ with another service.
 
 |Create meeting as
 |Required if the participant belongs to a group
-|With which identity you want to create this meeting: as a participant or as a group that you are reprensenting?
+|With which identity this meeting is created, the participant or the user group one. 
 
 |===
 

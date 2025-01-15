@@ -114,6 +114,7 @@
 **** xref:admin:components/budgets/projects.adoc[Projects]
 *** xref:admin:components/debates.adoc[Debates]
 *** xref:admin:components/meetings.adoc[Meetings]
+**** xref:admin:components/meetings/meetings.adoc[Meetings creation]
 **** xref:admin:components/meetings/registrations.adoc[Registrations]
 **** xref:admin:components/meetings/agenda.adoc[Agenda]
 **** xref:admin:components/meetings/polls.adoc[Polls]
