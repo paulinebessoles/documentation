@@ -33,6 +33,7 @@ image:icons/action_configure.png[Configure icon] icon in the components list.
 image::components/meetings/component.png[Add a meetings component]
 
 .Add component - Meetings form
+[cols="20h,10h,~"]
 |===
 |Field |Type |Description
 
@@ -49,6 +50,7 @@ then "component b" is first when ordering.
 |===
 
 .Add component - Meetings form: Global settings
+[cols="20h,10h,~"]
 |===
 |Field |Type |Description
 
@@ -100,6 +102,7 @@ Learn more in xref:components/meetings/registrations.adoc[Registrations].
 |===
 
 .Add component - Meetings form: Step settings
+[cols="20h,10h,~"]
 |===
 |Field |Type |Description
 

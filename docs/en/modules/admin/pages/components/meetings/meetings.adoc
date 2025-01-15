@@ -39,7 +39,7 @@ Is displayed only for in-person and hybrid meetings types.
 
 |Location hints
 |Optional
-Location hints: additional info. Example: the floor of the building if it is an in-person meeting, or the meeting password 
+|Location hints: additional info. Example: the floor of the building if it is an in-person meeting, or the meeting password 
 if it is an online meeting with restricted access.
 
 |Online meeting URL
@@ -120,6 +120,68 @@ a place for children, deaf assistance, translations, etc. You can have multiple 
 
 |===
 
+=== Actions
+
+.Actions - Official meetings
+[cols="10h,20h,~"]
+|===
+|Icon |Name |Definition
+
+|image:icons/action_edit.png[Edit icon]
+|Edit
+|To edit a meeting. 
+
+|image:icons/action_duplicate.png[Duplicate icon]
+|Duplicate
+|Allows an administrator to duplicate quickly a meeting.
+
+|image:icons/action_folder.png[Folders icon]
+|Folders
+|For classifying Attachments.
+
+|image:icons/action_attachments.png[Attachments icon]
+|Attachments
+|To add documents and images related to the meeting.
+
+|image:icons/action_registrations.png[Registrations icon]
+|xref:admin:components/meetings/registrations.adoc[Registrations]
+|Allows to define who can register for attending the meeting. Only available if the registrations are enabled in the meeting form. 
+
+|image:icons/action_agenda.png[Agenda icon]
+|xref:admin:components/meetings/agenda.adoc[Agenda]
+|To publish the topics to be discussed in the meeting.
+
+|image:icons/action_list.png[Poll icon]
+|xref:admin:components/meetings/polls.adoc[Polls]
+|To manage the polls for the online meeting.
+
+|image:icons/action_close.png[Close icon]
+|xref:admin:components/meetings/close.adoc[Close]
+|Allows and administrator to close the meeting with the minutes on the discussion and add extra information.
+
+|image:icons/action_publish.png[Publish icon]
+|Publish
+|To show publicly the meeting.
+
+|image:icons/action_unpublish.png[Unpublish icon]
+|Unpublish
+|To not show publicly the meeting.
+
+|image:icons/action_preview.png[Preview icon]
+|Preview
+|To see how it's shown in the frontend to participants.
+
+|image:icons/action_permissions.png[Permissions icon]
+|Permissions
+|To handle the permissions of this meeting, depending on the verification a participant has. Allows an admin to configure
+who can *Join* a meeting.
+
+|image:icons/action_delete.png[Delete icon]
+|Delete
+|To delete this meeting.
+
+|===
+
 == Participants meetings
 
 Meetings can be created by participants if the component setting "Participants can create meetings" is checked.
@@ -162,7 +224,7 @@ Is displayed only for in-person and hybrid meetings types.
 
 |Location hints
 |Optional
-Location hints: additional info. Example: the floor of the building if it is an in-person meeting, or the meeting password 
+|Location hints: additional info. Example: the floor of the building if it is an in-person meeting, or the meeting password 
 if it is an online meeting with restricted access.
 
 |Online meeting URL
@@ -230,91 +292,26 @@ After creating the meeting, participants can also edit and xref:components/meeti
 
 |===
 
-=== Actions
-
-.Actions - Official meetings
-[cols="10h,20h,~"]
-|===
-|Icon |Name |Definition
-
-|image:icons/action_edit.png[Edit icon]
-|Edit
-|To edit a meeting. 
-
-|image:icons/action_duplicate.png[Duplicate icon]
-|Duplicate
-|Allows an administrator to duplicate quickly a meeting.
-
-|image:icons/action_folder.png[Folders icon]
-|Folders
-|For classifying Attachments.
-
-|image:icons/action_attachments.png[Attachments icon]
-|Attachments
-|To add documents and images related to the meeting.
-
-|image:icons/action_registrations.png[Registrations icon]
-|xref:admin:components/meetings/registrations.adoc[Registrations]
-|Allows to define who can register for attending the meeting. Only available if the registrations are enabled in the meeting form. 
-
-|image:icons/action_agenda.png[Agenda icon]
-|xref:admin:components/meetings/agenda.adoc[Agenda]
-|To publish the topics to be discussed in the meeting.
-
-|image:icons/action_list.png[Poll icon]
-|xref:admin:components/meetings/polls.adoc[Polls]
-|To manage the polls for the online meeting.
-
-|image:icons/action_close.png[Close icon]
-|xref:admin:components/meetings/close.adoc[Close]
-|Allows and administrator to close the meeting with the minutes on the discussion and add extra information.
-
-|image:icons/action_publish.png[Publish icon]
-|Publish
-|To show publicly the meeting.
-
-|image:icons/action_publish.png[Unpublish icon]
-|Unpublish
-|To not show publicly the meeting.
-
-|image:icons/action_preview.png[Preview icon]
-|Preview
-|To see how it's shown in the frontend to participants.
-
-|image:icons/action_preview.png[Preview icon]
-|Preview
-|To see how it's shown in the frontend to participants.
-
-|image:icons/action_permissions.png[Permissions icon]
-|Permissions
-|To handle the permissions of this meeting, depending on the verification a participant has. Allows an admin to configure
-who can *Join* a meeting.
-
-|image:icons/action_delete.png[Delete icon]
-|Delete
-|To delete this meeting.
-
-|===
-
 == Online meetings
 
-For online meetings, depending in the moment and configuration of the meeting, different messages are shown to the participants.
+For online meetings, depending in the moment and configuration of the meeting, different messages are shown to the participants to 
+inform them on how to join the online meeting.
 
-. If the "Online meeting URL" isn't set yet, a message that says "Link available soon" is displayed. 
+If the "Online meeting URL" isn't set yet, a message that says "Link available soon" is displayed. 
 
 image::components/meetings/online_meeting_available_soon.png[Online meeting available soon]
 
-. If the "Online meeting URL" is set, a few minutes before the meeting start, the message says "The link to join
+If the "Online meeting URL" is set, a few minutes before the meeting start, the message says "The link to join
 the meeting will be available a few minutes before it starts"
 
 image::components/meetings/online_meeting_available_before.png[Online meeting available before it starts]
 
-. If the "Online meeting URL" is set, the start time of the meeting has arrived, and you chose the Iframe embed type to be 
+If the "Online meeting URL" is set, the start time of the meeting has arrived, and you chose the Iframe embed type to be 
 "Open URL in a new tab" then the message says that "the meeting is happening right now" with a link to join the meeting.
 
 image::components/meetings/online_meeting_happening.png[Online meeting available before it starts]
 
-. If the "Online meeting URL" is set, the start time of the meeting has arrived, and you chose the Iframe embed type to be 
+If the "Online meeting URL" is set, the start time of the meeting has arrived, and you chose the Iframe embed type to be 
 "Embed in meeting page" then the message says that "the meeting is happening right now" with the meeting embedded in the block.
 
 image::components/meetings/online_meeting_happening_embed.png[Online meeting available before it starts]
