@@ -118,4 +118,4 @@ Learn more in xref:components/meetings/registrations.adoc[Registrations].
 Some examples of where this component is used:
 
 * https://www.decidim.barcelona/processes/PAM2020/f/3734/[Program d'Actuació Municipal (PAM) 2020-2023]
-* https://lejourdapres.parlement-ouvert.fr/processes/ateliers/f/14/[Les ateliers]
+* https://meta.decidim.org/assemblies/coordination-committee/f/1037/meetings[The Decidim association coordination committee meetings]
