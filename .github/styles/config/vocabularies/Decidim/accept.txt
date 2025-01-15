@@ -4,10 +4,12 @@ CSV
 [Dd]ecidim
 [Ee]mail
 end_date
+Etherpad
 [Ff]aq
 [Ff]avicon
 [Gg]amification
 initializer
+Jitsi
 [Kk]akogawa
 Keka
 Mautic
