@@ -56,7 +56,7 @@ then "component b" is first when ordering.
 
 |Comments enabled
 |Optional
-|Whether you want to have comments in the meetings.
+|Whether you want to have comments in the debates.
 
 |Comments max length
 |Optional

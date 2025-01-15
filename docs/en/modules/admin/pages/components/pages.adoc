@@ -14,7 +14,7 @@ image::components/page/example01.png[Example of a page component in a participat
 
 To create a Page component, first go in the xref:admin:spaces.adoc[participatory space] where you want to create it. 
 
-image::components/debates/component_page.png[Add Page component button]
+image::components/page/component_page.png[Add Page component button]
 
 Then:
 
@@ -29,6 +29,7 @@ image:icons/action_configure.png[Configure icon] icon in the components list.
 image::components/page/component.png[Add component form]
 
 .Add component: Page form
+[cols="20h,10h,~"]
 |===
 |Field |Type |Description
 
@@ -45,6 +46,7 @@ then "component b" is first when ordering.
 |===
 
 .Add component: Page form - Global settings
+[cols="20h,10h,~"]
 |===
 |Field |Type |Description
 
@@ -55,6 +57,7 @@ then "component b" is first when ordering.
 |===
 
 .Add component: Pages form - Step settings
+[cols="20h,10h,~"]
 |===
 |Field |Type |Description
 
@@ -71,6 +74,7 @@ Once you created the Page component, click the Edit icon to write the content to
 image:components/page/new_page.png[New page form]
 
 .New page form
+[cols="20h,10h,~"]
 |===
 |Field |Type |Description
 
