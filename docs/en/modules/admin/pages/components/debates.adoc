@@ -21,7 +21,7 @@ Then:
 . Fill the component creation form
 
 You can still update this form and the configuration after creating the component, by clicking the 
-image:icons/action_configure.png[Configure icon] icon in the components list. 
+image:icons/action_configure.png[Configure icon] Configure icon in the components list. 
 
 image::components/debates/component.png[Add component form]
 
@@ -43,6 +43,7 @@ then "component b" is first when ordering.
 |===
 
 .Debate form - Global settings
+[cols="20h,10h,~"]
 |===
 |Field |Type |Description
 
@@ -69,6 +70,7 @@ then "component b" is first when ordering.
 |===
 
 .Add component: Debates form - Step settings
+[cols="20h,10h,~"]
 |===
 |Field |Type |Description
 
@@ -99,6 +101,7 @@ then "component b" is first when ordering.
 image::components/debates/new_debate_backend.png[New debate backend form]
 
 .New debate form
+[cols="20h,10h,~"]
 |===
 |Field |Type |Description
 
