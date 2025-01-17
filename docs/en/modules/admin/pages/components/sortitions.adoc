@@ -126,8 +126,8 @@ On the sortitions list in the administration panel, administrators can see:
 |Edit form for a sortition.
 
 |image:icons/action_preview.png[Preview icon]
-|Preview
-|To see how it's shown in the frontend to participants.
+|Sortition details
+|To see the results of the sortition in the administration panel. 
 
 |image:icons/action_permissions.png[Permissions icon]
 |Permissions

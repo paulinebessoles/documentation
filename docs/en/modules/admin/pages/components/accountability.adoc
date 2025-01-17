@@ -62,7 +62,7 @@ then "component b" is first when ordering.
 
 |Scopes enabled
 |Optional
-|Check if you want to have xref:admin:scopes.adoc[Scopes] filtering available in this component.
+|Check if you want to have xref:admin:settings/scopes.adoc[Scopes] filtering available in this component.
 
 |Scope
 |Optional
