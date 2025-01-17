@@ -249,7 +249,7 @@ image::components/surveys/conditional_question.png[Display condition in backend]
 
 |Answer option
 |Required
-|This field propose the answer options to the questions that need to be chose by participants in order to realize the condition. 
+|This field propose the answer options to the questions that need to be chose by participants to realize the condition. 
 Only available for "Equal" and "Not Equal" conditions. 
 
 |Included text

@@ -107,7 +107,7 @@ image::components/debates/new_debate_backend.png[New debate backend form]
 
 |Title
 |Required
-|The title of this debate. For instance, "How can we improve this process?"
+|The title of this debate.
 
 |Description
 |Required

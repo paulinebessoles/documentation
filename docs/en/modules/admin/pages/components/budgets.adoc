@@ -29,6 +29,9 @@ Then:
 . Select "Budgets"
 . Fill the component creation form
 
+You can still update this form and the configuration after creating the component, by clicking the 
+image:icons/action_configure.png[Configure icon] Configure icon in the components list. 
+
 The component creation form is divided into different sections detailed below.
 
 image::components/budgets/component_01.png[Add component form title]
@@ -134,7 +137,7 @@ image::components/budgets/component_03.png[Add component form - Step settings]
 
 |Announcement
 |Optional
-|A general announcement that'll be visible on the general budgets landing page.
+|A general announcement visible on the general budgets landing page.
 
 |Budgets landing page
 |Optional
