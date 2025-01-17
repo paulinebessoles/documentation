@@ -45,8 +45,9 @@ by default, but it can be changed with the setting "Maximum proposal body length
 |Check if this proposal comes from a meeting. It displays a link in the proposal page to the meeting. 
 
 |Select a meeting
-|Required if the "This proposal comes from a meeting" checkbox is checked
-|Dropdown selector with all the meetings of this participatory space. The author of the proposal becomes the meeting.
+|Required
+|Dropdown selector with all the meetings of this participatory space. Field displayed if the "This proposal comes from a meeting" checkbox is checked.
+The author of the proposal becomes the meeting.
 
 |Address
 |Optional
@@ -167,6 +168,12 @@ You can also search for proposals by their title or ID in the search bar.
 
 |===
 
+=== Bulk actions
+
+When managing proposals, you can select multiple proposals at the same time to perform bulk actions. 
+
+image::components/proposals/bulk_actions.png[Proposals bulk actions]
+
 === Export
 
 The "Export all" button allows administrators to export the proposals and their comments in different formats.
@@ -180,19 +187,6 @@ The "Export all" button allows administrators to export the proposals and their 
 
 === Import
 
-* Import from another component
-* Import from a file
-
-== Origin filter
-
-When navigating in the proposals listing, you can filter the proposals by their origin.
-
-image::components/proposals/origin_filter.png[Proposals origin filter]
-
-There are five origin options:
-
-* All: select all the origins
-* xref:_official_proposals[Official]: proposals created by administrators
-* xref:_citizens_proposals[Citizens]: proposals created by participants
-* Groups: proposals created by participants that belong to a verified user group and choose that option when creating the proposal
-* Meetings: proposals created by administrators that have checked this option when creating the proposal
+* Import proposals from another component: Allows to import proposals from a proposal component of the same space.  
+* Import proposals from a file
+* Import answers from a file

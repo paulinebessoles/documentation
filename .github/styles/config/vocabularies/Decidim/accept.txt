@@ -8,6 +8,7 @@ Etherpad
 [Ff]aq
 [Ff]avicon
 [Gg]amification
+[Gg]eocoding
 initializer
 Jitsi
 [Kk]akogawa
