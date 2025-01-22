@@ -75,9 +75,9 @@ image::spaces/initiatives/type_form_options.png[Initiative type form options]
 |Optional
 |Can the authors of an initiative change the end of the signature collection period when creating their initiative?
 
-|Enable authors to choose the xref:admin:areas.adoc[area] for their initiative
+|Enable authors to choose the xref:admin:settings/areas.adoc[area] for their initiative
 |Optional
-|Allow authors and administrators to categorize initiatives thanks to organization xref:admin:areas.adoc[Areas].
+|Allow authors and administrators to categorize initiatives thanks to organization xref:admin:settings/areas.adoc[Areas].
 
 |Enable child scope signatures
 |Optional

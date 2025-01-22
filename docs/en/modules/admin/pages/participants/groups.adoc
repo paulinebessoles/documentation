@@ -8,10 +8,10 @@ image::participants/user_group_frontend_show.png[Frontend: show a user group]
 
 == Enable / disable user groups
 
-Administrators can enable or disable user groups in the xref:admin:configuration.adoc[Configuration] panel. 
+Administrators can enable or disable user groups in the xref:admin:settings/configuration.adoc[Configuration] panel. 
 
 When enabled, participants are able to create and manage groups from their profile.
-To learn more about how participants can do this, go to the xref:admin:features/my_public_profile.adoc[public profile] article. 
+To learn more about how participants can do this, go to the xref:admin:features/participant_actions/my_public_profile.adoc[public profile] article. 
 
 == Manage user groups
 

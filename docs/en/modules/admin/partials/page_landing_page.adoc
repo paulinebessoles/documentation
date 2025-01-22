@@ -122,7 +122,7 @@ image::spaces/landing_page/images.png[Landing page content Related images conten
 
 === Upcoming meetings
 
-The upcoming meetings allows administrator to display the upcoming xref:admin:spaces/components/meetings.adoc[Meetings] on the landing page with a map when they have a location.
+The upcoming meetings allows administrator to display the upcoming xref:admin:components/meetings.adoc[Meetings] on the landing page with a map when they have a location.
 You can configure the component to take the meetings from by clicking the Edit button of the content block. 
 
 image::spaces/landing_page/meetings.png[Landing page content meetings content block]

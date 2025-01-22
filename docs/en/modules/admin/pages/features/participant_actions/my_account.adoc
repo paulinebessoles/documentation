@@ -124,7 +124,7 @@ Read more about groups configuration in the xref:admin:participants/groups.adoc[
 
 In this section participants can choose which interests they have to receive more information about.
 
-By default what they see here is a list of all the xref:admin:scopes.adoc[Scopes] of the organization. Those selections
+By default what they see here is a list of all the xref:admin:settings/scopes.adoc[Scopes] of the organization. Those selections
 can be used by administrators when segmenting for the xref:admin:features/social_features/newsletters.adoc[Newsletters].
 
 image::features/my_account/my_interests.png[My interests]
