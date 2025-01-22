@@ -134,7 +134,7 @@ You need to have xref:configure:geocoding[Geocoding] enabled.
 
 |Allow attachments
 |Optional
-|Check to allow participants to attach files to their proposals. By enabling this option, proposals will default to grid mode, 
+|Check to allow participants to attach files to their proposals. By enabling this option, proposals are by default in grid mode, 
 and the first image appears on the card.
 
 |Actions permissions can be set for each proposal

@@ -1,4 +1,4 @@
-= Proposals
+= Proposals management
 
 == Understand the basics
 
