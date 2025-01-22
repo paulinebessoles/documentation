@@ -37,6 +37,8 @@ image::spaces/initiatives/initiative_list_filters.png[Initiatives list filtered]
 
 == Actions
 
+.Actions
+[cols="10h,20h,~"]
 |===
 |Icon |Name |Definition
 

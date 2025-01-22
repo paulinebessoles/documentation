@@ -70,6 +70,8 @@ image::spaces/processes/processes_list_filter.png[Participatory processes list f
 
 == Actions 
 
+.Actions
+[cols="10h,20h,~"]
 |===
 |Icon |Name |Definition
 

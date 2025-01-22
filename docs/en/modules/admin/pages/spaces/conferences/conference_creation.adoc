@@ -138,6 +138,7 @@ This section is allows you to enable registrations and set slots and registratio
 image::spaces/conferences/conference_new_form_registrations.png[New conference form Registrations sections]
 
 .New conference form: Registrations
+[cols="20h,10h,~"]
 |===
 |Field |Type |Description
 

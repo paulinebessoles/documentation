@@ -15,6 +15,8 @@ image::spaces/processes/processes_group_list.png[Participatory process groups li
 
 === Actions 
 
+.Actions
+[cols="10h,20h,~"]
 |===
 |Icon |Name |Definition
 

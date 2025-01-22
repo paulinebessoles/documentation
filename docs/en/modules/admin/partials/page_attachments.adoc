@@ -63,6 +63,7 @@ To create and manage attachments folders, click the *Folders* tab.
 image:spaces/attachments_new_folder_form.png[Create a new folder for attachments form]
 
 .Create folder
+[cols="20h,10h,~"]
 |===
 |Field |Type |Description
 
@@ -93,7 +94,7 @@ You can also access the folders list by clicking the "Folders" tab on top of the
 == Actions
 
 .Components actions in component list
-[cols="20h,10h,~"]
+[cols="10h,20h,~"]
 |===
 |Icon |Name |Definition
 

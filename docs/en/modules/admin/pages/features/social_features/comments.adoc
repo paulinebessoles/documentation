@@ -19,6 +19,8 @@ image::features/comments/form.png[Comments form]
 
 When commenting, participants can: 
 
+.Comment actions
+[cols="10h,~,~,~"]
 |===
 |Type |Description |Syntax |Example
 

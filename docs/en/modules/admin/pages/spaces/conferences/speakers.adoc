@@ -17,6 +17,8 @@ You can search speakers thanks to the search bar.
 
 === Actions
 
+.Actions
+[cols="10h,20h,~"]
 |===
 |Icon |Name |Definition
 

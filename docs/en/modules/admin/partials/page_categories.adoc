@@ -59,8 +59,8 @@ You can find all the categories on the list in the administration panel, with:
 
 == Actions
 
-.Components actions in component list
-[cols="20h,10h,~"]
+.Categories actions in categories list
+[cols="10h,20h,~"]
 |===
 |Icon |Name |Definition
 

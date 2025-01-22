@@ -26,6 +26,7 @@ Click on the "New participatory space private user" button.
 image:spaces/private_participants_new_form.png[New private participant form]
 
 .New participatory space private user form
+[cols="20h,10h,~"]
 |===
 |Field |Type |Description
 
@@ -82,6 +83,8 @@ You can sort the list by clicking on the columns header, filter it and search fo
 
 == Actions
 
+.Actions
+[cols="10h,20h,~"]
 |===
 |Icon |Name |Definition
 

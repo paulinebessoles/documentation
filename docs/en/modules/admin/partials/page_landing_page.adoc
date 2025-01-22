@@ -3,7 +3,7 @@
 == Understand the basics
 
 Each process and assembly has a landing page, with different content blocks that can be added, deleted, enabled, ordered, and configured, 
-just as the xref:admin:homepage.adoc[Homepage] content blocks. 
+just as the xref:admin:settings/homepage.adoc[Homepage] content blocks. 
 
 In order to organize a landing page, enter the space and click the landing page item in the left navigation bar. 
 You are redirected to the landing page configuration panel. 
@@ -31,6 +31,7 @@ The Hero image and CTA content blocks allow to display in the space landing page
 image::spaces/landing_page/hero_admin.png[Landing page content Hero image content block form]
 
 .Admin hero image and CTA landing page content block form
+[cols="20h,10h,~"]
 |===
 |Field |Type |Description
 

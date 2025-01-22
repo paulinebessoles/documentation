@@ -13,7 +13,7 @@ shown to participants on the homepage to encourage them to go to a specific proc
 image::settings/admin_appearance_homepage_appearance.png[Decidim Admin Appearance edit homepage appearance toggle] 
 
 .Edit Homepage appearance toggle form
-
+[cols="20h,10h,~,~"]
 |===
 |Field |Type |Description |Visibility
 
@@ -47,7 +47,7 @@ NOTE: To appear on the homepage, the "Highlighted content banner" content block 
 image::settings/admin_appearance_highlighted_banner.png[Decidim Admin Appearance edit Highlighted content banner toggle]
 
 .Edit Highlighted content banner toggle form
-
+[cols="20h,10h,~"]
 |===
 |Field |Type |Description
 
@@ -92,7 +92,7 @@ NOTE: This banner is configured on this page only, and doesn't need to be enable
 image::settings/admin_appearance_omnipresent_banner.png[Decidim Admin Appearance edit omnipresent banner toggle]
 
 .Edit Highlighted content banner toggle form
-
+[cols="20h,10h,~"]
 |===
 |Field |Type |Description
 
@@ -123,7 +123,7 @@ This section allows to download logos and icons, to be displayed in the header a
 image::settings/admin_appearance_layout.png[Decidim Admin layout appearance toggle]
 
 .Edit layout appearance toggle
-
+[cols="20h,10h,~"]
 |===
 |Field |Type |Description
 

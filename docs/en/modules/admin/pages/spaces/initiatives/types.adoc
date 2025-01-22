@@ -173,6 +173,8 @@ Once you created one or multiple initiative types, you are able to manage them o
 
 == Actions 
 
+.Actions
+[cols="10h,20h,~"]
 |===
 |Icon |Name |Definition
 

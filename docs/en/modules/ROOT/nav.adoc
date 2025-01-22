@@ -5,6 +5,7 @@
 ** xref:install:update.adoc[Update]
 
 * xref:configure:index.adoc[Configure]
+** xref:configure:system.adoc[System panel]
 ** xref:configure:environment_variables.adoc[Environment Variables]
 ** xref:configure:initializer.adoc[Initializer]
 ** xref:customize:index.adoc[Customize]

@@ -57,6 +57,7 @@ NOTE: You can use "%\{name}" anywhere in the body or subject to be automatically
 image::features/newsletters/newsletter_new_basic.png[Newsletter new template basic form]
 
 .New Newsletter "basic (only text)" form
+[cols="20h,10h,~"]
 |===
 |Field |Type |Description
 
@@ -72,6 +73,7 @@ image::features/newsletters/newsletter_new_basic.png[Newsletter new template bas
 image::features/newsletters/newsletter_new_cta.png[Newsletter new template Image, text and CTA form]
 
 .New Newsletter "Image, text and Call To Action button" form
+[cols="20h,10h,~"]
 |===
 |Field |Type |Description
 
@@ -162,6 +164,8 @@ You can find all the newsletters on the newsletter page, with:
 
 === Actions
 
+.Actions
+[cols="10h,20h,~"]
 |===
 |Icon |Name |Definition |Condition
 

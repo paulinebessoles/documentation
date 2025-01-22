@@ -37,7 +37,7 @@ image::spaces/conferences/menu.png[Conferences menu]
 
 There, you are able to manage all existing conferences. 
 
-== Manage processes
+== Manage conferences
 
 image::spaces/conferences/manage_conferences.png[Conferences list in administration panel]
 
@@ -52,6 +52,8 @@ You can also search for conferences by their title in the search bar.
 
 == Actions 
 
+.Actions
+[cols="10h,20h,~"]
 |===
 |Icon |Name |Definition
 

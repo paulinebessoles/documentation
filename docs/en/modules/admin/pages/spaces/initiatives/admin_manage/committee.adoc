@@ -18,6 +18,8 @@ There, the author can see and copy the initiative invitation link, and see the l
 
 == Actions
 
+.Actions
+[cols="10h,20h,~"]
 |===
 |Icon |Name |Definition
 

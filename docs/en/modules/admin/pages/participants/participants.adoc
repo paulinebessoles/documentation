@@ -26,6 +26,8 @@ You can also search for participants by email, name, or nickname in the search b
 
 === Actions
 
+.Actions
+[cols="10h,20h,~,~"]
 |===
 |Icon |Name |Definition |Condition
 

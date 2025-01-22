@@ -4,7 +4,7 @@ include::partial$deprecated.adoc[]
 
 Areas are all the sectors that an organization can have.
 
-Areas re pretty similar to xref:admin:settings/scopes.adoc[scopes], meaning that they're a way of allowing a 
+Areas are pretty similar to xref:admin:settings/scopes.adoc[scopes], meaning that they're a way of allowing a 
 better navigation and filtering in the spaces and components.
 
 You can read more information about the history of Areas in 

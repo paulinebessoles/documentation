@@ -29,8 +29,8 @@ You can find all the administrators on the list in the administration panel, wit
 
 == Actions
 
-.Components actions in component list
-[cols="20h,10h,~"]
+.Actions in administrators list
+[cols="10h,20h,~"]
 |===
 |Icon |Name |Definition
 

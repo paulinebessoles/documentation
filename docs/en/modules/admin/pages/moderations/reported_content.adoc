@@ -41,6 +41,8 @@ Once you moderate a content, it appears in the "Hidden" contents list, accessibl
 
 === Actions
 
+.Actions
+[cols="10h,20h,~,~"]
 |===
 |Icon |Name |Definition |Condition
 

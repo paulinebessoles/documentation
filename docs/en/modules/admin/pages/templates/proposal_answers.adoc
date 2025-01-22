@@ -16,12 +16,13 @@ Choose the participatory space and component for which you want to create propos
 image::templates/templates_proposal_answers_backend_form.png[Backend: new proposal answer template form]
 
 .New proposal answer template form
+[cols="20h,10h,~"]
 |===
 |Field |Type |Description
 
 |Name
 |Required
-|Title of this answer template. Choose a clear title, describing precisely what the answer is for, like "accepted proposal".
+|Title of this answer template. Choose a clear title, describing precisely what the answer is for.
 
 |Description
 |Required
@@ -46,6 +47,8 @@ You can edit a template and its fields at any moment.
 
 === Actions
 
+.Actions
+[cols="10h,20h,~"]
 |===
 |Icon |Name |Definition
 

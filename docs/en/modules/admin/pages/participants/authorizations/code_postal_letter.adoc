@@ -3,7 +3,7 @@
 This authorization allows a participant to request for a verification code to be sent to an address, to confirm that they
 live or work in this place. They then need to fill the received code in the platform.
 
-NOTE: If you don't want to use this authorization, you should turn it off in the xref:admin:system.adoc[system panel].
+NOTE: If you don't want to collect any data, you should turn it off in the xref:configure:system.adoc[System panel].
 
 The process is:
 

@@ -34,6 +34,8 @@ You can search for conflicts by participant email, name, or nickname in the sear
 
 === Actions
 
+.Actions
+[cols="10h,20h,~"]
 |===
 |Icon |Name |Definition
 
@@ -50,6 +52,7 @@ The transfer user button allows to solve the conflict between both account.
 image:participants/verifications_conflicts_transfer_user.png[Transfer user form]
 
 .Transfer user form
+[cols="20h,10h,~"]
 |===
 |Field |Type |Description
 

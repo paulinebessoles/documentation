@@ -39,6 +39,8 @@ information it's possible to see it by hovering it.
 
 === Actions
 
+.Actions
+[cols="10h,20h,~,~"]
 |===
 |Icon |Name |Definition |Condition
 

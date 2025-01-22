@@ -16,7 +16,7 @@ You can invite an already registered or a non registered participant.
 image:participants/admins_invite.png[Invite participant as administrator form]
 
 .New administrator form
-
+[cols="20h,10h,~"]
 |===
 |Field |Type |Description
 
@@ -26,7 +26,8 @@ image:participants/admins_invite.png[Invite participant as administrator form]
 
 |Email
 |Required
-|Email of the participant to invite. If they don't have an account related to this email, they should receive an invitation email to create an account. Otherwise, they won't be notified. 
+|Email of the participant to invite. If they don't have an account related to this email, they should receive an invitation 
+email to create an account. Otherwise, they won't be notified. 
 
 |Role
 |Required
@@ -53,6 +54,8 @@ You can also search for administrators by email, name, or nickname in the search
 
 === Actions
 
+.Actions
+[cols="10h,20h,~,~"]
 |===
 |Icon |Name |Definition |Condition
 
