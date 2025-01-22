@@ -1,94 +1,90 @@
 = Amendments
 
-With the amendment feature, participants can propose changes to an already published proposal.
+== Understand the basics
 
-It's useful to propose improvements or corrections, specially useful when redacting laws or normatives with xref:components/proposals/participatory_texts.adoc[Participatory Texts].
+With the amendment feature, participants can propose changes to an existing proposals, and therefore collaborate with other.
+
+It's useful to propose improvements or corrections, specially when redacting laws or norms with the
+xref:components/proposals/special_configurations/participatory_texts.adoc[Participatory Texts] feature.
 
 It has similarities with xref:components/proposals/collaborative_drafts.adoc[Collaborative Drafts], but the main difference
 is that with amendments there is no need to trust the other authors intentions, as every change is reviewed and must be
 approved by the author of the original proposal.
 
-image:components/proposals/amendments/amendment.png[Amendment of a proposal]
+image::components/proposals/amendments/amendment.png[Amendment of a proposal]
 
-To configure "Amendments" in proposals component:
+== Configuration
 
-. Sign in as admin
-. Go to admin panel
-. In the main sidebar, click in the button for the space that you want to configure the component for.
-For instance, it could be "Processes", "Assemblies", or "Conferences"
-. Go to components
-. Click on "Add component" button
-. Click on "Proposals"
-. Check the "Amendments enabled" setting
-. Review and configure the following related settings: "Amendments Wizard help text" in global component settings and "Amendment creation enabled", "Amendment reaction enabled", "Amendment promotion enabled", and "Amendments visibility" in the step component settings.
-. Save the component
-
-== How it works
-
-. A participant (Alice) has created a proposal
-. Another participant (Bob) has seen the proposal and wants to make some changes
-image:components/proposals/amendments/proposal_to_amend.png[]
-. Bob click on the "Amend proposal" button
-. Bob makes the changes in the "Create amendment draft" form
-image:components/proposals/amendments/create_amendment_draft.png[]
-. Bob checks if there is any similar amendment
-. Bob edits the amendment draft
-image:components/proposals/amendments/edit_amendment_draft.png[]
-. Bob publishes the amendment draft
-image:components/proposals/amendments/publish_amendment_draft.png[]
-. Anyone can see the amendment draft
-image:components/proposals/amendments/proposal_amendmed.png[]
-image:components/proposals/amendments/amendment_list.png[]
-image:components/proposals/amendments/amendment_view_side_by_side.png[]
-. It's also possible to filter the amended proposals
-image:components/proposals/amendments/amendment_list_filter.png[]
-. Alice receives a notification that Bob has proposed an amendment to their original proposal
-image:components/proposals/amendments/proposal_amendmed_notification.png[]
-. Alice can see the amendment proposal
-image:components/proposals/amendments/proposal_amendmed_to_review.png[]
-. Alice can review the amendment proposal
-image:components/proposals/amendments/proposal_amendmed_review.png[]
-. Alice can approve the amendment proposal
-image:components/proposals/amendments/proposal_amendmed_accepted.png[]
-. Anyone can see the final proposal
-image:components/proposals/amendments/proposal_amendmed_final.png[]
-image:components/proposals/amendments/proposal_amendmed_amendment_list.png[]
-. Anyone can see the versions history of the proposal
-image:components/proposals/amendments/proposal_amendmed_versions.png[]
-
-== Relevant component settings
+To configure "Amendments" in proposals component, check the "Amendments enabled" setting in the proposal component configuration form. 
 
 .Proposals component form - Settings related to amendments
+[cols="20h,10h,~"]
 |===
 |Field |Type |Description
 
 |Amendments enabled
 |Global
-|Check to enable xref:components/proposals/amendments.adoc[amendments] in proposals. Other settings visible when enabling one.
+|Check to enable amendments in the proposals components. Other settings appear when it's enabled. 
 
 |Amendments Wizard help text
 |Global
-|What's the help text visible when creating new amendments.
+|The help text visible when creating new amendments.
 
 |Amendment creation enabled
 |Step
-|Participant can amend proposals. See xref:components/proposals/amendments.adoc[Amendments].
+|Participant can amend proposals for this phase. 
 
 |Amendment reaction enabled
 |Step
-|Proposal's authors will be able to accept or reject Participant's emendations.
+|Proposal's authors are able to accept or reject Participant's amendments for this phase. 
 
 |Amendment promotion enabled
 |Step
-|Emandation authors will be able to promote to Proposal the rejected emendation.
+|If it's rejected, amendments authors are able to promote their amendment as a proposal for this phase. 
 
 |Amendments visibility
 |Step
-|Choose one of "Amendments are visible to all" or "Amendments are visible only to their authors"
+|Choose between "Amendments are visible to all" or "Amendments are visible only to their authors"
 
 |===
 
-== Promotion
+== Create an amendment
 
-If a proposal is rejected and the "Amendment promotion enabled" is enabled, then the author that have made the rejected
-amendment will be able to promote to a new proposal the rejected emendation.
+Let's imagine a participant sees another participant's proposal, and wants to enhance it. 
+When amendments are enabled, they can click the "Amend" button on the proposal page. 
+
+image::components/proposals/amendments/proposal_to_amend.png[Amend button on proposal page]
+
+They can then make the changes in the "Create amendment draft" form, directly on the original text. 
+
+image::components/proposals/amendments/create_amendment_draft.png[Create amendment draft]
+
+The participant can then preview their amendment before publishing it. 
+
+image::components/proposals/amendments/publish_amendment_draft.png[Publish amendment draft]
+
+== Review an amendment
+
+All the participants can see the amendment drafts made on proposals, on the proposal page. 
+Amendments also appear as proposals in the proposal list and grid and can be filtered by participants. 
+
+image::components/proposals/amendments/proposal_amended.png[Proposal with amendments]
+
+The author of the amended proposal receives a notification to go review the amendment. 
+
+image::components/proposals/amendments/amendment.png[Amendment of a proposal]
+
+The author can then accept or reject the amendment. By clicking on the "Accept" button, they are redirected to the amendment review page.  
+
+image::components/proposals/amendments/proposal_amendment_review.png[Proposal amendment review]
+
+Once the amendment is approved, the original proposal is updated, and the fact that it was amended appear on the proposal. 
+
+image::components/proposals/amendments/proposal_amended_accepted.png[Proposal amendment accepted]
+
+The versions history for the proposal and its successive amendments is available by clicking the "See other versions" link at the bottom. 
+
+== Promote an amendment
+
+If a proposal is rejected and the "Amendment promotion enabled" is enabled, then the amendment author can promote it to create
+ a new proposal.
