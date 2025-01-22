@@ -44,12 +44,12 @@ can configure the platform in a general way (images, information pages, etc.,) a
 
 == Get started
 
-* xref:admin:.adoc[Getting started]
-* xref:admin:.adoc[Settings]
+* xref:admin:first_steps.adoc[First steps]
+* xref:admin:settings.adoc[Settings]
 * xref:admin:pages.adoc[Pages and topics]
 * xref:admin:participants.adoc[Participants]
-* xref:admin:.adoc[Global moderation]
+* xref:admin:global_moderations.adoc[Global moderations]
 * xref:admin:spaces.adoc[Spaces]
 * xref:admin:components.adoc[Components]
-* xref:admin:.adoc[Features]
-* xref:admin:.adoc[Templates]
+* xref:admin:features.adoc[Features]
+* xref:admin:templates.adoc[Templates]

@@ -196,7 +196,7 @@
 *** Maintainers
 **** xref:develop:backports.adoc[Backports]
 **** xref:develop:guide_github_projects.adoc[GitHub Projects Workflow]
-**** xref:develop:maintainers/releases.adoc[Releasing new versionss]
+**** xref:develop:maintainers/releases.adoc[Releasing new versions]
 **** xref:develop:maintainers/security.adoc[Security procedures]
 *** xref:develop:metrics.adoc[Metrics]
 *** xref:develop:modules.adoc[Modules]
@@ -236,7 +236,7 @@
 *** xref:publications:german.adoc[German]
 *** xref:publications:italian.adoc[Italian]
 *** xref:publications:spanish.adoc[Spanish]
-** Whitepaper
+** White paper
 *** xref:whitepaper:decidim-a-brief-overview.adoc[Decidim: a brief overview]
 
 * xref:releases:index.adoc[Release notes]

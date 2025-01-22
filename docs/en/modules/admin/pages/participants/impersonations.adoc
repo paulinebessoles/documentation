@@ -30,6 +30,7 @@ image::participants/participants_impersonations_backend_list_button.png[Administ
 == Manage impersonations
 
 You can find all the participants of the platform, with:
+
 * *Name*: name of the participant.
 * *Status*: if the participant is impersonated/managed or not. 
 

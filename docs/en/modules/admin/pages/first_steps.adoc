@@ -58,14 +58,14 @@ You can see several sections on this page:
 
 To navigate in the administration panel, you can click in all of the items displayed in the vertical navigation bar on the left. 
 
-*** xref:admin:spaces/processes.adoc[Participatory Processes]
-*** xref:admin:spaces/assemblies.adoc[Assemblies]
-*** xref:admin:spaces/initiatives.adoc[Initiatives]
-*** xref:admin:spaces/conferences.adoc[Conferences]
-** xref:admin:global_moderations.adoc[Global moderations]
-** xref:admin:pages.adoc[Pages]
-** xref:admin:participants.adoc[Participants]
-** xref:admin:newsletters.adoc[Newsletters]
-** Settings
-** Admin activity log
-** Templates
+* xref:admin:spaces/processes.adoc[Participatory Processes]
+* xref:admin:spaces/assemblies.adoc[Assemblies]
+* xref:admin:spaces/initiatives.adoc[Initiatives]
+* xref:admin:spaces/conferences.adoc[Conferences]
+* xref:admin:global_moderations.adoc[Global moderations]
+* xref:admin:pages.adoc[Pages]
+* xref:admin:participants.adoc[Participants]
+* xref:admin:features/social_features/newsletters.adoc[Newsletters]
+* xref:admin:settings.adoc[Settings]
+* Admin activity log
+* xref:admin:templates.adoc[Templates]
