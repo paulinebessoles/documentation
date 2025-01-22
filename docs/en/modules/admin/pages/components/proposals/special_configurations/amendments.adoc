@@ -2,12 +2,12 @@
 
 == Understand the basics
 
-With the amendment feature, participants can propose changes to an existing proposals, and therefore collaborate with other.
+The amendment feature allows participants to propose changes to existing proposals, and therefore collaborate with other participants.
 
 It's useful to propose improvements or corrections, specially when redacting laws or norms with the
 xref:components/proposals/special_configurations/participatory_texts.adoc[Participatory Texts] feature.
 
-It has similarities with xref:components/proposals/collaborative_drafts.adoc[Collaborative Drafts], but the main difference
+It has similarities with xref:components/proposals/special_configurations/collaborative_drafts.adoc[Collaborative Drafts], but the main difference
 is that with amendments there is no need to trust the other authors intentions, as every change is reviewed and must be
 approved by the author of the original proposal.
 
@@ -15,10 +15,12 @@ image::components/proposals/amendments/amendment.png[Amendment of a proposal]
 
 == Configuration
 
-To configure "Amendments" in proposals component, check the "Amendments enabled" setting in the proposal component configuration form. 
+To configure "Amendments" in proposals, enable the "Amendments enabled" setting in the component configuration form. 
+
+image::components/proposals/component_specific_conf.png[Add component form - Specific configurations]
 
 .Proposals component form - Settings related to amendments
-[cols="20h,10h,~"]
+[cols="30h,10h,~"]
 |===
 |Field |Type |Description
 
