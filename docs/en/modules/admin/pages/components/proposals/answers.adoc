@@ -6,11 +6,13 @@ Proposals answers allow administrators or valuators to review a proposal and giv
 It allows then to filter the proposals by their statuses, read the answer that was given, and import the accepted proposals in the
 xref:components/budgets.adoc[budgets] component.
 
+NOTE: To learn more about valuators, refer to xref:admin:participants/admins.adoc#_valuators[Valuators administrators].
+
 image::components/proposals/answers/proposal_answer_state_accepted.png[Proposal answer state: Accepted]
 
 == Answer a proposal
 
-For answering a proposal, search for the proposal you want to answer and click in the image:icons/action_answer.png[Answer proposal icon]
+For answering a proposal, search for the proposal you want to answer and click in the image:icons/action_answers.png[Answer proposal icon]
 Answer icon.
 
 You are then redirected on the answer page, that contains three sections:
@@ -80,9 +82,7 @@ immediately after you clicked on the "Answer" button.
 
 The statuses are visible on the proposals list, cards, and pages. New statuses can be created, and default ones can be edited or deleted. 
 
-image::components/proposals/proposal_answer_state_accepted_card.png[Proposal card answer custom status]
-
-=== Statuses
+image::components/proposals/answers/proposal_answer_state_accepted_card.png[Proposal card answer custom status]
 
 Statuses can be adapted to your organization needs by clicking the "Statuses" button in the administration proposal list. 
 
