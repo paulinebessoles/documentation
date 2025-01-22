@@ -55,9 +55,9 @@ Thanks to the preview, you can review if the document is correctly imported, and
 
 Depending on the preview, you can:
 
-* Discard: if you're not satisfied and want to reformat your document to start the import again. 
-* Save draft: if you're satisfied with the result, but still wants to make some modifications. 
-* Publish document: if you're ready to see how the text is like in the user interface. 
+* *Discard*: if you're not satisfied and want to reformat your document to start the import again. 
+* *Save draft*: if you're satisfied with the result, but still wants to make some modifications. 
+* *Publish document*: if you're ready to see how the text is like in the user interface. 
 
 Once you published the document, all sections are presented as proposals in the proposal management panel. 
 
@@ -71,8 +71,6 @@ NOTE: This feature could break existing proposals, so if there is any proposal i
 Cannot interact with this setting if there are existing proposals. Please, create a new `Proposals component` if you want
 to enable this feature or discard all imported proposals in the `Participatory Texts` menu if you want to disable it.
 ====
-
-== Frontend
 
 Once the document is imported and the proposals component published, participants are able to navigate the participatory text.
 
