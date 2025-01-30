@@ -35,7 +35,7 @@ image:spaces/processes/process_types_form.png[Process type creation form]
 
 To relate processes to process types, in the edition page of a process, select the process type under the section labelled Other.
 
-image:spaces/processes/process_types_edit_process.png[Choose a process type when editing a process]
+image::spaces/processes/process_types_edit_process.png[Choose a process type when editing a process]
 
 == Filter by process types
 
