@@ -3,13 +3,16 @@ Config
 CSV
 [Dd]ecidim
 [Ee]mail
+end_date
 Etherpad
 [Ff]aq
 [Ff]avicon
 [Gg]amification
 Gemfile
+[Gg]eocoding
 [Ii]nitializer
 Javascript
+Jitsi
 [Kk]akogawa
 Keka
 Mautic
@@ -20,7 +23,10 @@ OAuth
 [Oo]fficializing
 [Oo]fficialize
 [Oo]fficialized
+proposals_ids
+proposal_url
 [Rr]eoffficialize
+start_date
 [Un]nfollow
 [Uu]nhide
 [Uu]npublish
