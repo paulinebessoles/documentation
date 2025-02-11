@@ -2,7 +2,9 @@
 
 == Understand the basics
 
-The Accountability component allows administrators to present a summary of the achievements decided upon in assemblies, during 
+The Accountability component allows participants to know the status of a project's implementation and to follow its evolution.
+
+This feature allows administrators to present a summary of the achievements decided upon in assemblies, during 
 participatory processes, or any other space. Administrators create Results they can then categorize and link to proposals, meetings, or 
 investment projects (for example, as part of a participatory budget).
 

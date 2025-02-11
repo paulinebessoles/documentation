@@ -2,8 +2,11 @@
 
 == Understand the basics
 
-The Budgets component allows participants to vote by selecting projects of their choosing. Administrators can decide the voting rules, 
-to make participants select a defined number of projects, or vote for as many project they want until reaching a certain amount. 
+The Budgets component allows participants to vote by selecting projects of their choosing. This component has been designed to 
+organize voting in the final phase of a Participatory Budget, although it can be used for other types of processes.
+
+Administrators can decide the voting rules, to make participants select a defined number of projects, or vote for as 
+many project they want until reaching a certain amount. 
 
 image::components/budgets/example01.png[Budgets example voting]
 

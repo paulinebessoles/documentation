@@ -5,6 +5,8 @@
 Results are the entities composing the accountability component. They can be linked to proposals, projects, meetings, and have 
 categories, statuses and dates assigned. 
 
+Administrators can also create sub-results, to detail the elements needed for a result implementation. 
+
 == Create a result
 
 To start creating results, click in the component title in the navigation bar or in the component list, or click in the 

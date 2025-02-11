@@ -80,7 +80,7 @@ then "component b" is first when ordering.
 
 |Endorsements blocked
 |Optional
-|Check is you want to block new endorsements to be performed on debates at this phase. 
+|Check for participants to be able to see the existing endorsements but not make any new one. 
 
 |Participants can create debates
 |Optional
@@ -167,7 +167,7 @@ It's possible to have two kinds of debates:
 . Finite: with a start and end date
 . Open: without a start and end date
 
-This is shown publicly in the debate list.
+Participants can see the types of the debates in the debate public list.
 
 image:components/debates/debates_list.png[Debates list]
 
