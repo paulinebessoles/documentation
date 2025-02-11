@@ -59,11 +59,11 @@ Only a few services allow embedding (YouTube, Twitch, Jitsi, ...)
 
 |Start time
 |Required
-|On which day and time the meeting start. Expected format: dd/mm/yyyy hh:mm.
+|On which day and time the meeting starts. Expected format: dd/mm/yyyy hh:mm.
 
 |End time
 |Required
-|On which day and time the meeting start. Expected format: dd/mm/yyyy hh:mm.
+|On which day and time the meeting starts. Expected format: dd/mm/yyyy hh:mm.
 
 |Category
 |Optional
@@ -90,7 +90,7 @@ participate in it. This is only available for official meetings.
 
 |Comments enabled
 |Optional
-|Whether you want participants to be able to comment this specific meeting.
+|Whether you want participants to be able to comment on this specific meeting.
 
 |Comments enabled from
 |Optional
@@ -153,7 +153,7 @@ a place for children, deaf assistance, translations, etc. You can have multiple 
 
 |image:icons/action_list.png[Poll icon]
 |xref:admin:components/meetings/polls.adoc[Polls]
-|To manage the polls for the online meeting.
+|To manage the polls for the meeting.
 
 |image:icons/action_close.png[Close icon]
 |xref:admin:components/meetings/close.adoc[Close]

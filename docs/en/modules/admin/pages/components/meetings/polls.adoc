@@ -2,7 +2,7 @@
 
 == Understand the basics
 
-Meetings polls allow administrators to define questions prior to an online meeting, that participants to the meeting can answer 
+Meetings polls allow administrators to define questions for a meeting, that participants can answer 
 while it's happening. It can be very useful to gather quick feedback and make decisions during meetings without having to leave the meeting and use
 other kind of tools.
 

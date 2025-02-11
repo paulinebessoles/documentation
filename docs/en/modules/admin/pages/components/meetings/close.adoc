@@ -2,7 +2,7 @@
 
 == Understand the basics
 
-Once a meeting is over, the meeting author can close the meeting. This allows to adds the meeting minutes, the notes
+Once a meeting is over, the meeting author can close it. This allows to adds the meeting minutes, the notes
 that gives a summary on what was discussed during the meeting, the agreements reached, decisions made, etc.
 
 This allows to bring transparency to the meeting and also serves as a record of the different meetings.

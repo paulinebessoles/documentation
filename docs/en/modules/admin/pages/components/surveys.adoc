@@ -3,7 +3,7 @@
 == Understand the basics
 
 The Survey component allows participants to answer questionnaires. This is useful when an organization wants to receive private
-feedback from participants. It allows defining a set of questions with multiple kinds of questions.
+feedback from participants. It allows defining a set of questions with multiple kinds of answers.
 
 NOTE: Once a survey is answered by participants, it's not possible to modify its questions, as that would affect the integrity
 of the answers. If you need to modify the questions, create a new survey and unpublish the original one.
