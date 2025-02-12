@@ -18,6 +18,8 @@ image::spaces/conferences/media_links_backend.png[Conferences media links]
 
 === Actions
 
+.Actions
+[cols="10h,20h,~"]
 |===
 |Icon |Name |Definition
 

@@ -55,6 +55,8 @@ image::spaces/assemblies/assemblies_list_filter.png[Assemblies list filtered]
 
 == Actions
 
+.Actions
+[cols="10h,20h,~"]
 |===
 |Icon |Name |Definition
 

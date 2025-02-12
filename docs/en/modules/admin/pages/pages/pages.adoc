@@ -27,6 +27,7 @@ To create a new page, you need to click the "Create page" button.
 image::pages/pages_backend_form.png[Backend: new page form]
 
 .New page form
+[cols="20h,10h,~"]
 |===
 |Field |Type |Description
 

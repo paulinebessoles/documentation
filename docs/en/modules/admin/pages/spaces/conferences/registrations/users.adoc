@@ -22,6 +22,8 @@ image::spaces/conferences/user_registrations.png[Conferences user registrations 
 
 === Actions 
 
+.Actions
+[cols="10h,20h,~"]
 |===
 |Icon |Name |Definition
 

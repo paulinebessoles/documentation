@@ -37,7 +37,7 @@ image::spaces/components/components_new_dropdown.png[Add a component in a space]
 == Actions
 
 .Components actions in component list
-[cols="20h,10h,~"]
+[cols="10h,20h,~"]
 |===
 |Icon |Name |Definition
 

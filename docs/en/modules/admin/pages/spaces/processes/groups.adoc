@@ -15,6 +15,8 @@ image::spaces/processes/processes_group_list.png[Participatory process groups li
 
 === Actions 
 
+.Actions
+[cols="10h,20h,~"]
 |===
 |Icon |Name |Definition
 
@@ -133,7 +135,7 @@ image::spaces/processes/processes_group_form_visibility.png[Participatory proces
 |Promoted
 |Optional
 |Check if you want the process to have more visibility in the Process public list. It'll also be visible in the "Highlighted processes" 
-content block in the xref:admin:homepage.adoc[Homepage].
+content block in the xref:admin:settings/homepage.adoc[Homepage].
 
 |===
 

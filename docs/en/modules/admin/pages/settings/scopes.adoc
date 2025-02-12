@@ -17,6 +17,7 @@ To create a scope type, click the "Add" button in the Scope types tab.
 image::settings/scopes_types_new_form.png[New scope type form]
 
 .Admin new scope type form
+[cols="20h,10h,~"]
 |===
 |Field |Type |Description
 
@@ -37,6 +38,7 @@ To create a scope, click the "Add" button in the Scope tab.
 image::settings/scopes_new_form.png[New scope form]
 
 .Admin new scope form
+[cols="20h,10h,~"]
 |===
 |Field |Type |Description
 
@@ -56,6 +58,8 @@ image::settings/scopes_new_form.png[New scope form]
 
 == Actions
 
+.Actions
+[cols="10h,20h,~"]
 |===
 |Icon |Name |Definition
 
@@ -103,6 +107,6 @@ A participant can choose which scopes they want to follow in its account.
 
 image::settings/account_my_interests.png[Account: my interests]
 
-This is used in the xref:admin:newsletters.adoc[Newsletters], in the "Select recipients to deliver" step.
+This is used in the xref:admin:features/social_features/newsletters.adoc[Newsletters], in the "Select recipients to deliver" step.
 
-image::newsletter_select_recipients.png[Newsletter: select recipients]
+image::features/newsletters/newsletter_select_recipients.png[Newsletter: select recipients]

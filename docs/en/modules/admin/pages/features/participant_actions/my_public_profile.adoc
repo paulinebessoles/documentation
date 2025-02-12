@@ -22,7 +22,8 @@ image::features/my_profile/profile_dropdown.png[Frontend user menu dropdown]
 
 There, you'll find different tabs.
 
-NOTE: You might not see the Badges and the Groups tab if you didn't enable them in the xref:admin:configuration.adoc[Configuration] panel.
+NOTE: You might not see the Badges and the Groups tab if you didn't enable them in the 
+xref:admin:settings/configuration.adoc[Configuration] panel.
 
 === Activity
 
@@ -55,8 +56,7 @@ image::features/my_profile/profile_followers.png[Public profile followers tab]
 
 === Groups
 
-The groups section contains all the groups that the user belongs to. More information about the groups feature is 
-available at the xref:admin:features/participant_actions/groups.adoc[User groups page].
+The groups section contains all the groups that the user belongs to. 
 
 image::features/my_profile/profile_groups.png[Public profile groups tab]
 
@@ -78,4 +78,3 @@ Logged in participants can perform two actions from their public profile page:
 . Create a group: When clicking this button, they're redirected to the xref:admin:features/participant_actions/group_profile.adoc[group creation form].
 
 NOTE: The group creation option is only available when groups are enabled for the organization. 
-You can do it from the xref:admin:configuration.adoc[Configuration] panel.

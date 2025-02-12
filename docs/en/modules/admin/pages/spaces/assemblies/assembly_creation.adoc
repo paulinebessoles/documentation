@@ -164,11 +164,11 @@ image::spaces/assemblies/assemblies_new_form_filters.png[New assembly form filte
 
 |Scope
 |Optional
-|Which xref:admin:scopes.adoc[Scope] does this assembly belongs to.
+|Which xref:admin:settings/scopes.adoc[Scopes] does this assembly belongs to.
 
 |Area
 |Optional
-|Which xref:admin:areas.adoc[Area] does this assembly belongs to.
+|Which xref:admin:settings/areas.adoc[Area] does this assembly belongs to.
 
 |===
 
@@ -227,7 +227,7 @@ image::spaces/assemblies/assemblies_new_form_visibility.png[New assembly form vi
 |Highlighted
 |Optional
 |Check if you want the assembly to have more visibility in the Assemblies public list. It's also visible in the "Highlighted 
-Assemblies" Content Block in the xref:admin:homepage.adoc[Homepage] configuration.
+Assemblies" Content Block in the xref:admin:settings/homepage.adoc[Homepage] configuration.
 
 |Private space
 |Optional

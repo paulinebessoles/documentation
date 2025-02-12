@@ -15,6 +15,8 @@ image::spaces/assemblies/assembly_members_list.png[Assembly members administrati
 
 == Actions
 
+.Actions
+[cols="10h,20h,~"]
 |===
 |Icon |Name |Definition
 
@@ -35,6 +37,7 @@ To create a new assembly member, click the "New assembly member" button in the t
 image::spaces/assemblies/assembly_members_new_form.png[Assembly members new form]
 
 .New assembly member form
+[cols="20h,10h,~"]
 |===
 |Field |Type |Description
 

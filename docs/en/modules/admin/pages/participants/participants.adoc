@@ -13,6 +13,7 @@ image:participants/participants_participants.png[Participants list]
 == Manage participants
 
 You can find all the participants here, with:
+
 * *Name*: name of the participant, with a link to their profile.
 * *Nickname*: nickname of the participant, with a link to their profile.
 * *Created at*: date of the participant account creation. 
@@ -25,6 +26,8 @@ You can also search for participants by email, name, or nickname in the search b
 
 === Actions
 
+.Actions
+[cols="10h,20h,~,~"]
 |===
 |Icon |Name |Definition |Condition
 
@@ -79,7 +82,7 @@ image:participants/participants_showed_email_admin_log.png[Admin activity log fo
 
 To contact participants directly through the private messaging of the platform, click the "Contact" icon. 
 
-image:participants/participants_conversation.png[Conversation with a participant].
+image::participants/participants_conversation.png[Conversation with a participant]
 
 === Officialize
 

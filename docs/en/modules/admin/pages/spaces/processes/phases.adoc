@@ -34,6 +34,8 @@ image::spaces/processes/process_phases_list.png[Phases of a participatory proces
 
 === Actions
 
+.Actions
+[cols="10h,20h,~,~"]
 |===
 |Icon |Name |Definition |Condition
 

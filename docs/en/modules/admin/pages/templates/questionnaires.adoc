@@ -9,6 +9,7 @@ To create a new questionnaire template, you need to click the "New template" but
 image::templates/templates_questionnaires_backend_form.png[Backend: new template form]
 
 .New questionnaire template form
+[cols="20h,10h,~"]
 |===
 |Field |Type |Description
 
@@ -51,6 +52,8 @@ you can also change the questions, add some or delete some for this specific com
 
 === Actions
 
+.Actions
+[cols="10h,20h,~"]
 |===
 |Icon |Name |Definition
 

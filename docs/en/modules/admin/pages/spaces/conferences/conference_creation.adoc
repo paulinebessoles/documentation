@@ -42,7 +42,7 @@ start with a letter.
 |Highlighted
 |Optional
 |Check if you want the conference to have more visibility in the conferences public list and the "Highlighted conferences" content block 
-in the xref:admin:homepage.adoc[Homepage] configuration. 
+in the xref:admin:settings/homepage.adoc[Homepage] configuration. 
 
 |Short description
 |Required
@@ -101,7 +101,7 @@ image::spaces/conferences/conference_new_form_filters.png[New conference form fi
 
 |Scope
 |Optional
-|Which xref:admin:scopes.adoc[Scope] does this conference belongs to.
+|Which xref:admin:settings/scopes.adoc[Scope] does this conference belongs to.
 
 |Show statistics
 |Optional
@@ -138,6 +138,7 @@ This section is allows you to enable registrations and set slots and registratio
 image::spaces/conferences/conference_new_form_registrations.png[New conference form Registrations sections]
 
 .New conference form: Registrations
+[cols="20h,10h,~"]
 |===
 |Field |Type |Description
 

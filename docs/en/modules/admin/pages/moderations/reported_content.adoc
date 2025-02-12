@@ -26,6 +26,7 @@ After a participant has reported a content, it appears in two sections of the ad
 image:moderations/moderations_backend_list_content.png[Global moderations panel for content]
 
 There you'll find first all the unprocessed reports if there's any, with: 
+
 * *Id*: unique identifier of the reported content.
 * *Type*: the kind of content reported, for instance comment, proposal, debate, etc.
 * *Participatory Space*: which space this content belongs to.
@@ -40,6 +41,8 @@ Once you moderate a content, it appears in the "Hidden" contents list, accessibl
 
 === Actions
 
+.Actions
+[cols="10h,20h,~,~"]
 |===
 |Icon |Name |Definition |Condition
 

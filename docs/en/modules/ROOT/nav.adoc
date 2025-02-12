@@ -5,6 +5,7 @@
 ** xref:install:update.adoc[Update]
 
 * xref:configure:index.adoc[Configure]
+** xref:configure:system.adoc[System panel]
 ** xref:configure:environment_variables.adoc[Environment Variables]
 ** xref:configure:initializer.adoc[Initializer]
 ** xref:customize:index.adoc[Customize]
@@ -69,6 +70,7 @@
 *** xref:admin:spaces/assemblies.adoc[Assemblies]
 **** xref:admin:spaces/assemblies/types.adoc[Assembly types]
 **** xref:admin:spaces/assemblies/assembly_creation.adoc[Assembly creation]
+**** xref:admin:spaces/assemblies/landing_page.adoc[Landing page]
 **** xref:admin:spaces/assemblies/components.adoc[Components]
 **** xref:admin:spaces/assemblies/categories.adoc[Categories]
 **** xref:admin:spaces/assemblies/attachments.adoc[Attachments]
@@ -205,7 +207,7 @@
 *** Maintainers
 **** xref:develop:backports.adoc[Backports]
 **** xref:develop:guide_github_projects.adoc[GitHub Projects Workflow]
-**** xref:develop:maintainers/releases.adoc[Releasing new versionss]
+**** xref:develop:maintainers/releases.adoc[Releasing new versions]
 **** xref:develop:maintainers/security.adoc[Security procedures]
 *** xref:develop:metrics.adoc[Metrics]
 *** xref:develop:modules.adoc[Modules]
@@ -245,7 +247,7 @@
 *** xref:publications:german.adoc[German]
 *** xref:publications:italian.adoc[Italian]
 *** xref:publications:spanish.adoc[Spanish]
-** Whitepaper
+** White paper
 *** xref:whitepaper:decidim-a-brief-overview.adoc[Decidim: a brief overview]
 
 * xref:releases:index.adoc[Release notes]

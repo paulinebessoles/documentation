@@ -32,6 +32,8 @@ image::spaces/conferences/registration_types_backend.png[Manage registration typ
 
 NOTE: Once participants register to a registration type, it can't be edited nor deleted. 
 
+.Actions
+[cols="10h,20h,~"]
 |===
 |Icon |Name |Definition
 

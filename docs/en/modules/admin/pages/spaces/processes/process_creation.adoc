@@ -167,7 +167,7 @@ image::spaces/processes/processes_new_form_filters.png[New participatory process
 
 |Scope
 |Optional
-|Which xref:admin:scopes.adoc[Scope] does this process belongs to.
+|Which xref:admin:settings/scopes.adoc[Scope] does this process belongs to.
 
 |Scope filter depth
 |Optional
@@ -178,7 +178,7 @@ Provinces -> Cities -> Districts, and the process is about a particular City.
 
 |Area
 |Optional
-|Which xref:admin:areas.adoc[Area] does this process belongs to.
+|Which xref:admin:settings/areas.adoc[Area] does this process belongs to.
 
 |===
 
@@ -204,7 +204,7 @@ image::spaces/processes/processes_new_form_visibility.png[New participatory proc
 |Promoted
 |Optional
 |Check if you want the process to have more visibility in the Process public list and the "Highlighted processes" content block 
-in the xref:admin:homepage.adoc[Homepage] configuration. 
+in the xref:admin:settings/homepage.adoc[Homepage] configuration. 
 
 |===
 

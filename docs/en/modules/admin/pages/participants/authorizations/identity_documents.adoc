@@ -4,7 +4,7 @@ This authorization allows a participant to upload its identity documents into th
 These documents depend on the organization, they could be a driver's license, a passport, a national identity card, 
 a club membership card, etc.
 
-NOTE: If you don't want to collect any data, you should turn it off in the xref:admin:system.adoc[system panel].
+NOTE: If you don't want to collect any data, you should turn it off in the xref:configure:system.adoc[System panel].
 
 These documents are reviewed by an administrator who can accept or reject them. It's possible to do this process 
 in two ways:
@@ -20,6 +20,7 @@ Click the "Config" button to configure the authorization.
 image::participants/authorizations_id_document_configuration.png[ID document authorization configuration]
 
 .ID Documents authorization configuration
+[cols="20h,20h,~"]
 |===
 |Field |Type |Description
 
@@ -114,6 +115,7 @@ Then they need to fill some data provided by the participant and review the docu
 image::participants/authorizations_id_document_offline_confirm.png[ID document authorization offline confirmation form in administration]
 
 .ID Documents authorization offline form
+[cols="20h,10h,~"]
 |===
 |Field |Type |Description
 

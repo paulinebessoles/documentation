@@ -7,7 +7,7 @@ If an administrator verifies that you are entitled to represent this group, then
 name of the group. 
 
 NOTE: The group creation option is only available when groups are enabled for the organization. 
-You can ask an administrator of the platform or enable it from the xref:admin:configuration.adoc[Configuration] panel.
+You can ask an administrator of the platform or enable it from the xref:admin:settings/configuration.adoc[Configuration] panel.
 
 == Create a group
 
