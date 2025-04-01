@@ -4,7 +4,7 @@
   "scripts": {
     "prebuild": "./bin/playbook-changer.js",
     "build": "antora antora-playbook.yml $@",
-    "postbuild": "git restore antora-playbook.yml && mkdir build/site/.well-known/ && cp ./.well-known/funding-manifest-urls build/site/.well-known/",
+    "postbuild": "./bin/postbuild.js",
     "test": "./bin/test"
   },
   "devDependencies": {
