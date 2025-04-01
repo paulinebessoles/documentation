@@ -55,6 +55,7 @@
 **** xref:admin:participants/authorizations/identity_documents.adoc[Identity documents]
 **** xref:admin:participants/authorizations/code_postal_letter.adoc[Code by postal letter]
 **** xref:admin:participants/authorizations/census.adoc[Organization's census]
+**** xref:admin:participants/authorizations/ephemeral_verifications.adoc[Ephemeral verifications]
 ** xref:admin:spaces.adoc[Spaces]
 *** xref:admin:spaces/processes.adoc[Participatory Processes]
 **** xref:admin:spaces/processes/groups.adoc[Process Groups]
