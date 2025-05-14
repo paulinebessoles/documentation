@@ -1,11 +1,15 @@
 = Reported participants
 
+== Understand the basics
+
 There are cases where participants could go against the Terms of Service of the
 platform, so it's useful to have the option for reporting and blocking participants.
 You can block participants from the xref:participants/participants.adoc[participants
 section in the administration panel] or through the "Reported participants" section.
 
-== Report a participant
+== Configuration
+
+=== Report a participant
 
 Any logged in participant can report another participant through the "Flag" icon in the participant
 profile.
@@ -21,7 +25,7 @@ directly block the user and hide all their contents. They have to give a justifi
 
 image:moderations/reported_participant_modal_admin.png[Give reason for reporting a participant modal administrators]
 
-== Manage reported participants
+=== Manage reported participants
 
 Reported participants are visible on the "Reported participants" section of the Global moderations panel. 
 
