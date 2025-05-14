@@ -17,7 +17,7 @@ image::components/meetings/example01.png[Example meeting detail 01]
 
 == Configuration
 
-To create a Meetings component, first go in the xref:admin:spaces.adoc[participatory space] where you want to create it. 
+To create a Meetings component, first go to the xref:admin:spaces.adoc[participatory space] where you want to create it. 
 
 image::components/meetings/component_meeting.png[Add Meetings component button]
 
@@ -90,11 +90,11 @@ Learn more in xref:components/meetings/registrations.adoc[Registrations].
 
 |Enable pads creation
 |Optional
-|If you want an Etherpad embedded in your meetings. Must have the xref:services:etherpad.adoc[Etherpad] integration configurated.
+|If you want an Etherpad embedded in your meetings. Must have the xref:services:etherpad.adoc[Etherpad] integration configured.
 
 |Participants can create meetings
 |Optional
-|Allows participants to create new meetings. Learn more in xref:_citizens_meetings[Citizens meetings].
+|Allows participants to create new meetings. Learn more in xref:components/meetings/meetings.adoc#_participants_meetings[Participants meetings].
 
 |Maps enabled
 |Optional
