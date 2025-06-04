@@ -11,7 +11,7 @@ In conferences, meetings components are displayed in a program form, with days a
 
 NOTE: You want to create a conference? Check the xref:admin:spaces/conferences/conference_creation.adoc[conference creation] article. 
 
-In this documentation section, you can find how to configure and manage all of those items: 
+In this documentation section, you can find how to configure and manage all of these items: 
 
 * xref:admin:spaces/conferences/conference_creation.adoc[Conference creation]
 * xref:admin:spaces/conferences/components.adoc[Components]
@@ -28,7 +28,7 @@ In this documentation section, you can find how to configure and manage all of t
 * xref:admin:spaces/conferences/admins.adoc[Conference admins]
 * xref:admin:spaces/conferences/moderations.adoc[Moderations]
 
-== How to find it?
+=== How to find it?
 
 To access the Conferences panel, go in the administration panel and click the "Conferences" item in the administration 
 navigation bar. 
@@ -37,7 +37,9 @@ image::spaces/conferences/menu.png[Conferences menu]
 
 There, you are able to manage all existing conferences. 
 
-== Manage conferences
+== Configuration
+
+=== Manage conferences
 
 image::spaces/conferences/manage_conferences.png[Conferences list in administration panel]
 
@@ -50,7 +52,7 @@ You can find all the conferences on the list in the administration panel, with:
 You can filter and sort this list by clicking the "Filter" button and the columns headers. 
 You can also search for conferences by their title in the search bar.
 
-== Actions 
+=== Actions 
 
 .Actions
 [cols="10h,20h,~"]
@@ -77,7 +79,7 @@ You can also search for conferences by their title in the search bar.
 
 == Examples
 
-Below, you can find some links to examples conferences: 
+Below, you can find some links to examples of conferences: 
 
 * https://meta.decidim.org/conferences/DecidimFest24[Decidim Fest 2024]
 * https://barcelonadema-participa.cat/conferences/jornada-resilient[Resilient metropolis initial day of the Strategic plan of the Barcelona metropolis]
