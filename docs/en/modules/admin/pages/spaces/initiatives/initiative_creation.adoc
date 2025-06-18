@@ -9,7 +9,7 @@ image::spaces/initiatives/initiatives_index_front.png[Initiatives index in front
 Participants are now able to create initiatives.
 Depending on how the initiatives module is configured in the initializer or how the initiative type is configured, it may need to ask for an authorization.
 
-== Initiative creation steps
+== Configuration
 
 To start creating an initiative, the participant must click in the "New initiative" button.
 Depending on the configuration of your instance, they have to pass different steps before being able to send their initiative to technical validation, where it gets reviewed 

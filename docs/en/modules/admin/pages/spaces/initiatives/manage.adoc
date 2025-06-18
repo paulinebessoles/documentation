@@ -16,7 +16,9 @@ default. Ask your instance implementer to modify this parameter if you don't nee
 
 image::spaces/initiatives/initiative_admin_show.png[Admin initiative show page]
 
-== Manage initiatives
+== Configuration
+
+=== Manage initiatives
 
 After the initiative was sent to technical validation by a participant, an administrator can view all the initiatives in the administration panel.
 
@@ -35,7 +37,7 @@ You can also search for initiatives by their title in the search bar.
 
 image::spaces/initiatives/initiative_list_filters.png[Initiatives list filtered]
 
-== Actions
+=== Actions
 
 .Actions
 [cols="10h,20h,~"]
@@ -60,7 +62,7 @@ image::spaces/initiatives/initiative_list_filters.png[Initiatives list filtered]
 
 |===
 
-== Edit an initiative
+=== Edit an initiative
 
 When clicking the "Edit" button or the initiative title on the initiative list in administration, the administrator is 
 redirected to the initiative edit form, and can see that the secondary navigation bar on the left also allows to manage 
@@ -71,12 +73,12 @@ image::spaces/initiatives/initiative_edit_form_admin.png[Initiative edit form in
 On the edition form, the administrator can review and modify the initiative's title, description, scope, area, etc.
 They can also send the initiative to technical validation. 
 
-== Publish an initiative
+=== Publish an initiative
 
 Once an initiative is sent to technical validation, the administrator can decide to publish it or discard it. 
 To publish an initiative in technical validation, go on the initiative edition page and click the "Publish" button. 
 
-== Export signatures
+=== Export signatures
 
 After the initiative started to get signatures, administrators can export the signatures in the initiative edit form, in CSV or in .pdf. 
 
