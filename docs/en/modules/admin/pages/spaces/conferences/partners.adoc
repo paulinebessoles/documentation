@@ -7,7 +7,9 @@ If you add partners in the administration, then they are listed on the Conferenc
 
 image:spaces/conferences/partners_frontend.png[Conferences partners frontend]
 
-== Manage partners
+== Configuration
+
+=== Manage partners
 
 To access the partners configuration, click in the secondary navigation panel on the "Partners" item. 
 
@@ -30,7 +32,7 @@ image::spaces/conferences/partners.png[Conferences partners]
 
 |===
 
-== Create a new partner
+=== Create a new partner
 
 To create a new partner, click the "New partner" button in the top right of the page. 
 

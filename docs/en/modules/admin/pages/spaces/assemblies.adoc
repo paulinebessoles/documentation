@@ -27,7 +27,7 @@ In this documentation section, you can find how to configure and manage all of t
 * xref:admin:spaces/assemblies/private_participants.adoc[Private participants]
 * xref:admin:spaces/assemblies/moderations.adoc[Moderations]
 
-== How to find it?
+=== How to find it?
 
 To access the Assemblies panel, go in the administration panel and click the "Assemblies" item in the administration 
 navigation bar. 
@@ -36,7 +36,9 @@ image::spaces/assemblies/assemblies_menu.png[Pages: Access assemblies panel]
 
 There, you are able to manage assemblies and assemblies types. 
 
-== Manage assemblies
+== Configuration
+
+=== Manage assemblies
 
 image::spaces/assemblies/assemblies_list.png[Assemblies list]
 
@@ -53,7 +55,7 @@ You can also search for assemblies by their title in the search bar.
 
 image::spaces/assemblies/assemblies_list_filter.png[Assemblies list filtered]
 
-== Actions
+=== Actions
 
 .Actions
 [cols="10h,20h,~"]

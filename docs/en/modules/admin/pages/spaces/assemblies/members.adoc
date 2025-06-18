@@ -7,13 +7,15 @@ This is a feature specific to the assemblies space, made for improving transpare
 
 image::spaces/assemblies/assembly_members.png[Assembly members]
 
-== Manage assembly members
+== Configuration
+
+=== Manage assembly members
 
 To access the assembly members list, click in the secondary navigation panel on the "Members" item.
 
 image::spaces/assemblies/assembly_members_list.png[Assembly members administration list]
 
-== Actions
+=== Actions
 
 .Actions
 [cols="10h,20h,~"]
@@ -30,7 +32,7 @@ image::spaces/assemblies/assembly_members_list.png[Assembly members administrati
 
 |===
 
-== Create an assembly member
+=== Create an assembly member
 
 To create a new assembly member, click the "New assembly member" button in the top right of the page.
 

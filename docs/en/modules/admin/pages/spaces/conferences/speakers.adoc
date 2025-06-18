@@ -7,7 +7,9 @@ see who is going to speak in each item of the program.
 
 image::spaces/conferences/speakers_frontend.png[Conferences speakers frontend]
 
-== Manage speakers
+== Configuration
+
+=== Manage speakers
 
 To access the speakers configuration, click in the secondary navigation panel on the "Speakers" item. 
 
@@ -40,7 +42,7 @@ You can search speakers thanks to the search bar.
 
 |===
 
-== Create a new speaker
+=== Create a new speaker
 
 To create a new speaker, click the "New speaker" button in the top right of the page. 
 

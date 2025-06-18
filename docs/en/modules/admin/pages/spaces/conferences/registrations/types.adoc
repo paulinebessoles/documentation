@@ -22,7 +22,9 @@ image::spaces/conferences/registration_button_landing.png[Registration button on
 
 image::spaces/conferences/registration_button_landing_footer.png[Registration button on landing page register section]
 
-== Manage registration types
+== Configuration
+
+=== Manage registration types
 
 To access the registration types configuration, click in the secondary navigation panel on the "Media links" item. 
 
@@ -55,7 +57,7 @@ NOTE: Once participants register to a registration type, it can't be edited nor 
 
 |===
 
-== Create a new registration type
+=== Create a new registration type
 
 To create a new registration type, click the "New registration type" button in the top right of the page. 
 
@@ -88,7 +90,7 @@ image::spaces/conferences/new_registration_type.png[Create a new registration ty
 
 |===
 
-== Register as a participant
+=== Register as a participant
 
 If the participant isn't logged in, when clicking on one of the "Register" buttons, they can log in or create an account,
 and see the registration types. 
