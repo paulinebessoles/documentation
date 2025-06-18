@@ -36,7 +36,7 @@ image::components/meetings/polls/backend.png[Backend for meeting polls]
 
 You can add as many questions and answer options as you want. 
 
-== Manage
+=== Manage
 
 Prior to the meeting, if the administrators already configured the polls questions, participants can see a button "Reply poll" 
 on the meeting page, warning them that a poll is going to be published on this meeting. 
@@ -56,6 +56,6 @@ Then, administrators can decide to send the questions results to participants, s
 
 image::components/meetings/polls/poll_participant_replies_sent.png[Polls replies view for participant]
 
-== Export
+=== Export
 
-Participants answers can be exported through the "Export all" button in CSV, JSON, Excel and PDF. 
+Participants' answers can be exported through the "Export all" button in CSV, JSON, Excel and PDF. 
