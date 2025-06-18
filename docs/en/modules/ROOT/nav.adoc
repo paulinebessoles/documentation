@@ -111,7 +111,7 @@
 *** xref:admin:components/accountability.adoc[Accountability]
 **** xref:admin:components/accountability/results.adoc[Accountability management]
 **** xref:admin:components/accountability/statuses.adoc[Statuses]
-**** xref:admin:components/accountability/timeline.adoc[Project evolution]
+**** xref:admin:components/accountability/milestone.adoc[Project evolution]
 **** xref:admin:components/accountability/import.adoc[Import and export results]
 *** xref:admin:components/blog.adoc[Blog]
 *** xref:admin:components/budgets.adoc[Budgets]
@@ -209,6 +209,7 @@
 *** xref:develop:deploy.adoc[Deploy]
 *** xref:develop:docker.adoc[Docker]
 *** xref:develop:fixing_locales.adoc[Fixing locales]
+*** xref:develop:grafana.adoc[Grafana]
 *** xref:develop:maps.adoc[Maps]
 *** xref:develop:managing_translations_i18n.adoc[i18n]
 *** Maintainers
