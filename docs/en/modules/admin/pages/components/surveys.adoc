@@ -284,6 +284,7 @@ image::components/surveys/title_description_backend.png[Title and description in
 === Export answers
 
 It's possible to export the survey participant answers to different formats: CSV, JSON, XLSX (Excel) or PDF.
+It doesn't export user data, so if you need to collect it, make sure to create dedicated survey questions.
 
 NOTE: The platform doesn't handle the answers processing nor presenting results or summary to the users, that need to be
 done externally.
