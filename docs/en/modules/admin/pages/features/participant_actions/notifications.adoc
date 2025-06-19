@@ -7,7 +7,7 @@ Most actions on the platform generate notifications.
 
 Participants can manage their notification preferences in their xref:admin:features/participant_actions/my_account.adoc[account].
 
-== The notification page
+=== How to find it?
 
 As a signed in participant, you can access your notifications from two places:
 
@@ -24,7 +24,7 @@ When there are no notifications, or the participant marked all the notifications
 
 image:features/notifications/no_notifications_yet.png[Example of notifications page when there aren't notifications]
 
-== Notifications list
+=== Notifications list
 
 Below is an exhaustive list of actions that trigger notifications to participants. Participants are divided into three categories: affected users, followers, and administrators.
 
