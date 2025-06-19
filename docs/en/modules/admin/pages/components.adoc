@@ -9,7 +9,7 @@ When you create a participatory space, by default, it won't have any components 
 
 include::partial$components_list.adoc[]
 
-== How to find it?
+=== How to find it?
 
 Components are accessible in each xref:admin:spaces.adoc[space], through the administration secondary navigation bar.
 
@@ -22,7 +22,9 @@ content block in the landing page, in the general search engine, and in the dedi
 
 image::components/components_index_front.png[Component index frontend in an assembly]
 
-== Manage components
+== Configuration
+
+=== Manage components
 
 On this page, you are able to manage components and create new ones. 
 
@@ -30,9 +32,9 @@ You can find all the components of the space on the list, with:
 
 * *Component name*: title of the component, chosen at its creation and editable. 
 * *Component type*: type of component. 
-* *Component scope*: the xref:admin:settings/scopes.adoc[scope] of the component.
+* *Component scope*: the xref:admin:scopes.adoc[scope] of the component. 
 
-== Actions 
+=== Actions 
 
 [cols="10h,~,~"]
 |===

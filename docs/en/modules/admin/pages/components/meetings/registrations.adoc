@@ -12,14 +12,16 @@ Enabling this feature adds a "Register" button so that participants can express 
 
 image::components/meetings/registrations/frontend_join_meeting.png[Join a meeting button on meeting page]
 
-Depending in how this feature is configured, then administrators can:
+Depending on how this feature is configured, then administrators can:
 
 . define how many slots are available for controlling the maximum capacity for this meeting
 . create a xref:_registration_form[custom registration form] to ask information to participants
 . send xref:_invitations[invitations] to other participants or people not registered in the platform
 . control attendance to the meeting through xref:_registration_code[registration codes]
 
-== Register for a meeting
+== Configuration
+
+=== Register for a meeting
 
 When a participant clicks on the "Register" button, they get asked 
 
@@ -28,7 +30,7 @@ When a participant clicks on the "Register" button, they get asked
 
 image::components/meetings/registrations/frontend_confirm.png[Join a meeting confirm modal]
 
-== Manage registrations
+=== Manage registrations
 
 Once you chose to deal with registrations "On this platform" when creating a meeting, you can manage registrations by clicking the 
 image:icons/action_registrations.png[Registrations icon] Registrations icon.
@@ -75,7 +77,7 @@ after the registration code if it's enabled.
 
 |===
 
-== Registration form
+=== Registration form
 
 This feature allows you to define a custom form like the xref:admin:components/surveys.adoc[Surveys] component to ask participants
 for registration information.
@@ -83,7 +85,7 @@ for registration information.
 To create a registration form, check the "Registration form enabled" on the registrations page, and click the "Save" button. 
 Then, you can click the "Registration form" button in the top right of the page. 
 
-== Export all
+=== Export all
 
 You can export registrations in multiple formats: CSV, JSON and XLSX (Excel).
 
@@ -95,14 +97,14 @@ The exported data contains these fields:
 * user/email: the email of the user
 * user/user_group: the group of the user if they have selected that they represent a group when registering
 
-== Invitations
+=== Invitations
 
 This feature allows you to invite attendees to a meeting. They can be active participants or non-existing participants
 in the platform.
 
 image::components/meetings/registrations/invite_attendee.png[Invite attendee for registration in a meeting]
 
-== Registration code
+=== Registration code
 
 This feature allows you to check if an attendee is well registered in the meeting. 
 
@@ -116,6 +118,6 @@ The organizer then enters the code in the "Validate registration code" field, to
 
 image:components/meetings/registrations/backend_w_registration_code.png[Registration code form in a meeting]
 
-Once the code gets verified, the attendee is considered to having participated in the meeting, and the code is marked as validated. 
+Once the code has been verified, the attendee is considered to have participated in the meeting and the code is marked as validated.
 
 image:components/meetings/registrations/frontend_confirmed_w_code.png[Registration code in a meeting frontend]
