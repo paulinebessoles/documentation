@@ -19,7 +19,7 @@ Depending in how this feature is configured, then administrators can:
 . send xref:_invitations[invitations] to other participants or people not registered in the platform
 . control attendance to the meeting through xref:_registration_code[registration codes]
 
-== Register to a meeting
+== Register for a meeting
 
 When a participant clicks on the "Register" button, they get asked 
 
@@ -71,7 +71,7 @@ after the registration code if it's enabled.
 
 |Registration terms
 |Required
-|What terms of services participants need to accept to register or join the meeting.
+|What terms of service participants need to accept to register or join the meeting.
 
 |===
 
