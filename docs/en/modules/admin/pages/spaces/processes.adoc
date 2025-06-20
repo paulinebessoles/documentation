@@ -41,7 +41,7 @@ In this documentation section, you can find how to configure and manage all of t
 ** xref:admin:spaces/processes/private_participants.adoc[Private participants]
 ** xref:admin:spaces/processes/moderations.adoc[Moderations]
 
-== How to find it?
+=== How to find it?
 
 To access the Participatory processes panel, go in the administration panel and click the "Processes" item in the administration 
 navigation bar. 
@@ -50,7 +50,9 @@ image::spaces/processes/processes_menu.png[Pages: Access processes panel]
 
 There, you are able to manage participatory processes and processes groups.
 
-== Manage processes
+== Configuration
+
+=== Manage processes
 
 image::spaces/processes/processes_list.png[Participatory processes list]
 
@@ -68,7 +70,7 @@ You can also search for processes by their title in the search bar.
 
 image::spaces/processes/processes_list_filter.png[Participatory processes list filtered]
 
-== Actions 
+=== Actions 
 
 .Actions
 [cols="10h,20h,~"]
