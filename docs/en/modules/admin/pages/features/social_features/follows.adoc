@@ -12,7 +12,7 @@ The activity that you're following is visible in your xref:features/participant_
 
 == Configuration
 
-=== Follow a content
+=== Follow content
 
 NOTE: By default, administrators follow all the new spaces created in the platform.
 
@@ -24,7 +24,7 @@ To follow a content:
 
 image::features/follows/button_follow.png[Follow button]
 
-=== Unfollow a content
+=== Unfollow content
 
 To unfollow a content:
 
