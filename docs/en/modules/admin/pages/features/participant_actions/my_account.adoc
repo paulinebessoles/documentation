@@ -3,10 +3,10 @@
 == Understand the basics
 
 This feature allows participants to manage their account information, notifications preferences, authorizations, see their groups, etc. 
-This account page is only accessible to the participant, and some account information (such as the "About" field) are displayed in the 
+This account page is only accessible to the participant, and some account information (such as the "About" field) is displayed in the 
 participant xref:admin:features/participant_actions/my_public_profile.adoc[public profile]. 
 
-== How to find it?
+=== How to find it?
 
 As a signed in participant, you can access your account configuration from two places:
 
@@ -15,7 +15,7 @@ As a signed in participant, you can access your account configuration from two p
 
 image::features/my_account/account_dropdown.png[Frontend user menu dropdown]
 
-== Account settings
+== Configuration
 
 There, you'll find different sections, allowing you to set different settings for your participant account.
 

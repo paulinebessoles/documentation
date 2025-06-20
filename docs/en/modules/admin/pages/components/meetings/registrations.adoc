@@ -21,7 +21,7 @@ Depending on how this feature is configured, then administrators can:
 
 == Configuration
 
-=== Register to a meeting
+=== Register for a meeting
 
 When a participant clicks on the "Register" button, they get asked 
 

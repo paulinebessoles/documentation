@@ -7,7 +7,9 @@ or to certify they followed a training for example.
 
 For this, administrators can create Certificates of attendance.
 
-== Create certificate of attendance
+== Configuration
+
+=== Create certificate of attendance
 
 To access the certificate of attendance configuration, click in the secondary navigation panel on the "Certificate of attendance" item. 
 
@@ -36,7 +38,7 @@ image:spaces/conferences/certificates_of_attendance.png[Conference Certificate o
 
 |===
 
-== Send the certificate
+=== Send the certificate
 
 Once the certificate of attendance form is done, you can see a "Send certificates of attendance" button on the top right. 
 This button allows administrators to send the certificate to all the *confirmed* 

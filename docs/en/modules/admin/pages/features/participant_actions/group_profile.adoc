@@ -9,7 +9,9 @@ name of the group.
 NOTE: The group creation option is only available when groups are enabled for the organization. 
 You can ask an administrator of the platform or enable it from the xref:admin:settings/configuration.adoc[Configuration] panel.
 
-== Create a group
+== Configuration
+
+=== Create a group
 
 To create a group, click the "Create group" button in your public profile. 
 
@@ -60,7 +62,7 @@ User groups profiles pages display:
 * Badges: User group badges. 
 * Followers: Participants can also follow user groups. 
 
-== Manage a group
+=== Manage a group
 
 After a group has been created, it's possible to invite participants to become members of the group. 
 After a participant has accepted to be part of this group then they can become an admin.
@@ -75,20 +77,20 @@ The actions that can be done by a user group administrator are:
 
 image::features/my_profile/profile_manage_group.png[Public profile group drop down menu]
 
-=== Manage members
+==== Manage members
 
 On this page, you can accept or refuse participants requests to join your group, but also promote group members to administrators 
 or remove them from the group. 
 
 image::features/my_profile/user_group_manage_participant.png[User groups: manage participants]
 
-=== Manage administrators
+==== Manage administrators
 
 On this page, you can only remove group administrator rights, but it won't remove the participant from the group. 
 
 image::features/my_profile/user_group_manage_admins.png[User groups: manage admins]
 
-=== Invite participants
+==== Invite participants
 
 To invite a participant, they need to have an account on the platform. 
 You can invite them with their nickname. 
@@ -97,18 +99,18 @@ image::features/my_profile/user_group_invite_participant.png[User groups: invite
 
 Then, they receive an invitation to join the group. They can accept it or not. 
 
-=== Conversations
+==== Conversations
 
 You can also have Conversations as a group.
 
 image::features/my_profile/user_group_conversation.png[User group: conversations]
 
-== Participate as a group
+=== Participate as a group
 
 NOTE: For user group administrators to be able to participate as a group, an administrator of the instance must have verified it. 
 
 The interest of having an administrator verify the user group is that you can then participate to the platform as a group, 
-and create debate, proposal, meetings, comments, etc. 
+and create debates, proposals, meetings, comments, etc. 
 
 Administrators of the user group can for example comment in the name of their group. 
 

@@ -8,7 +8,7 @@ For these cases you can use the private participants feature.
 
 NOTE: Private participants list can only be reviewed in the administration panel, and is not publicly displayed.
 
-== How to find it?
+=== How to find it?
 
 NOTE: Private participants are only available in private spaces. To enable them, make sure you tick the "Private space" checkbox when
 creating or editing your process or assembly.
@@ -19,7 +19,9 @@ image::spaces/private_participants.png[Private participants list]
 
 There, you are able to manage the private participants, import them in a batch, add new participants manually, etc.
 
-== Invite a private participant
+== Configuration
+
+=== Invite a private participant
 
 Click on the "New participatory space private user" button.
 
@@ -40,7 +42,7 @@ image:spaces/private_participants_new_form.png[New private participant form]
 
 |===
 
-== Import via CSV
+=== Import via CSV
 
 Click on the "Import via CSV" button.
 
@@ -55,7 +57,7 @@ The CSV must follow the following formatting:
 * You must avoid using invalid chars like `<>?%&^*#@()[]=+:;"{}\|` in the name.
 * The separator between columns must be a comma (",").
 
-== Invitation
+=== Invitation
 
 NOTE: If the email is already linked to an account on the instance, the participant won't receive an invitation email, but will be added to the space.
 
@@ -69,7 +71,7 @@ their account by setting their nickname, password, and accepting the Terms of Se
 
 image::spaces/private_participants_user_registration_form.png[User registration form of a private participant]
 
-== Manage private participants
+=== Manage private participants
 
 You can find all the private participants on the list in the administration panel, with:
 
@@ -80,7 +82,7 @@ You can find all the private participants on the list in the administration pane
 
 You can sort the list by clicking on the columns header, filter it, and search for participants by their name or email.
 
-== Actions
+=== Actions
 
 .Actions
 [cols="10h,20h,~"]

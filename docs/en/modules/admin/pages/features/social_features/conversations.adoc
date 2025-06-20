@@ -3,11 +3,11 @@
 == Understand the basics
 
 With conversations, participants can send private messages to another participant, a group of participants, or to user groups. 
-Only the participants who are in the conversation can see each the messages.
+Only the participants who are in the conversation can see each message.
 
 NOTE: It's not possible to delete a conversation nor to edit a message in a conversation.
 
-== How to find it?
+=== How to find it?
 
 As a signed in participant, you can access your conversations from two places:
 
@@ -18,7 +18,9 @@ image::features/conversations/conversations_dropdown.png[Frontend user menu drop
 
 If there are notifications, the participant sees a small badge next to their avatar, and in the dropdown menu. 
 
-== Start a conversation
+== Configuration
+
+=== Start a conversation
 
 A participant can start a conversation with any participant or group registered on the platform. 
 
@@ -26,7 +28,7 @@ image::features/conversations/conversations.png[Conversations list]
 
 There are two ways to start a conversation.
 
-=== From a participant profile
+==== From a participant profile
 
 . Go to the profile of the participant with who you want to start a conversation
 . Click the "Message" button
@@ -36,7 +38,7 @@ image:features/conversations/profile.png[Participant profile]
 
 image:features/conversations/start_a_conversation_form.png[Start a conversation form]
 
-=== From the conversation page
+==== From the conversation page
 
 image::features/conversations/conversation.png[Example of a conversation]
 
@@ -50,7 +52,7 @@ NOTE: You can start a conversation with several participants, with a limit of 9 
 
 image::features/conversations/new_conversation_modal.png[New conversation modal]
 
-== Group conversations
+=== Group conversations
 
 Just like with participants, it is possible to have conversations with groups.
 

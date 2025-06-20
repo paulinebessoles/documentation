@@ -8,7 +8,9 @@ Committee members might be necessary, depending on the rules set for the initiat
 Participants can manage them from their initiative edition form, but administrators can also access the list of 
 committee members.
 
-== Manage committee members
+== Configuration
+
+=== Manage committee members
 
 To access the committee members list, click in the secondary navigation panel on the "Committee members" item.
 
@@ -16,7 +18,7 @@ image::spaces/initiatives/initiative_members_admin.png[Initiative committee memb
 
 There, the author can see and copy the initiative invitation link, and see the list of committee members. 
 
-== Actions
+=== Actions
 
 .Actions
 [cols="10h,20h,~"]

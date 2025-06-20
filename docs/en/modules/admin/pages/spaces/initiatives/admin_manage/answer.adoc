@@ -6,7 +6,9 @@ Initiatives should receive an answer from your organization at some point. It co
 because it's been accepted or rejected already by an organ of your structure, or because it reached the number of signatures needed 
 before the end of the collection period. 
 
-== Answer an initiative
+== Configuration
+
+=== Answer an initiative
 
 Click the "Answer" icon on the list of initiatives to answer an initiative. 
 
@@ -40,7 +42,7 @@ answer fields.
 
 image::spaces/initiatives/initiative_frontend_answer.png[Initiative frontend answer]
 
-== Accept or reject
+=== Accept or reject
 
 In order to operate the change on the initiatives list, the administrator needs to go on the edit page of the initiative and
 click the button corresponding to the initiative situation. 

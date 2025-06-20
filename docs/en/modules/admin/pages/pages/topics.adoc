@@ -2,7 +2,7 @@
 
 == Understand the basics
 
-In this section, you can configure Topics, to organize your static pages and provide more clarity to the participants. 
+In this section, you can configure Topics, to organize the static pages and provide more clarity to the participants. 
 
 == Configuration
 
