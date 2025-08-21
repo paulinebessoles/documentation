@@ -21,7 +21,7 @@ In this documentation section, you can find how to configure and manage all of t
 
 == Configuration
 
-== Budget component creation
+=== Budget component creation
 
 To create a Budgets component component, first go in the xref:admin:spaces.adoc[participatory space] where you want to create it. 
 
