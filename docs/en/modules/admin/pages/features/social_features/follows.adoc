@@ -10,7 +10,9 @@ You can control these notifications in the xref:features/participant_actions/my_
 
 The activity that you're following is visible in your xref:features/participant_actions/my_public_profile.adoc[profile activity].
 
-== Follow a content
+== Configuration
+
+=== Follow a content
 
 NOTE: By default, administrators follow all the new spaces created in the platform.
 
@@ -22,7 +24,7 @@ To follow a content:
 
 image::features/follows/button_follow.png[Follow button]
 
-== Unfollow a content
+=== Unfollow a content
 
 To unfollow a content:
 
@@ -32,7 +34,7 @@ To unfollow a content:
 
 image::features/follows/button_stop_following.png[Stop following button]
 
-== Follow a participant
+=== Follow a participant
 
 A participant can also follow participants. This is public and visible in the profile xref:features/participant_actions/my_public_profile.adoc[follows section]. 
 
