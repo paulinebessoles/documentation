@@ -19,7 +19,9 @@ Once you created a process, in the secondary navigation panel, you can see all t
 * xref:admin:spaces/processes/private_participants.adoc[Private participants]
 * xref:admin:spaces/processes/moderations.adoc[Moderations]
 
-== General information
+== Configuration
+
+=== General information
 
 This section allows to provide a general description about the process, mainly a title, URL, and description. 
 
@@ -73,7 +75,7 @@ start with a letter.
 
 |===
 
-== Duration
+=== Duration
 
 This section allows to provide information about the process start and end dates. 
 It can be enabled on the landing page with the "Phase & duration" landing page block. 
@@ -95,7 +97,7 @@ image::spaces/processes/processes_new_form_duration.png[New participatory proces
 
 |===
 
-== Images
+=== Images
 
 image::spaces/processes/processes_new_form_images.png[New participatory process form images section]
 
@@ -111,7 +113,7 @@ For images, use preferably landscape images, the service crops the image. Maximu
 
 |===
 
-== Metadata
+=== Metadata
 
 This section allows to provide meta information about the process.
 It can be enabled on the landing page with the "Metadata" landing page block. 
@@ -149,7 +151,7 @@ image::spaces/processes/processes_new_form_metadata.png[New participatory proces
 
 |===
 
-== Filters
+=== Filters
 
 This section determines the filters available in the process, in the different components. 
 Filters can then be enabled and configured in each components. 
@@ -182,7 +184,7 @@ Provinces -> Cities -> Districts, and the process is about a particular City.
 
 |===
 
-== Visibility
+=== Visibility
 
 This section allows administrators to configure the process placement in the different pages and its publicity or no. 
 
@@ -208,7 +210,7 @@ in the xref:admin:settings/homepage.adoc[Homepage] configuration.
 
 |===
 
-== Related processes
+=== Related processes
 
 This section allows to create relations between processes. It's different from processes groups. 
 It can be enabled on the landing page with the "Related processes" landing page block. 
@@ -226,7 +228,7 @@ image::spaces/processes/processes_new_form_related_processes.png[New participato
 
 |===
 
-== Other
+=== Other
 
 This section is empty, unless an administrator already created xref:admin:spaces/processes/types.adoc[Process Types]. 
 If so, you should be able to select a process type to categorize the process. 
