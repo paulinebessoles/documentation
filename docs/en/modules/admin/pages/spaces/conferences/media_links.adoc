@@ -10,13 +10,19 @@ that are associated to the conference. It displays in a specific page of the con
 
 image:spaces/conferences/media_links_frontend.png[Conferences media links frontend]
 
+<<<<<<< HEAD
 == Configuration
 
 === Manage media links
+=======
+=== How to find it?
+>>>>>>> develop
 
 To access the media links configuration, click in the secondary navigation panel on the "Media links" item. 
 
 image::spaces/conferences/media_links_backend.png[Conferences media links]
+
+== Configuration
 
 === Actions
 

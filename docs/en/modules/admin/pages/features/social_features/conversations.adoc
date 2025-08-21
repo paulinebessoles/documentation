@@ -3,7 +3,7 @@
 == Understand the basics
 
 With conversations, participants can send private messages to another participant, a group of participants, or to user groups. 
-Only the participants who are in the conversation can see each the messages.
+Only the participants who are in the conversation can see each message.
 
 NOTE: It's not possible to delete a conversation nor to edit a message in a conversation.
 

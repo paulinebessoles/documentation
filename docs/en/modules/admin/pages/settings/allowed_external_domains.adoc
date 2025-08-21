@@ -10,8 +10,11 @@ image::settings/allowed_external_domains_pop-up.png[Pop-up that appears when cli
 It warns participants that they're leaving your instance. 
 
 == Configuration
+<<<<<<< HEAD
 
 === Allow an external domain
+=======
+>>>>>>> develop
 
 There may be some websites redirection for which you don't want this feature enabled. 
 For example, if your site is deployed at a URL like `+decidim.example.org+` and you want every `+example.org+` URLs 

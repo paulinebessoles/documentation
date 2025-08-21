@@ -14,7 +14,7 @@ By default, an instance is provided with those different spaces:
 |Participatory budgeting, Proposal recollection, Voting or debate process, etc. 
 
 |*xref:admin:spaces/assemblies.adoc[Assemblies]*
-|An assembly allows administrator to configure participatory components in a continued space, with the possibility to define members. 
+|An assembly allows administrators to configure participatory components in a continued space, with the possibility to define members.
 |Committee organization space, citizen assembly, etc.
 
 |*xref:admin:spaces/initiatives.adoc[Initiatives]*

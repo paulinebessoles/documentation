@@ -1,0 +1,81 @@
+= Vérifications éphémères
+
+== Understand the basics
+
+À Decidim, il y a principalement deux types de participants :
+
+- Participants uniques : Les utilisateurs qui accèdent à la plateforme pour une action unique, comme le vote dans les budgets participatifs et ne sont pas de retour.
+- Participants récurrents : Utilisateurs qui s’engagent régulièrement dans différents processus participatifs.
+
+Pour les participants ponctuels, le processus d’inscription et de vérification peut être un obstacle, menant à une participation incomplète. Pour ce faire, Decidim introduit la méthode de vérification éphémère, permettant aux utilisateurs de vérifier leur identité et de participer sans créer de compte.
+
+=== Finalité du traitement
+
+La méthode de vérification éphémère est conçue pour simplifier la participation des utilisateurs uniques en permettant la vérification directe sans nécessiter la création de compte. **Cette fonctionnalité est destinée à des durées limitées** lors d'un processus participatif spécifique**, comme une phase de vote de l'établissement de la budgétisation participative.
+
+=== Comment ça marche?
+
+Cette fonctionnalité permet aux participants de participer sans s'inscrire sur la plate-forme, en vérifiant leur identité avec le système choisi par l'organisation. Les principales caractéristiques sont :
+
+- **Vérification directe sans inscription :** Les participants peuvent vérifier eux-mêmes et compléter leur action sans s'inscrire.
+- **Configurable au niveau d'un composant :** Les administrateurs peuvent activer ou désactiver la vérification éphémère pour des composants spécifiques, car toutes les méthodes d'autorisation fonctionnent.
+- **Session éphémère** : Une session temporaire est ouverte lorsque les participants sont vérifiés. Cette session permettra uniquement aux participants de compléter des actions dans le composant spécifique. Si l'utilisateur éphémère veut quitter le composant, la session sera fermée.
+- **Mode Focus :** Un mode focus est activé lorsque vous faites l'action restreinte par éphémère, donc nous gardons le participant au centre de l'action principale.
+- **Lien vers une méthode de vérification existante :** La vérification éphémère doit être liée à une méthode de vérification préexistante (par exemple un recensement organisationnel).
+- **Révoquer les vérifications préalables:** Lorsque vous activez la vérification éphémère, toutes les vérifications précédentes sont révoquées pour éviter les conflits de vérification.
+- **Récupération de la session éphémère**. Ainsi, les participants éphémères peuvent vérifier à nouveau et se connecter avec la session éphémère. Ils peuvent donc voir leurs votes et les modifier.
+
+== Configuration
+
+Pour activer la vérification éphémère, vous devez suivre ces étapes:
+
+1. Accès au panneau système.
+1. Activer la méthode de vérification éphémère.
+1. Associez-le à une méthode de vérification existante (par exemple le recensement de l'organisme).
+1. Accéder au tableau de bord de l'administration.
+1. Activer les autorisations de vérification éphémère dans un composant.
+1. Confirmez l'action, qui révoquera toutes les vérifications en cours.
+1. Super! Vous avez activé la vérification éphémère pour un composant spécifique.
+
+== Exemples
+
+Pour mieux comprendre le fonctionnement de cette fonctionnalité, nous expliquons les différents flux et cas de bord comme suit:
+
+=== Flux 1 : Visiteur non enregistré
+
+1. En tant que visiteur non enregistré, je clique sur l'action restreinte
+1. Ensuite, je suis invité avec le formulaire de vérification et je l'ai rempli avec mes données
+1. Donc, je suis vérifié avec succès
+1. Ensuite, une session temporaire est ouverte
+1. Et j'accède à l'action restreinte
+1. Lorsque j'ai terminé la tâche (c'est-à-dire voter dans un budget participatif). Puis je peux quitter le mode focus et la session temporaire sera fermée.
+
+=== Flow 2 : Participant enregistré avec une session connectée
+
+1. En tant que participant inscrit connecté, je clique sur l'action restreinte
+1. Ensuite, je suis invité avec le formulaire de vérification et je l'ai rempli avec mes données
+1. Donc, je suis vérifié avec succès
+1. Puis j'accède à l'action restreinte
+1. Ensuite, la vérification est enregistrée dans mon profil
+
+=== Caisses de bord
+
+==== Flux 3 : Prévention des conflits de vérification
+
+1. En tant que visiteur, j'essaie de vérifier en utilisant les données d'un participant inscrit qui a déjà été vérifié.
+1. Le système détecte un conflit de vérification.
+1. Ensuite, je ne peux pas procéder à la vérification.
+
+==== Flux 4 : Fusion des comptes éphémères et enregistrés
+
+1. En tant qu'utilisateur éphémère, qui a terminé le processus de vote. Et clôtura leur session éphémère.
+1. S'inscrire sur la plateforme.
+1. Essayez de vous vérifier en utilisant les mêmes renseignements personnels.
+1. Le système récupère et fusionne vos données utilisateur éphémères avec votre nouveau compte enregistré.
+1. Vous pouvez maintenant voir et modifier vos votes.
+
+=== Comment fonctionne la session éphémère?
+
+1. Cette session vous permettra uniquement de faire des actions dans le composant spécifique. Si l'utilisateur éphémère veut quitter le composant, la session sera fermée.
+1. La session sera fermée après une période d'inactivité.
+1. La session peut être récupérée. Cela signifie que si j'essaie de vérifier à nouveau en utilisant les mêmes données, alors ma session sera récupérée, et je pourrai voir et modifier mes votes.

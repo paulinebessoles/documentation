@@ -21,13 +21,15 @@ If you create several initiative types, then participants can choose which type 
 
 == Configuration
 
+=== Create an initiative type
+
 To create an initiative type, click the "Manage" button in the top right of the page, then the "Initiative types" menu item. 
 
 image::spaces/initiatives/initiatives_menu_types.png[Access Initiatives types panel]
 
 Then, click the "New initiative type" button. You are redirected to the initiative type creation form. 
 
-=== General information
+==== General information
 
 image::spaces/initiatives/type_form_general.png[Initiative type form general information]
 
@@ -50,7 +52,7 @@ image::spaces/initiatives/type_form_general.png[Initiative type form general inf
 
 |===
 
-=== Options
+==== Options
 
 image::spaces/initiatives/type_form_options.png[Initiative type form options]
 
@@ -111,7 +113,7 @@ This is then used with the PDF export action after the recollection period has e
 
 |===
 
-=== Authorization settings
+==== Authorization settings
 
 image::spaces/initiatives/type_form_authorizations.png[Initiative type form authorizations]
 
@@ -129,7 +131,7 @@ image::spaces/initiatives/type_form_authorizations.png[Initiative type form auth
 Click the create button at the bottom of the form to save your initiative type.
 Only after this, you are able to create the initiative type scope needed for creating the first initiatives. 
 
-=== Create an initiative type scope
+==== Create an initiative type scope
 
 An initiative type must have associated scopes to allow participants to create initiatives. 
 Indeed, they allow to associate a scope with a number of signatures, and therefore to have multiple signatures threshold for a same initiative type. 
@@ -162,7 +164,7 @@ For example, it can be a percentage of different territories inhabitants.
 
 image::spaces/initiatives/type_form_scopes_multiple.png[Initiative type form scopes with three scopes]
 
-== Manage initiative types
+=== Manage initiative types
 
 image::spaces/initiatives/initiatives_types_list.png[Initiatives types list]
 
@@ -171,7 +173,7 @@ Once you created one or multiple initiative types, you are able to manage them o
 * *Initiative types*: title of the initiatives type. 
 * *Created at*: date of creation of the initiative types.
 
-== Actions 
+=== Actions 
 
 .Actions
 [cols="10h,20h,~"]
@@ -192,7 +194,7 @@ Once you created one or multiple initiative types, you are able to manage them o
 
 |===
 
-== Permissions
+=== Permissions
 
 You can configure permissions for an initiative type by clicking the image:icons/action_permissions.png icon. 
 

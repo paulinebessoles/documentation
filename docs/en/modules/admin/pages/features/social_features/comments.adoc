@@ -4,8 +4,7 @@
 
 Comments are public messages allowing participants to share information or opinions about a proposal, debate, meeting, initiative, etc.
 
-NOTE: Comments need to be enabled by administrators, otherwise participants are not able to comment. To learn 
-how to enable comments on a component, please refer to the component's article. 
+NOTE: Comments need to be enabled by administrators, otherwise participants are not able to comment. To learn how to enable comments on a component, please refer to the xref:features:components.adoc[Components] article. 
 
 image::features/comments/nested_comment.png[Comments example]
 
@@ -67,7 +66,7 @@ Once published, this comment and its different elements are displayed like below
 
 image::features/comments/rich_text_read.png[Comments with rich text (read)]
 
-When clicking on a hashtag in a comment or another content, participant is redirected to the global search. 
+When clicking on a hashtag in a comment or another content, participants are redirected to the global search. 
 
 image::features/comments/hashtag_search.png[Hashtags in comments]
 
@@ -124,7 +123,7 @@ A message is displayed to warn the visitor that they are seeing a single comment
 
 image::features/comments/single_comment.png[Edited comment]
 
-=== Edit
+==== Edit
 
 Participants can edit their comments, and after they do, a "Edited" mention appears on their comment to indicate to other 
 participants that this content was edited. 
