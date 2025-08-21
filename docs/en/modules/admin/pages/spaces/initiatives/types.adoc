@@ -19,7 +19,7 @@ the number of signatures required.
 You need to create at least *one initiative type* and *one initiative type scope* to enable participants to publish initiatives. 
 If you create several initiative types, then participants can choose which type their initiative belongs to. 
 
-== Create an initiative type
+== Configuration
 
 To create an initiative type, click the "Manage" button in the top right of the page, then the "Initiative types" menu item. 
 

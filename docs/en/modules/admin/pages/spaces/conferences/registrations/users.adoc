@@ -14,7 +14,9 @@ For example, it can follow this flow:
 . The participant receives a confirmed registration notification
 . They receive a confirmed registration email with a calendar .ics file
 
-== Manage the registrations
+== Configuration
+
+=== Manage the registrations
 
 To access the user registrations configuration, click in the secondary navigation panel on the "User registrations" item. 
 
@@ -33,7 +35,7 @@ image::spaces/conferences/user_registrations.png[Conferences user registrations 
 
 |===
 
-== Confirm a registration 
+=== Confirm a registration 
 
 Registration confirmations can be used before or after the conference. 
 They can allow administrators to confirm participants that their registration was taken into account, or 
@@ -43,7 +45,7 @@ Confirming registrations allow administrators to send a
 xref:admin:spaces/conferences/registrations/certificates.adoc[**Certificates of Attendance**] after the conference to 
 all confirmed participants to the conference. 
 
-== Export the registrations
+=== Export the registrations
 
 It's possible to export the registrations in multiple formats: .CSV, .JSON, and .XSLX.
 The file with all the registered participants is directly downloaded on the administrator device. 
