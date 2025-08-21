@@ -1,0 +1,263 @@
+= Création de l'assemblage
+
+== Understand the basics
+
+Les assemblages permettent aux administrateurs de configurer des composants dans un espace de longue durée, avec des membres définis. Pour commencer à créer une assemblée, sur le lien :https://docs.decidim.org/fr/develop/admin/spaces/assemblies#_manage_assemblies[assembly list], cliquez sur le bouton "New assembly" en haut à droite de la page.
+
+Le formulaire de création d'assemblage est divisé en différentes sections qui sont détaillées dans les sections ci-dessous.
+
+Une fois que vous créez un assemblage, vous pouvez voir toutes les configurations d'assemblage disponibles dans le panneau de navigation secondaire :
+
+* xref:admin:admin:spaces/assemblies/assembly_creation.adoc[À propos de cette assemblée] (Ici vous pouvez accéder et éditer tous les champs du formulaire de création.)
+* xref:admin:espace/assemblies/landing_page.adoc[Page d'accueil]
+* xref:admin:spaces/assemblies/components.adoc[Components]
+* xref:admin:spaces/assemblies/categories.adoc[Categories]
+* xref:admin:spaces/assemblies/attachments.adoc[Attachments]
+* xref:admin:spaces/assemblies/members.adoc[Members]
+* xref:admin:spaces/assemblies/admins.adoc[Assembly admins]
+* xref:admin:spaces/assemblies/private_participants.adoc[Private participants]
+* xref:admin:spaces/assemblies/moderations.adoc[Moderations]
+
+== Configuration
+
+=== Informations générales
+
+Cette section permet à un administrateur de fournir des informations générales sur l'assemblage : titre, URL, et description.
+
+image::spaces/assemblies/assemblies_new_form_general_info.png[New assembly form general info section]
+
+.Nouveau formulaire d'assemblage : Informations générales
+[cols="20h,10h,~,~"]
+|===
+|Champ |Type |Description |Visibilité
+
+|Titre
+|Obligatoire
+|Titre de l'assemblée: "Comité Général" ou "Conseil Municipal de quartier" par exemple.
+|Visible dans la carte de l'assemblage sur la page d'accueil, l'index des assemblées, la navigation, et le bloc de page d'accueil "Image du héros et CTA".
+
+|Sous-titre
+|Obligatoire
+|Sous-titre de l'assemblée.
+|Visible dans le bloc « Image du héros et CTA ».
+
+|Rang d'affichage
+|Obligatoire
+|Détermine l'ordre de l'assemblage lorsqu'il est affiché dans l'index des processus ou la page d'accueil.
+|N/A
+
+|Identifiant d'URL
+|Obligatoire
+|Les identifiants d'URL sont utilisés pour générer les URL qui pointent vers ce processus. N'accepte que des lettres, des chiffres et des tirets et doit
+commencer par une lettre.
+|Visible dans l'URL de l'assemblée, par exemple https://example.org/assemblies/city_coucil.
+
+|Hashtag
+|Facultatif
+|Hashtag redirigeant vers le réseau social X.
+|Visible dans le bloc « Image du héros et CTA ».
+
+|Courte description
+|Obligatoire
+|Une brève explication de l'objet de votre assemblée.
+|Visible dans le bloc "Données principales".
+
+|Description
+|Obligatoire
+|Une longue explication de l'objet de votre assemblée.
+|Visible dans le bloc "Données principales".
+
+|Objectif de l'action
+|Facultatif
+|L'explication des objectifs de l'assemblée.
+|Visible dans le bloc "Données principales".
+
+|Composition
+|Facultatif
+|Qui compose l'assemblée.
+|Visible dans le bloc "Données principales".
+
+|Organisation interne
+|Facultatif
+|Comment l'assemblage est organisé.
+|Visible dans le bloc "Données principales".
+
+|Annonce
+|Facultatif
+|Le texte que vous entrez ici est affiché à l'utilisateur juste en dessous des informations de processus.
+|Visible dans le bloc "Annoncement".
+|===
+
+=== Durée
+
+Cette section permet de fournir des informations sur les dates importantes de l'assemblée.
+
+image::spaces/assemblies/assemblies_new_form_duration.png[New assembly form duration section]
+
+.Nouveau formulaire d'assemblage : Durée
+[cols="20h,10h,~,~"]
+|===
+|Champ |Type |Description |Visibilité
+
+|Date de création
+|Facultatif
+|Quand cette assemblée a été créée. Vous avez un widget calendrier pour choisir la journée. Format attendu : jj/mm/aaaa.
+|Visible dans le bloc "Dates metadata".
+
+|Inclus le
+|Facultatif
+|La date à laquelle cette assemblée a été ajoutée à l'instance. Elle ne doit pas nécessairement être la même que la date de création. Format attendu : jj/mm/aaaa.
+|Visible dans le bloc "Dates metadata".
+
+|Durée
+|Facultatif
+|Si la durée de cette assemblée est limitée, sélectionnez la date de fin. Dans le cas contraire, elle apparaît comme indéfinie. Format attendu : jj/mm/aaaa.
+|Visible dans le bloc "Type et durée".
+
+|Date de clôture
+|Facultatif
+|Lorsque cette assemblée est fermée. Format attendu : jj/mm/aaaa.
+|Visible dans le bloc "Dates metadata".
+
+|Raison de la date de fermeture
+|Facultatif
+|Pourquoi cette assemblée est fermée.
+|Non affiché sur la page de destination.
+|===
+
+=== Images
+
+image::spaces/assemblies/assemblies_new_form_images.png[New assembly form images section]
+
+.Nouveau formulaire d'assemblage : Images
+[cols="20h,10h,~"]
+|===
+|Champ |Type |Description
+
+|Image de la maison
+|Facultatif
+|Image utilisée dans les cartes de présentation de ce processus. Orientation pour le fichier: Doit être une image ou un document.
+Pour les images, les images paysagères sont préférées, car le service récolte l'image. Taille maximale du fichier : 10 Mo
+
+|Image de bannière
+|Déprécié
+|Use link:https://docs.decidim.org/fr/develop/admin/spaces/assemblies/landing_page.html#_hero_image_and_cta[Hero image and CTA] content block on the landing page.
+|===
+
+=== Filtres
+
+Cette section détermine les filtres disponibles dans l'assemblage, dans les différents composants.
+Les filtres peuvent ensuite être activés et configurés dans chaque composant.
+
+image::spaces/assemblies/assemblies_new_form_filters.png[New assembly form filters section]
+
+.Nouveau formulaire d'assemblage : Filtres
+[cols="20h,10h,~"]
+|===
+|Champ |Type |Description
+
+|Portées activées
+|Facultatif
+|Cochez cette case si vous voulez que le filtrage des portées dans cette assemblée.
+
+|Secteur
+|Facultatif
+|Ce à quoi appartient xref:admin:settings/scopes.adoc[Scopes] cette assemblée.
+
+|Zone de stockage
+|Facultatif
+|Ce à quoi appartient xref:admin:settings/areas.adoc[Areas] cette assemblée.
+|===
+
+=== Métadonnées
+
+Cette section permet de fournir des métadonnées sur l'assemblage.
+
+image::spaces/assemblies/assemblies_new_form_metadata.png[New assembly form metadata section]
+
+.Nouveau formulaire d'assemblage : Métadonnées
+[cols="20h,10h,~"]
+|===
+|Champ |Type |Description
+
+|Ce qui est décidé
+|Facultatif
+|La question de l'assemblée; l'objet de ce qui est décidé.
+
+|Comment est-il décidé
+|Facultatif
+|Le processus de prise de décision à l'intérieur de l'assemblée.
+
+|Métadonnées du périmètre d'application
+|Facultatif
+|Métadonnées sur la portée de l'assemblage, le cas échéant.
+
+|Groupe de promoteurs
+|Facultatif
+|Si un groupe spécifique est à l'origine de l'assemblée, comme une direction de ville, un comité d'association, etc.
+
+|Zone d'organisation
+|Facultatif
+|Le domaine ou la catégorie de l'organisation, le cas échéant.
+
+|Qui participe
+|Facultatif
+|Qui sont les participants autorisés qui peuvent participer à l'assemblée.
+|===
+
+=== Visibilité
+
+Cette section permet aux administrateurs de configurer le placement du processus dans les différentes pages et leur publicité.
+
+image::spaces/assemblies/assemblies_new_form_visibility.png[New assembly form visibility section]
+
+.Nouveau formulaire d'assemblage : Visibilité
+[cols="20h,10h,~"]
+|===
+|Champ |Type |Description
+
+|Assemblage parent
+|Facultatif
+|À laquelle appartiennent d'autres assemblages de cette assemblée. Les assemblages peuvent être imbriqués les uns dans les autres.
+
+|Surligné
+|Facultatif
+|Cochez cette case si vous voulez que l'assemblage ait plus de visibilité dans la liste publique des Ruches. It's also visible in the "Highlighted
+Assemblies" Content Block in the xref:admin:settings/homepage.adoc[Homepage] configuration.
+
+|Espace privé
+|Facultatif
+|Vérifier si cette assemblée ne doit être accessible que par xref:admin:spaces/assemblies/private_participants.adoc[Participants privés].
+
+|Est transparent
+|Facultatif
+|Vérifie si cette assemblée est privée mais doit être visible pour tous les participants. Cela signifie que les autres participants
+ou les visiteurs peuvent le voir, mais ils ne peuvent pas y participer.
+|===
+
+=== Autre
+
+image::spaces/assemblies/assemblies_new_form_other.png[New assembly form other section]
+
+.Nouveau formulaire d'assemblage : Autre
+[cols="20h,10h,~"]
+|===
+|Champ |Type |Description
+
+|Créé par
+|Facultatif
+|Choisissez "Mairie", "Public", ou "Autres" si vous voulez spécifier le nom de l'organisation qui a créé
+cette assemblée.
+
+|Type d'assemblage
+|Facultatif
+|Ce que xref:admin:admin:espace/assemblies/types.adoc[Type d'assemblée] est lié à cette assemblée.
+
+|Processus participatifs liés
+|Facultatif
+|Sélectionnez d'autres processus participatifs liés à cette assemblée.
+
+|Réseaux sociaux
+|Facultatif
+|Quels réseaux sociaux profilent cette assemblée. Peut être X, Facebook, Instagram, YouTube et/ou GitHub.
+|===
