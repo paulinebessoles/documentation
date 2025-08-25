@@ -21,6 +21,8 @@ In this documentation section, you can find how to configure and manage all of t
 
 == Konfiguration
 
+=== Budget component creation
+
 To create a Budgets component component, first go in the xref:admin:spaces.adoc[participatory space] where you want to create it.
 
 image::components/budgets/component_budgets.png[Add Budgets component button]
@@ -150,7 +152,7 @@ image::components/budgets/component_03.png[Add component form - Step settings]
 |The message shown when clicking on the "More information" link for this phase.
 |===
 
-== Ergebnisse
+=== Publish the results
 
 After the voting has finished, an administrator need to:
 
@@ -176,7 +178,7 @@ component so participants can see the progress of the projects implementation.
 Einige Beispiele, wo diese Komponente verwendet wurde:
 
 * https://www.decidim.barcelona/processes/PressupostosParticipatius[2020/2021 Participatory Budgeting Process in Decidim Barcelona].
-Die Stadt Barcelona (Spanien) hat ein Budget von 30.000 zugewiesen. 00 EUR, so dass die Menschen präsentieren können, definieren, priorisieren und mit
+00 EUR, so dass die Menschen präsentieren können, definieren, priorisieren und mit
 abstimmen und wählen können, welche Investitionsprojekte die Stadtverwaltung durchführen soll.
 * https://ecrivons.angers.fr/processes/BP2021[2021 Partizipative Budgeting Process in Angers]. Die Stadt Angers (Frankreich) hat
 ein Budget von 1000 zugewiesen. 00 EUR so dass Menschen aus 11 Jahren können maximal 3 Ideen vorschlagen und wählen Sie dann für ihre 5 Lieblings-Projekte.
