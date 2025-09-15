@@ -1,6 +1,6 @@
 = Création du processus participatif
 
-== Understand the basics
+== En bref
 
 Les processus participatifs permettent aux administrateurs de configurer des composants en articulation avec différentes phases participatives.
 Pour commencer à créer un processus, lorsque dans la liste des processus, cliquez sur le bouton "Nouveau processus" en haut à droite de la page.
@@ -201,7 +201,7 @@ image::spaces/processes/processes_new_form_visibility.png[New participatory proc
 |Promu
 |Facultatif
 |Cochez cette case si vous voulez que le processus ait plus de visibilité dans la liste publique Processus et le bloc de contenu "Processus mis en surbrillance"
-dans xref:admin:settings/homepage. configuration doc[Homepage].
+dans xref:admin:settings/homepage.
 |===
 
 === Processus connexes
