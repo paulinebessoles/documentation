@@ -1,7 +1,7 @@
 site:
   title: Decidim Docs
   url: https://docs.decidim.org
-  start_page: v0.30@en:ROOT:index.adoc
+  start_page: develop@en:ROOT:index.adoc
 content:
   sources:
     - url: &documentation .
