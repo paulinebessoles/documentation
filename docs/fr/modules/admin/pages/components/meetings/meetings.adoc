@@ -61,11 +61,11 @@ Seuls quelques services permettent l'intégration (YouTube, Twitch, Jitsi, ...)
 
 |Heure de début
 |Obligatoire
-|Le jour et l'heure de la réunion. Format attendu : jj/mm/aaaa hh:mm.
+|Le jour et l'heure de début de la réunion. Format attendu : jj/mm/aaaa hh:mm.
 
 |Heure de fin
 |Obligatoire
-|Le jour et l'heure de la réunion. Format attendu : jj/mm/aaaa hh:mm.
+|Le jour et l'heure de début de la réunion. Format attendu : jj/mm/aaaa hh:mm.
 
 |Catégorie
 |Facultatif
