@@ -1,5 +1,5 @@
 [build]
-  command = "npm run build -- --fetch"
+  command = "git fetch --unshallow && npm run build -- --fetch"
 
 [build.environment]
   NODE_VERSION = "16.14.2"
