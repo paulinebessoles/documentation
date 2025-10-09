@@ -1,28 +1,32 @@
+# This file is changed during the build process, so if you want to save your changes
+# You'd need to commit them before running the `npm run build` script, or
+# just comment the `postbuild` script that restores this file
+#
 site:
   title: Decidim Docs
   url: https://docs.decidim.org
   start_page: develop@en:ROOT:index.adoc
 content:
   sources:
-    - url: &documentation .
+    - url: &documentation https://github.com/decidim/documentation
       start_path: docs/en
-      branches: [release/0.30-stable, HEAD]
+      branches: [release/0.30-stable, develop]
       edit_url: "https://github.com/decidim/documentation/edit/{refname}/{path}"
-    - url: &documentation .
+    - url: &documentation https://github.com/decidim/documentation
       start_path: docs/fr
       branches: [develop]
-    - url: &documentation .
+    - url: &documentation https://github.com/decidim/documentation
       start_path: docs/es
       branches: [develop]
-    - url: &documentation .
+    - url: &documentation https://github.com/decidim/documentation
       start_path: docs/pt
       branches: [develop]
-    - url: &documentation .
+    - url: &documentation https://github.com/decidim/documentation
       start_path: docs/de
       branches: [develop]
     - url: https://github.com/decidim/decidim
       start_path: docs
-      branches: [release/0.30-stable, HEAD]
+      branches: [release/0.30-stable, develop]
 ui:
   bundle:
     url: https://github.com/decidim/documentation-antora-ui/releases/download/v0.4/ui-bundle.zip
