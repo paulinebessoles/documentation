@@ -2,8 +2,8 @@
 
 == En bref
 
-Pour que les participants puissent suivre et mener l'évolution des projets, les administrateurs peuvent créer une chronologie
-en cliquant sur l'[Icône d'évolution du projet].
+Pour que les participant·e·x·s puissent suivre et mener l'évolution des projets, les administrateur·ices peuvent créer une chronologie
+en cliquant sur l'image:icons/action_clock.png[Icône d'évolution du projet].
 
 image::components/accountability/results_entries.png[Result page with timeline entries]
 
@@ -16,7 +16,7 @@ Ici, il est possible de créer et gérer les différentes phases de mise en oeuv
 image::components/accountability/new_entry.png[New timeline entry form]
 
 
-.Tableau de données chronologiques
+.Formulaire de nouvelles données chronologiques
 |===
 |Champ |Type |Description
 

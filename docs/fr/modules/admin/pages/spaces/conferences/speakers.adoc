@@ -1,21 +1,20 @@
-= Haut-parleurs
+= Conférencier·e·x·s
 
 == En bref
 
-Les orateurs sont les personnes qui parlent à la conférence. They can be linked to meetings, so participants can
-see who is going to speak in each item of the program.
+Les conférencier·e·x·s sont les personnes qui donnent la conférence. Iels peuvent être lié·e·x·s à des rencontres pour que les participant·e·x·s puisent être au courant des personne qui interviennent durant la conférence dans le preogramme.
 
 image::spaces/conferences/speakers_frontend.png[Conferences speakers frontend]
 
 == Configuration
 
-=== Gérer les orateurs
+=== Gérer les conférencier·e·x·s
 
-Pour accéder à la configuration des haut-parleurs, cliquez dans le panneau de navigation secondaire de l'élément "Haut-parleurs".
+Pour accéder à la configuration des conférencier·e·x·s, cliquer dans le panneau de navigation secondaire "Conférencier·e·x·s".
 
-image:espaces/conférences/haut-parleurs.png[conférenciers de conférences]
+image:espaces/conférences/haut-parleurs.png[conférencier·e·x·s]
 
-Vous pouvez rechercher des haut-parleurs grâce à la barre de recherche.
+Vous pouvez rechercher des conférencier·e·x·s grâce à la barre de recherche.
 
 === Actions
 
@@ -24,71 +23,71 @@ Vous pouvez rechercher des haut-parleurs grâce à la barre de recherche.
 |===
 |Icône |Nom |Définition
 
-|image:icons/action_edit.png[Modifier l'icône du haut-parleur]
+|image:icons/action_edit.png[Modifier l'icône de lae conférencier·e·x]
 |Editer
-|Pour éditer ce haut-parleur.
+|Pour modifier lae conférencier·e·x.
 
-|image:icons/action_activate.png[Publier l'icône du haut-parleur]
+|image:icons/action_activate.png[Publier l'icône de lae conférencier·e·x]
 |Publier
-|Pour publier ce haut-parleur (lorsqu'il n'est pas publié)
+|Pour publier lae conférencier·e·x (si ce n'est pas déjà publié)
 
-|image:icons/action_unpublish.png[Dépublier l'icône du haut-parleur]
+|image:icons/action_unpublish.png[Dépublier l'icône de lae conférencier·e·x]
 |Dépublier
-|Dépublier ce haut-parleur (lorsqu'il est publié)
+|Supprimer lae conférencier·e·x·s (si c'est déjà publié)
 
-|image:icons/action_delete.png[Supprimer l'icône du haut-parleur]
+|image:icons/action_delete.png[Supprimer l'icône de lae conférencier·e·x]
 |Supprimez
-|Supprimer ce haut-parleur.
+|Supprimer lae conférencier·e·x.
 |===
 
-=== Créer un nouveau haut-parleur
+=== Ajouter unx conférencier·e·x
 
-Pour créer un nouveau haut-parleur, cliquez sur le bouton "Nouveau haut-parleur" en haut à droite de la page.
+Pour ajouter unx conférencier·e·x, cliquer sur "Ajouter conférencier·e·x" en haut à droite de la page.
 
 image::spaces/conferences/new_speaker.png[Conferences speakers]
 
-.Formulaire des nouveaux conférenciers
+.Formulaire d'ajout de conférencier·e·x
 [cols="20h,~,~"]
 |===
 |Champ |Type |Description
 
-|Type de participant
+|Type de participant·e·x
 |Obligatoire
-|Que ce conférencier soit un participant ou un participant existant. Ont-ils déjà un compte créé sur la plateforme?
+|Selon que lae conférencier·e·x est unx participant·e·x exostant·e·x ou non. Et s'iel a déjà un compte sur la plateforme?
 
 |Nom complet
-|Requis si c'est un non-participant.
-|Nom de l'orateur.
+|Requis si ce n'est pas uinx participant.
+|Nom de lae conférencier·e·x.
 
-|Utilisateur ou groupe
-|Requis si c'est un participant existant.
-|Tapez au moins trois caractères à rechercher.
+|Utilisateur·ice ou groupe
+|Requis si c'est unx participant·e·x existant·e·x.
+|Taper au moins trois caractères pour rechercher.
 
-|Réunions connexes
+|Rencontres connexes
 |Facultatif
-|Les réunions au cours desquelles l'orateur intervient ou facilite.
+|Les réunions au cours desquelles lae conférencier·e·x intervient ou modère.
 
 |Position
 |Obligatoire
-|Métadonnées pour afficher des informations supplémentaires sur le haut-parleur.
+|Méta données pour afficher des informations supplémentaires sur lae conférencier·e·x.
 
 |Affiliation
 |Obligatoire
-|Métadonnées pour afficher des informations supplémentaires sur le haut-parleur.
+|Méta données pour afficher des informations supplémentaires sur lae conférencier·e·x.
 
 |Courte Bio
 |Facultatif
-|Métadonnées pour afficher des informations supplémentaires sur le haut-parleur.
+|Méta données pour afficher des informations supplémentaires sur lae conférencier·e·x.
 
 |Compte X
 |Facultatif
-|Métadonnées pour afficher des informations supplémentaires sur le haut-parleur.
+|Méta données pour afficher des informations supplémentaires sur lae conférencier·e·x.
 
 |URL personnelle
 |Facultatif
-|Métadonnées pour afficher des informations supplémentaires sur le haut-parleur.
+|Méta données pour afficher des informations supplémentaires sur lae conférencier·e·x.
 
 |Avatars
 |Facultatif
-|Image d'avatar pour le haut-parleur. Ignoré si le conférencier est un participant « déjà inscrit ».
+|Image d'avatar pour lae conférencier·e·x. Ignoré si lae conférencie·e·xr est unx participant·e·x « déjà inscrit·e·x ».
 |===

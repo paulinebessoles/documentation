@@ -2,7 +2,7 @@
 
 == En bref
 
-Cette fonctionnalité permet aux participants de naviguer dans les propositions sous forme de texte, plutôt qu'une liste ou une grille.
+Cette fonctionnalité permet aux participant·e·x·s de naviguer dans les propositions sous forme de texte, plutôt qu'une liste ou une grille.
 Il peut être utile pour discuter de normes, de plans ou d'autres types de textes.
 
 Chaque paragraphe est divisé en une proposition, il est donc possible d'en discuter de manière plus granulaire.
@@ -24,7 +24,7 @@ Ensuite, cliquer sur"Importer le document" dans le panneau de texte participatif
 image::components/proposals/participatory_texts/add_document_form.png[Add document form]
 
 
-.Ajouter un formulaire de document
+.Formulaire pour ajouter un document
 |===
 |Champ |Type |Description
 
@@ -42,8 +42,7 @@ image::components/proposals/participatory_texts/add_document_form.png[Add docume
 Les formats supportés sont : Markdown et ODT.
 |===
 
-TIP: Although it's possible to work with both Markdown (.MD) and ODT (.ODT) files, we recommend working with Markdown as it's
-easier to see the formatting. [Télécharger l'exemple de texte participatif MD] pour obtenir de l'aide.
+TIP: Bien qu'il est possible de travailler avec aussi bien de fichiers Mardown (.MD) et ODT (.ODT), il est recommandé de travailler avec Markdown, comme il est plus facile de voir le formatage. link:{attachmentsdir}/participatory_text.md[Télécharger l'exemple de texte participatif MD] pour obtenir de l'aide
 
 Cliquer sur "Télécharger le document" pour un aperçu du texte participatif.
 
@@ -55,9 +54,9 @@ Grâce à l'aperçu, il est possible de vérifier si le document est correctemen
 
 Selon l'aperçu, il est possible de :
 
-* *Rejeter* : si vous n'êtes pas satisfait et que vous voulez reformater votre document pour recommencer l'importation.
-* *Enregistrer le brouillon*: si vous êtes satisfait du résultat, mais que vous voulez tout de même apporter quelques modifications.
-* *Publier le document* : si vous êtes prêt à voir comment le texte est dans l'interface utilisateur.
+* *Rejeter* : si vous n'êtes pas satisfait·e·x·s et que vous voulez reformater votre document pour recommencer l'importation.
+* *Enregistrer le brouillon*: si vous êtes satisfait·e·x·s du résultat, mais que vous voulez tout de même apporter quelques modifications.
+* *Publier le document* : si vous êtes prêt·e·x·s à voir comment le texte est dans l'interface utilisateur.
 
 Une fois le document publié, toutes les sections sont présentées comme des propositions dans le panneau de gestion des propositions.
 
@@ -72,7 +71,7 @@ Impossible d'interagir avec ce paramètre s'il y a des propositions existantes. 
 pour activer cette fonctionnalité ou rejeter toutes les propositions importées dans le menu `Textes participatifs` si vous voulez le désactiver.
 ====
 
-Une fois document importé et que le volet de propositions est publié, les participants peuvent naviguer dans le texte participatif.
+Une fois document importé et que le volet de propositions est publié, les participant·e·x·s peuvent naviguer dans le texte participatif.
 
 image::components/proposals/participatory_texts/example01.png[Participatory text example]
 

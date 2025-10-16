@@ -1,36 +1,35 @@
-= Phases
+= Étapes
 
 == En bref
 
-Un processus participatif est une séquence de phases ordonnées dans le temps. Selon la phase de la timeline du processus que vous
-êtes, vous pouvez alors activer et configurer les fonctionnalités dont vous avez besoin pour chaque phase.
+Une concertation est une séquence d'étapes ordonnées dans le temps. Selon l'étape de la chronologie du processus sur laquelle vous
+êtes, vous pouvez alors activer et configurer les fonctionnalités dont vous avez besoin pour chaque étape.
 
-Idéalement, les phases d'un processus participatif sont toujours les mêmes et ne sont pas modifiées, pour que les participants puissent savoir ce qui est
-les règles et les délais et peuvent s'organiser pour savoir quand il serait préférable pour eux de participer à ce processus.
+Idéalement, les Étapes d'une Concertation sont toujours les mêmes et ne sont pas modifiées, pour que les participant·e·x·s puissent connaitre
+les règles et les délais, et peuvent ainsi s'organiser pour savoir quand il serait préférable de participer à ce processus.
 
-Par exemple, la structure standard d'un processus participatif pourrait être la suivante:
+Par exemple, la structure standard d'une concertation pourrait être la suivante :
 
 . Présentation
 . Diagnostic
 . Création et débat de propositions
 . Priorisation des propositions
 . Évaluation des propositions
-. Surveillance
+. Suivi
 
-Participants can find the link to different phases of a participatory process in the "Phase and duration" landing page content block,
-when it's enabled by an administrator in the process xref:admin:spaces/processes/landing_page.adoc[Landing page].
+Les participant·e·x·s ont accès au lien des différentes étapes de la concertation dans le bloc de contenu de la page d'accueil "Étape et durée", si activé par unx administrateur·ice dans la xref:admin:spaces/processes/landing_page.adoc[Page d'accueil] de la concertation.
 
 image::spaces/processes/process_phases_block.png[Block with processes phases link]
 
-En cliquant sur le lien pour la phase active, ils peuvent voir la description complète et l'explication des phases dans une fenêtre contextuelle.
+En cliquant sur le lien pour l'étape active, il est possible consulter la description complète et l'explication des étapes dans un pop-up.
 
 image::spaces/processes/process_phases.png[Process phases explanation]
 
 == Configuration
 
-=== Gérer les phases
+=== Gérer les étpaes
 
-Pour accéder à la configuration des phases, cliquez dans le panneau de navigation secondaire de l'élément "Phases".
+Pour accéder à la configuration des étapes, cliquer dans le panneau de navigation secondaire sur "Étapes".
 
 image::spaces/processes/process_phases_list.png[Phases of a participatory process]
 
@@ -43,57 +42,57 @@ image::spaces/processes/process_phases_list.png[Phases of a participatory proces
 
 |image:icons/action_edit.png[Modifier l'icône]
 |Editer
-|Éditer cette phase.
+|Modifier cette étape.
 |Toujours disponible
 
-|image:icons/action_activate.png[Activer l'icône]
+|image:icons/action_activate.png[Icône Activer]
 |Activer
-|Pour faire de cette phase la phase active.
-|Disponible uniquement pour les phases inactives.
+|Pour faire de cette étape l'étape active.
+|Disponible uniquement pour les étapes inactives.
 
 |image:icons/action_delete.png[Supprimer l'icône]
 |Supprimez
-|Supprimer cette phase.
+|Supprimer cette étape.
 |Toujours disponible
 |===
 
-=== Créer une nouvelle phase
+=== Créer une nouvelle étape
 
-Pour créer une nouvelle phase, cliquez sur le bouton "Nouvelle phase" en haut à droite de la page.
+Pour créer une nouvelle étape, cliquer sur "Nouvelle étape" en haut à droite de la page.
 
 image::spaces/processes/process_phases_new_form.png[Create a new participatory process phase form]
 
-.Créer un formulaire de phase de processus
+.Formulaire de création d'étape de concertation
 [cols="20h,10h,~"]
 |===
 |Champ |Type |Description
 
 |Titre
 |Obligatoire
-|Le titre de cette phase, affiché dans le bloc de contenu de phase et sur les cartes de processus lorsque la phase est active.
+|Le titre de cette étape, affiché dans le bloc de contenu des étapes et sur les cartes de concertation lorsque l'étape est active.
 
 |Description
 |Facultatif
-|Une longue description expliquant à quoi sert cette phase.
+|Une longue description expliquant en quoi consiste cette étape.
 
 |Date de début
 |Facultatif
-|La date de début de cette phase de processus. Format attendu : jj/mm/aaaa
+|La date de début de cette étape de concertation. Format attendu : jj/mm/aaaa
 
 |Date de fin
 |Facultatif
-|La date de fin de cette phase de processus. Format attendu : jj/mm/aaaa
+|La date de fin de cette étape de concertation. Format attendu : jj/mm/aaaa
 
-|Chemin de l'appel à l'action
+|Chemin de l'appel à action
 |Facultatif
 |Déprécié
 
-|Texte de l'appel à l'action
+|Texte de l'appel à action
 |Facultatif
 |Déprécié
 |===
 
-CAUTION: La configuration de l'ATC à travers la phase du processus participatif est dépréciée avec la nouvelle conception.
+CAUTION: La configuration de l'ATC à travers l'étape de la concertation est obsolète dans le nouveau design.
 Maintenant cela se fait dans la page d'atterrissage, en utilisant le bloc de contenu Héros et image.
 
 == Exemples

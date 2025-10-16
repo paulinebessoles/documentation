@@ -29,13 +29,13 @@ Ensuite :
 . Sélectionner "Propositions"
 . Remplir le formulaire de création de fonctionnalité
 
-Il est toujours possible de mettre à jour ce formulaire et la configuration après avoir créé la fonctionnalité, en cliquant sur [Icône Configurer] dans la liste des fonctionnalités.
+Il est toujours possible de mettre à jour ce formulaire et la configuration après avoir créé la fonctionnalité, en cliquant sur image:icons/action_configure.png[Icône Configurer] dans la liste des fonctionnalités.
 
 Le formulaire de création de fonctionnalité est divisé en différentes sections détaillées ci-dessous.
 
 image::components/proposals/component_01.png[Add component form]
 
-.Ajouter un composant : Formulaire de propositions
+.Ajouter une fonctionnalité : Formulaire de propositions
 [cols="20h,10h,~"]
 |===
 |Champ |Type |Description
@@ -53,14 +53,14 @@ alors "Fonctionnalité b" est placée avant dans le listage.
 
 image::components/proposals/component_02.png[Add component form]
 
-.Ajouter un composant : Formulaire de propositions - Paramètres globaux
+.Ajouter une fonctionnalité : Formulaire de propositions - Paramètres généraux
 [cols="20h,10h,~"]
 |===
 |Champ |Type |Description
 
 |Portées activées
 |Facultatif
-|Cochez cette case si vous voulez que le filtrage des portées dans ce composant.
+|Cochez cette case si vous voulez que le filtrage des secteurs dans cette fonctionnalité.
 
 |Portées activées
 |Facultatif
@@ -68,19 +68,19 @@ image::components/proposals/component_02.png[Add component form]
 
 |Secteur
 |Facultatif
-|Cette fonctionnalité appartient à [Objectif].
+|Cette fonctionnalité appartient à xref:admin:settings/scopes.adoc[Secteur].
 
-|Limite de votes par utilisateur
+|Limite de votes par utilisateur·ice
 |Facultatif
-|Doit être un nombre. Le nombre maximum de votes qu'un participant peut donner aux propositions.
+|Doit être un nombre. Le nombre maximum de votes qu'unx participant·e·x peut donner aux propositions.
 
-|Nombre minimum de votes par utilisateur
+|Nombre minimum de votes par utilisateur·ice
 |Facultatif
-|Doit être un nombre. Le nombre minimum de votes qu'un participant doit donner aux propositions pour que leurs votes soient pris en considération.
+|Doit être un nombre. Le nombre minimum de votes qu'unx participant·e·x doit donner aux propositions pour que leurs votes soient pris en considération.
 
-|Limite de proposition par participant
+|Limite de proposition par participant·e·x
 |Facultatif
-|Doit être un nombre. Combien de propositions un participant peut créer dans cette fonctionnalité.
+|Doit être un nombre. Combien de propositions unx participant·e·x peut créer dans cette fonctionnalité.
 
 |Longueur maximale du corps de la proposition
 |Facultatif
@@ -88,13 +88,13 @@ image::components/proposals/component_02.png[Add component form]
 
 |Édition d'une proposition
 |Obligatoire
-|Choisir si les participants ont un temps limité pour modifier leurs propositions ou peuvent les modifier sans limite.
+|Choisir si les participant·e·x·s ont un temps limité pour modifier leurs propositions ou peuvent les modifier sans limite.
 Si la modification est permise dans un laps de temps défini, alors, il est impératif de le spécifier dans le champ ci-dessous.
-À noter que si un administrateur xref:components/proposals/answers.adoc[répond à une proposition] alors elle ne peut plus être modifiée.
+À noter que si unx administrateur·ice xref:components/proposals/answers.adoc[répond à une proposition] alors elle ne peut plus être modifiée.
 
-|Délai (en minutes) après lequel les auteurs ne peuvent plus modifier leurs propositions
+|Délai (en minutes) après lequel les auteur·ices ne peuvent plus modifier leurs propositions
 |Obligatoire
-|Doit être un nombre. Combien de minutes après la création d'une proposition, il peut être édité par son auteur.
+|Doit être un nombre. Combien de minutes après la création d'une proposition, il peut être édité par son auteur·ice.
 
 |Seuil par proposition
 |Facultatif
@@ -106,7 +106,7 @@ Si la modification est permise dans un laps de temps défini, alors, il est imp�
 
 |Réponses aux propositions activées
 |Facultatif
-|Si les administrateurs ou les évaluateurs peuvent répondre aux propositions.
+|Si les administrateur·ices ou les évaluateur·ices peuvent répondre aux propositions.
 
 |Tri des propositions par défaut
 |Facultatif
@@ -114,15 +114,15 @@ Si la modification est permise dans un laps de temps défini, alors, il est imp�
 
 |Propositions officielles activées
 |Facultatif
-|Pour que administrateurs puissent créer des propositions officielles à partir du panneau d'administration.
+|Pour que les administrateur·ices puissent créer des propositions officielles à partir du panneau d'administration.
 
 |Commentaires activés
 |Facultatif
-|Pour activer les commentaires. Les participants peuvent ainsi commenter les propositions.
+|Pour activer les commentaires. Les participant·e·x·s peuvent ainsi commenter les propositions.
 
 |Longueur maximale des commentaires
 |Facultatif
-|La limite de caractères que les participants ont lors de la rédaction de commentaires. Laisser 0 pour la valeur par défaut.
+|La limite de caractères que les participant·e·x·s ont lors de la rédaction de commentaires. Laisser 0 pour la valeur par défaut.
 
 |Géocodage activé
 |Facultatif
@@ -131,7 +131,7 @@ xref:configure:geocoding[Geocoding] doit être activé.
 
 |Autoriser les pièces jointes
 |Facultatif
-|Cochez cette case pour permettre aux participants de joindre des fichiers à leurs propositions. En activant cette option, les propositions sont par défaut en mode grille,
+|Cochez cette case pour permettre aux participant·e·x·s de joindre des fichiers à leurs propositions. En activant cette option, les propositions sont par défaut en mode grille,
 et la première image apparaît sur la carte.
 
 |Les autorisations d'actions peuvent être définies pour chaque proposition
@@ -144,7 +144,7 @@ et la première image apparaît sur la carte.
 
 |Textes participatifs activés
 |Facultatif
-|Cochez cette case pour activer xref:components/proposs/special_configurations/participatory_texts.adoc[textes participatifs] dans les propositions.
+|Cocher cette case pour activer xref:components/proposs/special_configurations/participatory_texts.adoc[textes participatifs] dans les propositions.
 
 |Amendements activés
 |Facultatif
@@ -161,7 +161,7 @@ Si activé, configurer les paramètres d'Amendement pour chaque étape.
 
 |Nouveau modèle du corps de la proposition
 |Facultatif
-|Un texte prédéfini utilisé lors de la création de nouvelles propositions. Utile si vous voulez définir un format que les participants ont besoin de
+|Un texte prédéfini utilisé lors de la création de nouvelles propositions. Utile si vous voulez définir un format que les participant·e·x·s ont besoin de
 suivre lors de la création de nouvelles propositions.
 
 |Texte d'aide pour la nouvelle proposition
@@ -181,30 +181,30 @@ suivre lors de la création de nouvelles propositions.
 
 image::components/proposals/component_03.png[Add component form]
 
-.Ajouter un composant : Formulaire de propositions - Paramètres de l'étape
+.Ajouter une fonctionnalité : Formulaire de propositions - Paramètres de l'étape
 [cols="20h,10h,~"]
 |===
 |Champ |Type |Description
 
 |Soutiens activés
 |Facultatif
-|Pour permettre aux participants de manifester leur soutien public à ces propositions, avec un bouton "J'aime".
+|Pour permettre aux participant·e·x·s de manifester leur soutien public à ces propositions, avec un bouton "J'aime".
 
 |Soutiens bloqués
 |Facultatif
-|Vérifier que les participants soient en mesure de voir les soutiens existants mais ne pas faire de soutien supplémentaire.
+|Vérifier que les participant·e·x·s soient en mesure de voir les soutiens existants mais ne pas faire de soutien supplémentaire.
 
 |Activer le module de vote simple
 |Facultatif
-|Permettre aux participants de voter pour des propositions dans cette étape.
+|Permettre aux participant·e·x·s de voter pour des propositions dans cette étape.
 
 |Votes bloqués
 |Facultatif
-|Vérifier si les participants peuvent voir les votes existants sans en faire de nouveaux.
+|Vérifier si les participant·e·x·s peuvent voir les votes existants sans en faire de nouveaux.
 
 |Votes masqués
 |Facultatif
-|Si les votes sont activés, la vérification masque le nombre de votes pour les participants.
+|Si les votes sont activés, la vérification masque le nombre de votes pour les participant·e·x·s.
 
 |Commentaires désactivés
 |Facultatif
@@ -212,16 +212,16 @@ image::components/proposals/component_03.png[Add component form]
 
 |Les participants peuvent créer des propositions
 |Facultatif
-|Si vous voulez activer la création de propositions par les participants pour cette phase.
+|Si vous voulez activer la création de propositions par les participant·e·x·s pour cette phase.
 
 |Réponses aux propositions activées
 |Facultatif
-|Pour activer xref:components/propositions/answers.adoc[réponse aux propositions] par les administrateurs.
+|Pour activer xref:components/propositions/answers.adoc[réponse aux propositions] par les administrateur·ices.
 
 |Publier les réponses de la proposition immédiatement
 |Facultatif
-|Si vous voulez que les réponses des propositions soient publiées directement lorsque les administrateurs sont
-xref:components/propositions/réponses.
+|Si vous voulez que les réponses des propositions soient publiées directement lorsque les administrateur·ices y
+xref:components/propositions/réponses[répondent] ou si vous voulez contrôler le moment de publier les réponses.
 
 |Activer les coûts sur les réponses aux propositions
 |Facultatif
@@ -240,14 +240,14 @@ sont affichées de manière aléatoire, et si les votes sont bloqués, alors ils
 |Facultatif
 |Ajouter automatiquement les hashtags à chaque proposition.
 
-|Hashtags suggérés aux participants pour de nouvelles propositions
+|Hashtags suggérés aux participant·e·x·s pour de nouvelles propositions
 |Facultatif
-|Suggérer des hashtags aux participants en créant de nouvelles propositions. Les participants peuvent sélectionner plus d'un hashtag.
+|Suggérer des hashtags aux participant·e·x·s en créant de nouvelles propositions. Les participant·e·x·s peuvent sélectionner plus d'un hashtag.
 |===
 
 == Exemples
 
-Quelques exemples d'utilisation de ce composant :
+Quelques exemples d'utilisation de cette fonctionnalité :
 
 * https://www.decidim.barcelona/assemblies/accionssostenibilitat/f/6259/propositions[Actions durables dans la ville de Barcelone 2024]
 * https://futureu.europa.eu/[Conférence de l'avenir de l'Europe]
